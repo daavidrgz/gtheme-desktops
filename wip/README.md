@@ -1,12 +1,12 @@
 <div align="center"> <h1><strong>WIP</strong></h1> </div>
 
-### **‣ O V E R V I E W &nbsp;👁️‍🗨️**
+### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
 
 A **simple and minimalistic** desktop with rounded corners and subtle transparency. It's **fast and efficient** letting you
 enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)
 
 # 
-### **‣ S C R E E N S H O T S &nbsp;📸**
+### **‣ &nbsp;S C R E E N S H O T S &nbsp;📸**
 
 * **Tomorrow-Night-Blue Theme**
 
@@ -23,7 +23,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-### **‣ D E T A I L S &nbsp;📝**
+### **‣ &nbsp;D E T A I L S &nbsp;📝**
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -41,7 +41,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-### **‣ M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
+### **‣ &nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -59,7 +59,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-### **‣ D E P E N D E N C I E S &nbsp;🔗**
+### **‣ &nbsp;D E P E N D E N C I E S &nbsp;🔗**
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)            
 * [bspwm](https://github.com/baskerville/bspwm)                     
 * [sxhkd](https://github.com/baskerville/sxhkd)                     
