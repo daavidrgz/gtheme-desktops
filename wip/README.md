@@ -1,6 +1,23 @@
 # WIP
 A simple and minimalistic desktop with rounded corners and transparency.
 
+### **S C R E E N S H O T S  📸**
+
+* **Tomorrow-Night-Blue Theme**
+
+	![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
+	![](screenshots/tomorrow2.png)
+
+* **Future Theme**
+
+	![Future](screenshots/future.png)
+
+* **Nu-Disco Theme**
+
+	![Nu-Disco](screenshots/nu-disco.png)
+
+<br>
+
 ### **D E T A I L S  📝**
 
 | Programs                 | Using                  |
@@ -33,16 +50,3 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>super + s</kbd>                    | Set floating layout                                       |
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
-<br>
-
-### **S C R E E N S H O T S  📸**
-
-* Tomorrow-Night-Blue Theme
-	![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
-	![](screenshots/tomorrow2.png)
-
-*  Future Theme
-	![Future](screenshots/future.png)
-
-*  Nu-Disco Theme
-	![Nu-Disco](screenshots/nu-disco.png)
