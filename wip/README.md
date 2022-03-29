@@ -49,22 +49,23 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
 
 ### **‣ D E P E N D E N C I E S &nbsp;🔗**
-|                         Programs                          |
-| ----------------------------|-----------------------------| 
-| bspwm                       | brightnessctl               |
-| sxhkd                       | playerctl                   |
-| picom                       | xob                         |
-| rofi                        | tint2                       |
-| pulsectl (pip)              | spicetify (Optional)        |
-| dunst                       | flameshot (Optional)        |
-| pulseaudio                  | alacritty (Optional)        |
-| pamixer                     | better-discord (Optional)   |
-| feh                         | bottom (Optional)           |
- 
- 
- 
- 
- 
- 
- 
- 
+| Programs                    | 
+| ----------------------------| 
+| pulsectl (pip)              | 
+| bspwm                       | 
+| sxhkd                       | 
+| picom                       | 
+| rofi                        | 
+| dunst                       | 
+| pulseaudio                  | 
+| pamixer                     | 
+| feh                         | 
+| brightnessctl               | 
+| playerctl                   | 
+| xob                         | 
+| tint2                       | 
+| flameshot (Optional)        | 
+| alacritty (Optional)        | 
+| better-discord (Optional)   | 
+| spicetify (Optional)        | 
+| bottom (Optional)           | 
