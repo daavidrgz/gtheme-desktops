@@ -20,7 +20,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 
 ### **‣ D E T A I L S &nbsp;📝**
 
-| Attributes               | Using                  |
+| Attribute                | Using                  |
 | -------------------------| -----------------------|
 | WM                       | bspwm                  |
 | Terminal                 | alacritty              |
