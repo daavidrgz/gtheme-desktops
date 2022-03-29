@@ -49,7 +49,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
 
 ### **‣ D E P E N D E N C I E S &nbsp;🔗**
-| Programs                    |                            |
+|                         Programs                          |
 | ----------------------------|-----------------------------| 
 | bspwm                       | brightnessctl               |
 | sxhkd                       | playerctl                   |
