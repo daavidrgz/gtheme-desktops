@@ -1,6 +1,6 @@
 <div align="center"> <h1><strong>WIP</strong></h1> </div>
 
-A simple and minimalistic desktop with **rounded corners and transparency**. It's **fast and efficient** letting you
+A **simple and minimalistic** desktop with rounded corners and transparency. It's **fast and efficient** letting you
 enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)
 
 ### **‣ S C R E E N S H O T S &nbsp;📸**
