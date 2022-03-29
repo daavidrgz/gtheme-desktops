@@ -25,6 +25,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | Shell                    | zsh                    |
 | Editor                   | vscode                 |
 | Compositor               | picom                  |
+| Notifications            | dunst                  |
 | Launcher                 | rofi                   |
 | Bar                      | tint2                  |
 | Volume/Brightness        | xob                    |
@@ -46,3 +47,25 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>super + s</kbd>                    | Set floating layout                                       |
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
+
+### **‣ D E P E N D E N C I E S &nbsp;🔗**
+| Programs                    | 
+| ----------------------------| 
+| pulsectl (pip)              | 
+| bspwm                       | 
+| sxhkd                       | 
+| picom                       | 
+| rofi                        | 
+| dunst                       | 
+| pulseaudio                  | 
+| pamixer                     | 
+| feh                         | 
+| brightnessctl               | 
+| playerctl                   | 
+| xob                         | 
+| tint2                       | 
+| flameshot (Optional)        | 
+| alacritty (Optional)        | 
+| better-discord (Optional)   | 
+| spicetify (Optional)        | 
+| bottom (Optional)           | 
