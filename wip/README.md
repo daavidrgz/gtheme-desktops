@@ -1,4 +1,5 @@
-# WIP
+<center> <h1><strong>WIP</strong></h1> </center>
+
 A simple and minimalistic desktop with rounded corners and transparency.
 
 ### **‣ S C R E E N S H O T S &nbsp;📸**
