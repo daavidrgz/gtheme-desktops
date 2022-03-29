@@ -37,12 +37,12 @@ A simple and minimalistic desktop with rounded corners and transparency.
 
 ### **S C R E E N S H O T S  📸**
 
-### Tomorrow-Night-Blue Theme
-![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
-![](screenshots/tomorrow2.png)
+* Tomorrow-Night-Blue Theme
+	![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
+	![](screenshots/tomorrow2.png)
 
-### Future Theme
-![Future](screenshots/future.png)
+*  Future Theme
+	![Future](screenshots/future.png)
 
-### Nu-Disco Theme
-![Nu-Disco](screenshots/nu-disco.pn
+*  Nu-Disco Theme
+	![Nu-Disco](screenshots/nu-disco.png)
