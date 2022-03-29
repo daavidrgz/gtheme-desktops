@@ -32,7 +32,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | Font                     | Caskaydia Cove         |
 | Default theme            | Tomorrow-Night-Blue    |
 
-### **‣ K E Y B I N D S &nbsp;#️⃣**
+### **‣ M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
