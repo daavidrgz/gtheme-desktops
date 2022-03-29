@@ -2,7 +2,7 @@
 
 ### **‣ O V E R V I E W &nbsp;👁️‍🗨️**
 
-A **simple and minimalistic** desktop with rounded corners and transparency. It's **fast and efficient** letting you
+A **simple and minimalistic** desktop with rounded corners and subtle transparency. It's **fast and efficient** letting you
 enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)
 
 # 
