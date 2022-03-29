@@ -1,8 +1,8 @@
 # WIP
 A simple and minimalistic desktop with rounded corners and transparency.
 
-<details>
-<summary><strong>D E T A I L S</strong></summary>
+### **D E T A I L S  📝**
+<br>
 
 | Programs                 | Using                  |
 | -------------------------| -----------------------|
@@ -16,10 +16,11 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | Volume/Brightness        | xob                    |
 | Font                     | Caskaydia Cove         |
 | Default theme            | Tomorrow-Night-Blue    |
-</details>
 
-<details>
-<summary><strong>K E Y B I N D S</strong></summary>
+<br>
+
+### **K E Y B I N D S  #️⃣**
+<br>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -34,10 +35,10 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>super + s</kbd>                    | Set floating layout                                       |
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
-</details>
+<br>
 
-<details>
-<summary><strong>S C R E E N S H O T S</strong></summary>
+### **S C R E E N S H O T S  📸**
+<br>
 
 ### Tomorrow-Night-Blue Theme
 ![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
@@ -47,6 +48,4 @@ A simple and minimalistic desktop with rounded corners and transparency.
 ![Future](screenshots/future.png)
 
 ### Nu-Disco Theme
-![Nu-Disco](screenshots/nu-disco.png)
-
-</details>
+![Nu-Disco](screenshots/nu-disco.pn
