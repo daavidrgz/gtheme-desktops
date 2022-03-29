@@ -2,7 +2,6 @@
 A simple and minimalistic desktop with rounded corners and transparency.
 
 ### **D E T A I L S  📝**
-<br>
 
 | Programs                 | Using                  |
 | -------------------------| -----------------------|
@@ -20,7 +19,6 @@ A simple and minimalistic desktop with rounded corners and transparency.
 <br>
 
 ### **K E Y B I N D S  #️⃣**
-<br>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -38,7 +36,6 @@ A simple and minimalistic desktop with rounded corners and transparency.
 <br>
 
 ### **S C R E E N S H O T S  📸**
-<br>
 
 ### Tomorrow-Night-Blue Theme
 ![Tomorrow-Night-Blue](screenshots/tomorrow1.png)
