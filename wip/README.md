@@ -1,4 +1,4 @@
-<div align="center"> <h1><strong>WIP</strong></h1> </div>
+<div align="center"> <h1><strong>WIP DESKTOP</strong></h1> </div>
 
 A simple and minimalistic desktop with rounded corners and transparency.
 
