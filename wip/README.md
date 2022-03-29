@@ -1,4 +1,4 @@
-<div align="center"> <h1><strong>- WIP -</strong></h1> </div>
+<div align="center"> <h1><strong>WIP</strong></h1> </div>
 
 ### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
 
