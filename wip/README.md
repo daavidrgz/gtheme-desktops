@@ -16,7 +16,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 
 	![Nu-Disco](screenshots/nu-disco.png)
 
-### **‣ D E T A I L S &emsp;📝**
+### **‣ D E T A I L S &nbsp;📝**
 
 | Programs                 | Using                  |
 | -------------------------| -----------------------|
@@ -31,7 +31,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | Font                     | Caskaydia Cove         |
 | Default theme            | Tomorrow-Night-Blue    |
 
-### **‣ K E Y B I N D S &emsp;#️⃣**
+### **‣ K E Y B I N D S &nbsp;#️⃣**
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
