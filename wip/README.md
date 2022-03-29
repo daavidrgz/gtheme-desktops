@@ -16,7 +16,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 
 	![Nu-Disco](screenshots/nu-disco.png)
 
-<hr>
+#
 
 ### **‣ D E T A I L S &nbsp;📝**
 
@@ -34,7 +34,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | Font                     | Caskaydia Cove         |
 | Default theme            | Tomorrow-Night-Blue    |
 
-<hr>
+#
 
 ### **‣ M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
 
@@ -52,7 +52,7 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
 
-<hr>
+#
 
 ### **‣ D E P E N D E N C I E S &nbsp;🔗**
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)            
