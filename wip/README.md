@@ -49,23 +49,21 @@ A simple and minimalistic desktop with rounded corners and transparency.
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
 
 ### **‣ D E P E N D E N C I E S &nbsp;🔗**
-| Programs                    | 
-| ----------------------------| 
-| pulsectl (pip)              | 
-| bspwm                       | 
-| sxhkd                       | 
-| picom                       | 
-| rofi                        | 
-| dunst                       | 
-| pulseaudio                  | 
-| pamixer                     | 
-| feh                         | 
-| brightnessctl               | 
-| playerctl                   | 
-| xob                         | 
-| tint2                       | 
-| flameshot (Optional)        | 
-| alacritty (Optional)        | 
-| better-discord (Optional)   | 
-| spicetify (Optional)        | 
-| bottom (Optional)           | 
+* [pulsectl (pip)](https://pypi.org/project/pulsectl/)            
+* [bspwm](https://github.com/baskerville/bspwm)                     
+* [sxhkd](https://github.com/baskerville/sxhkd)                     
+* [picom (ibhagwan fork)](https://github.com/ibhagwan/picom)                     
+* [rofi](https://github.com/davatorium/rofi)                     
+* [dunst](https://github.com/dunst-project/dunst)                     
+* [pulseaudio](https://wiki.archlinux.org/title/PulseAudio)                
+* [pamixer](https://github.com/cdemoulins/pamixer)                   
+* [feh](https://github.com/derf/feh)                       
+* [brightnessctl](https://github.com/Hummer12007/brightnessctl)             
+* [playerctl](https://github.com/altdesktop/playerctl)                 
+* [xob](https://github.com/florentc/xob)                       
+* [tint2](https://gitlab.com/o9000/tint2)                     
+* [flameshot (Optional)](https://github.com/flameshot-org/flameshot)      
+* [alacritty (Optional)](https://github.com/alacritty/alacritty)      
+* [better-discord (Optional)](https://betterdiscord.app/)
+* [spicetify (Optional)](https://spicetify.app/)      
+* [bottom (Optional)](https://github.com/ClementTsang/bottom)         
