@@ -1,5 +1,5 @@
 author = 'David Rodríguez (@daavidrgz)'
-description = 'desktop'
+description = 'A minimal dependency desktop using bspwm and polybar. It has square corners and double borders in windows.'
 credits = 'https://github.com/mdnght-4/dotfiles'
 dependencies = [
 	'https://github.com/wmutils/opt (Tool to have double borders)',
@@ -14,7 +14,7 @@ dependencies = [
 	'feh',
 	'brightnessctl',
 	'playerctl',
-	'flameshot (Optional)',
+	'flameshot',
 	'alacritty (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
