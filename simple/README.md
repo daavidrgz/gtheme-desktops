@@ -27,10 +27,6 @@ of free space** for applications.
 * **BlackAndWhite-Light Theme**
 
 	![BlackAndWhite-Light](screenshots/black-white.png)
-
-* **Gruvbox-Dark Theme**
-
-	![Gruvbox-Dark](screenshots/gruvbox.png)
 </details>
 
 #
