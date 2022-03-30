@@ -4,7 +4,7 @@
 ~/.fehbg
 
 # •• Keymap
-setxkbmap es
+setxkbmap -layout us -variant altgr-intl 
 
 # •• Polybar
 ~/.config/polybar/launch.sh

@@ -1,1 +1,23 @@
-{"default_theme":"Awesome","actived":{},"inverted":{}}
+{
+  "default_theme": "Awesome",
+  "actived": {
+    "vscode": true,
+    "alacritty": true,
+    "spotify": true,
+    "firefox-homepage": true,
+    "rofi": true,
+    "wallpaper": true,
+    "kitty": true,
+    "firefox": true,
+    "discord": true
+  },
+  "inverted": {
+    "kitty": false,
+    "firefox": false,
+    "alacritty": false,
+    "firefox-homepage": false,
+    "discord": false,
+    "spotify": false,
+    "rofi": false
+  }
+}

@@ -1,5 +1,33 @@
 {
   "default_theme": "Japan-Light",
-  "actived": {},
-  "inverted": {}
+  "actived": {
+    "wallpaper": true,
+    "rofi": true,
+    "dunst": true,
+    "alacritty": true,
+    "firefox-homepage": true,
+    "spotify": true,
+    "bspwm": true,
+    "kitty": true,
+    "firefox": true,
+    "sxhkd": true,
+    "wallpaper-theme": true,
+    "vscode": true,
+    "discord": true,
+    "polybar": true
+  },
+  "inverted": {
+    "alacritty": false,
+    "firefox": false,
+    "sxhkd": false,
+    "spotify": false,
+    "wallpaper-theme": false,
+    "bspwm": false,
+    "discord": false,
+    "rofi": false,
+    "kitty": false,
+    "firefox-homepage": false,
+    "polybar": false,
+    "dunst": false
+  }
 }

@@ -1,1 +1,22 @@
-{"default_theme":null,"actived":{"firefox-homepage":true,"spotify":true,"wallpaper":false,"vscode":false,"kitty":true,"discord":true,"firefox":true},"inverted":{"kitty":false,"discord":false,"spotify":false,"firefox":false,"firefox-homepage":false}}
+{
+  "default_theme": "Nord",
+  "actived": {
+    "wallpaper": true,
+    "spotify": true,
+    "vscode": true,
+    "kitty": true,
+    "firefox": true,
+    "intellij-idea": true,
+    "alacritty": true,
+    "firefox-homepage": true,
+    "discord": true
+  },
+  "inverted": {
+    "discord": false,
+    "alacritty": false,
+    "kitty": false,
+    "firefox": false,
+    "firefox-homepage": false,
+    "spotify": false
+  }
+}

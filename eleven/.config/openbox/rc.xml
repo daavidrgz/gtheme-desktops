@@ -87,8 +87,8 @@
   <margins>
     <top>0</top>
     <bottom>10</bottom>
-    <left>10</left>
-    <right>10</right>
+    <left>0</left>
+    <right>0</right>
   </margins>
   <dock>
     <position>Bottom</position>
@@ -194,7 +194,7 @@
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
-        <width>49%</width>
+        <width>50%</width>
       </action>
       <action name="MoveToEdgeEast"/>
     </keybind>
@@ -447,54 +447,29 @@
     <!-- Screenshot Keys -->
     <keybind key="Print">
       <action name="Execute">
-        <command>takeshot --now</command>
+        <command>flameshot full -c -p ~/pictures/screenshots</command>
       </action>
     </keybind>
-    <keybind key="A-Print">
+    <keybind key="W-Print">
       <action name="Execute">
-        <command>takeshot --in5</command>
-      </action>
-    </keybind>
-    <keybind key="S-Print">
-      <action name="Execute">
-        <command>takeshot --in10</command>
-      </action>
-    </keybind>
-    <keybind key="C-Print">
-      <action name="Execute">
-        <command>takeshot --win</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-Print">
-      <action name="Execute">
-        <command>takeshot --area</command>
+        <command>flameshot gui -p ~/pictures/screenshots</command>
       </action>
     </keybind>
     <!-- ################################ Launch Applications ################################ -->
     <!-- Apps -->
     <keybind key="W-Return">
       <action name="Execute">
-        <command>kitty</command>
-      </action>
-    </keybind>
-    <keybind key="W-t">
-      <action name="Execute">
-        <command>furminal</command>
+        <command>alacritty</command>
       </action>
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>kitty ranger</command>
+        <command>alacritty ranger</command>
       </action>
     </keybind>
-    <keybind key="W-C-f">
+    <keybind key="W-A-f">
       <action name="Execute">
         <command>firefox</command>
-      </action>
-    </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <command>geany</command>
       </action>
     </keybind>
     <!-- Rofi -->
@@ -545,21 +520,6 @@
       </action>
     </keybind>
     <!-- CLI Apps -->
-    <keybind key="C-A-t">
-      <action name="Execute">
-        <command>xfce4-terminal</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-v">
-      <action name="Execute">
-        <command>alacritty -e vim</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-n">
-      <action name="Execute">
-        <command>alacritty -e nvim</command>
-      </action>
-    </keybind>
     <keybind key="C-A-r">
       <action name="Execute">
         <command>alacritty -e ranger</command>
@@ -568,11 +528,6 @@
     <keybind key="C-A-h">
       <action name="Execute">
         <command>alacritty -e htop</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-b">
-      <action name="Execute">
-        <command>alacritty -e bashtop</command>
       </action>
     </keybind>
     <!-- Lockscreen -->
@@ -585,7 +540,7 @@
     <keybind key="C-S-Escape">
       <action name="Exit"/>
     </keybind>
-    <keybind key="C-S-BackSpace">
+    <keybind key="C-W-r">
       <action name="Restart"/>
     </keybind>
     <keybind key="C-S-R">
@@ -597,9 +552,6 @@
       </action>
     </keybind>
     <keybind key="W-w">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="W-q">
       <action name="Close"/>
     </keybind>
     <keybind key="A-F5">
@@ -716,9 +668,9 @@
       <mousebind action="Press" button="Right">
         <action name="Focus"/>
         <action name="Raise"/>
-        <action name="ShowMenu">
+        <!-- <action name="ShowMenu">
           <menu>client-menu</menu>
-        </action>
+        </action> -->
       </mousebind>
     </context>
     <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
