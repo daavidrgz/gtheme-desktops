@@ -3,8 +3,8 @@
 
 window:
   padding:
-    x: 20
-    y: 20
+    x: 28
+    y: 28
   dyanmic_padding: true
   
 font:

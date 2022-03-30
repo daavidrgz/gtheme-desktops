@@ -7,14 +7,12 @@ configuration {
 	icon-theme: 			"Papirus";
 }
 
-@theme "/dev/null"
-
 * {
 	bg:				#061115;
 	fg:				#d9d7d6;
 	accent:			#1c252c;
 	darkerAccent:	#162026;
-    active:      	#484e5b;
+  active:      	#484e5b;
 	rad:			12px;
 
 	background-color: @bg;
@@ -24,7 +22,7 @@ configuration {
 window {
 	transparency: "real";
 	height: 94%;
-    width: 22%;
+  width: 22%;
 	location: west;
 	x-offset: 7%;
 	y-offset: 0%;

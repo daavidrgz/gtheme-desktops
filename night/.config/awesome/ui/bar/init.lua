@@ -40,7 +40,8 @@ local awesome_icon = wibox.widget {
     {
         widget = wibox.widget.imagebox,
         image = beautiful.awesome_logo,
-        resize = true
+        resize = true,
+        clip_shape = gears.shape.rounded_rect
     },
     margins = dpi(4),
     widget = wibox.container.margin

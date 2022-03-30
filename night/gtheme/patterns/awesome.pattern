@@ -49,7 +49,7 @@ theme.pfp = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/as
 theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/bg.png")
 
 -- Awesome Logo
-theme.awesome_logo = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/awesome.png")
+theme.awesome_logo = gears.surface.load_uncached(os.getenv("HOME") .. "/.face.icon")
 
 -- Notifications icon
 theme.notification_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/notification.png")
@@ -57,7 +57,7 @@ theme.volume_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "
 theme.brightness_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/brightness.svg")
 
 -- Fonts
-theme.font_name = "NotoSansMono Nerd Font "
+theme.font_name = "JetBrainsMono Nerd Font "
 theme.font = theme.font_name .. "8"
 theme.icon_font_name = "Material Icons "
 theme.icon_font = theme.icon_font_name .. "18"

@@ -24,7 +24,7 @@ terminal = "alacritty"
 editor = "nano"
 vscode = "code"
 browser = "firefox"
-launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"
+launcher = "rofi -show drun -theme ~/.config/rofi/theme.rasi"
 file_manager = "nautilus"
 music_client = terminal .. " --class music -e ncmpcpp"
 

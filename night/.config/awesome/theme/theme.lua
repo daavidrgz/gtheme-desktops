@@ -1,4 +1,4 @@
--- Awesome
+-- Night
 
 -- Standard awesome library
 local gears = require("gears")
@@ -18,27 +18,27 @@ local helpers = require("helpers")
 -- Theme
 ----------
 
-theme.xbackground = "#FFF4DE"
-theme.xforeground = "#272727"
-theme.xcolor0 = "#fbf1c7"
-theme.xcolor1 = "#cc241d"
-theme.xcolor2 = "#98971a"
-theme.xcolor3 = "#d79921"
-theme.xcolor4 = "#458588"
-theme.xcolor5 = "#b16286"
-theme.xcolor6 = "#B0D4D0"
-theme.xcolor7 = "#7c6f64"
-theme.xcolor8 = "#282828"
-theme.xcolor9 = "#9d0006"
-theme.xcolor10 = "#79740e"
-theme.xcolor11 = "#b57614"
-theme.xcolor12 = "#076678"
-theme.xcolor13 = "#8f3f71"
-theme.xcolor14 = "#B0D4D0"
-theme.xcolor15 = "#272727"
-theme.darker_bg = "#fbf1c7"
-theme.lighter_bg = "#fbf1c7"
-theme.dashboard_fg = "#fbf1c7"
+theme.xbackground = "#061115"
+theme.xforeground = "#D9D7D6"
+theme.xcolor0 = "#1C252C"
+theme.xcolor1 = "#DF5B61"
+theme.xcolor2 = "#78B892"
+theme.xcolor3 = "#DE8F78"
+theme.xcolor4 = "#6791C9"
+theme.xcolor5 = "#BC83E3"
+theme.xcolor6 = "#67AFC1"
+theme.xcolor7 = "#D9D7D6"
+theme.xcolor8 = "#1C252C"
+theme.xcolor9 = "#DF5B61"
+theme.xcolor10 = "#78B892"
+theme.xcolor11 = "#DE8F78"
+theme.xcolor12 = "#6791C9"
+theme.xcolor13 = "#BC83E3"
+theme.xcolor14 = "#67AFC1"
+theme.xcolor15 = "#D9D7D6"
+theme.darker_bg = "#1C252C"
+theme.lighter_bg = "#1C252C"
+theme.dashboard_fg = "#1C252C"
 theme.transparent = "#00000000"
 
 -- PFP
@@ -48,7 +48,7 @@ theme.pfp = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/as
 theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/bg.png")
 
 -- Awesome Logo
-theme.awesome_logo = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/awesome.png")
+theme.awesome_logo = gears.surface.load_uncached(os.getenv("HOME") .. "/.face.icon")
 
 -- Notifications icon
 theme.notification_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/notification.png")
