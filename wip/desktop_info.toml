@@ -1,6 +1,5 @@
 author = 'David Rodríguez (@daavidrgz)'
-description = 'A simple and minimalistic desktop with rounded corners and subtle transparency. It's fast and efficient, 
-letting you enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)'
+description = 'A simple and minimalistic desktop with rounded corners and subtle transparency.'
 credits = 'https://github.com/joni22u/dotfiles'
 dependencies = [
 	'pulsectl (pip)',
