@@ -28,7 +28,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
@@ -48,7 +48,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
@@ -68,7 +68,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
 
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)
@@ -93,7 +93,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)

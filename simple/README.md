@@ -24,10 +24,6 @@ of free space** for applications.
 
 	![Everforest-Dark-Hard](screenshots/everforest.png)
 
-* **Rose-Pine Theme**
-
-	![Rose-Pine](screenshots/rose-pine.png)
-
 * **BlackAndWhite-Light Theme**
 
 	![BlackAndWhite-Light](screenshots/black-white.png)
@@ -39,7 +35,7 @@ of free space** for applications.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
@@ -58,7 +54,7 @@ of free space** for applications.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
@@ -79,7 +75,7 @@ of free space** for applications.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
 
 * [rofi-calc](https://github.com/svenstaro/rofi-calc)
@@ -106,7 +102,7 @@ of free space** for applications.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)

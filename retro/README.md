@@ -19,7 +19,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
@@ -36,7 +36,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
@@ -55,7 +55,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
 
 * [awesome](https://github.com/svenstaro/rofi-calc)
@@ -74,7 +74,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 #
 
-<details open>
+<details>
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
