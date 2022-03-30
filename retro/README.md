@@ -45,7 +45,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 |-----------------------------------------|-----------------------------------------------------------|
 | <kbd>super + enter</kbd>                | Spawn terminal                                            |
 | <kbd>super + ctrl + f</kbd>             | Spawn web browser                                         |
-| <kbd>super + d</kbd>                    | Launch applications launcher                              |
+| <kbd>super + space</kbd>                | Launch applications launcher                              |
 | <kbd>super + w</kbd>                    | Close window                                              |
 | <kbd>super + {0-9}</kbd>                | Change workspace                                          |
 | <kbd>super + ]</kbd>                    | Change to next workspace                                  |

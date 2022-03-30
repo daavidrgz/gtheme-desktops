@@ -81,6 +81,8 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
+* [neofetch (Optional)](https://github.com/dylanaraps/neofetch)
+* [zathura (Optional)](https://github.com/pwmt/zathura)
 </details>
 
 #

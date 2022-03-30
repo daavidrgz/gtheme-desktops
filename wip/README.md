@@ -88,6 +88,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
+* [neofetch (Optional)](https://github.com/dylanaraps/neofetch)
 * [bottom (Optional)](https://github.com/ClementTsang/bottom)
 </details>
 

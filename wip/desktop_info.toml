@@ -1,4 +1,4 @@
-author = 'David Rodríguez (@daavidrgz)'
+author = 'David Rodriguez (@daavidrgz)'
 description = 'A simple and minimalistic desktop with rounded corners and subtle transparency.'
 credits = 'https://github.com/joni22u/dotfiles'
 dependencies = [
@@ -19,5 +19,6 @@ dependencies = [
 	'alacritty (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
+	'neofetch (Optional)',
 	'bottom (Optional)',
 ]
