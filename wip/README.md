@@ -1,12 +1,16 @@
 <div align="center"> <h1><strong>WIP</strong></h1> </div>
 
-### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
+<details open>
+<summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
 A **simple and minimalistic** desktop with rounded corners and subtle transparency. It's **fast and efficient**, letting you
 enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)
+</details>
 
 # 
-### **‣ &nbsp;S C R E E N S H O T S &nbsp;📸**
+
+<details open>
+<summary><strong>&nbsp;S C R E E N S H O T S &nbsp;📸</strong></summary>
 
 * **Tomorrow-Night-Blue Theme**
 
@@ -20,10 +24,12 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 * **Nu-Disco Theme**
 
 	![Nu-Disco](screenshots/nu-disco.png)
+</details>
 
 #
 
-### **‣ &nbsp;D E T A I L S &nbsp;📝**
+<details open>
+<summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -38,10 +44,12 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 | Volume/Brightness        | xob                    |
 | Font                     | Caskaydia Cove         |
 | Default theme            | Tomorrow-Night-Blue    |
+</details>
 
 #
 
-### **‣ &nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
+<details open>
+<summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -56,10 +64,13 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 | <kbd>super + s</kbd>                    | Set floating layout                                       |
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + esc</kbd>                    | Launch powermenu                                          |
+</details>
 
 #
 
-### **‣ &nbsp;D E P E N D E N C I E S &nbsp;🔗**
+<details open>
+<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)
 * [bspwm](https://github.com/baskerville/bspwm)
 * [sxhkd](https://github.com/baskerville/sxhkd)
@@ -78,9 +89,13 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
 * [bottom (Optional)](https://github.com/ClementTsang/bottom)
+</details>
 
 #
 
-### **‣ &nbsp;C R E D I T S &nbsp;👥**
+<details open>
+<summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
+
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
 * Original author [@joni22u](https://github.com/joni22u/)
+</details>

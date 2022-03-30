@@ -1,20 +1,26 @@
 <div align="center"> <h1><strong>RETRO</strong></h1> </div>
 
-### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
+<details open>
+<summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
 A desktop that brings you back to 90s, but alongside all the features of modern software. Enjoy
 a **beautifully customized awesome desktop** that catch your eyes.
+</details>
 
 # 
-### **‣ &nbsp;S C R E E N S H O T S &nbsp;📸**
+
+<details open>
+<summary><strong>&nbsp;S C R E E N S H O T S &nbsp;📸</strong></summary>
 
 * **Awesome Theme**
 
 	![Awesome](screenshots/awesome.png)
+</details>
 
 #
 
-### **‣ &nbsp;D E T A I L S &nbsp;📝**
+<details open>
+<summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -26,10 +32,12 @@ a **beautifully customized awesome desktop** that catch your eyes.
 | Launcher                 | rofi                   |
 | Font                     | Robot Mono             |
 | Default theme            | Awesome                |
+</details>
 
 #
 
-### **‣ &nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
+<details open>
+<summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -41,12 +49,15 @@ a **beautifully customized awesome desktop** that catch your eyes.
 | <kbd>super + ]</kbd>                    | Change to next workspace                                  |
 | <kbd>super + [</kbd>                    | Change to previous workspace                              |
 | <kbd>super + shift + {0-9}</kbd>        | Move focused window to workspace                          |
-| <kbd>super + s</kbd>                    | Set floating layout                                       |
-| <kbd>super + t</kbd>                    | Set tiling layout                                         |
+| <kbd>super + s</kbd>                    | Set floating/tiling layout                                |
+| <kbd>super + z</kbd>                    | Open menu                                                 |
+</details>
 
 #
 
-### **‣ &nbsp;D E P E N D E N C I E S &nbsp;🔗**
+<details open>
+<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+
 * [awesome](https://github.com/svenstaro/rofi-calc)
 * [picom (ibhagwan fork)](https://github.com/ibhagwan/picom)
 * [rofi](https://github.com/davatorium/rofi)
@@ -59,9 +70,13 @@ a **beautifully customized awesome desktop** that catch your eyes.
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
 * [bottom (Optional)](https://github.com/ClementTsang/bottom)
+</details>
 
 #
 
-### **‣ &nbsp;C R E D I T S &nbsp;👥**
+<details open>
+<summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
+
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
 * Original author [@ChocolateBread799](https://github.com/ChocolateBread799)
+</details>

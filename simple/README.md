@@ -1,12 +1,16 @@
 <div align="center"> <h1><strong>SIMPLE</strong></h1> </div>
 
-### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
+<details open>
+<summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
 Focused on **productivity**, this desktop has all you need in a little bar at the top, leaving a **lot
 of free space** for applications. 
+</details>
 
 # 
-### **‣ &nbsp;S C R E E N S H O T S &nbsp;📸**
+
+<details open>
+<summary><strong>&nbsp;S C R E E N S H O T S &nbsp;📸</strong></summary>
 
 * **Snazzy Theme**
 
@@ -31,10 +35,12 @@ of free space** for applications.
 * **Gruvbox-Dark Theme**
 
 	![Gruvbox-Dark](screenshots/gruvbox.png)
+</details>
 
 #
 
-### **‣ &nbsp;D E T A I L S &nbsp;📝**
+<details open>
+<summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -48,10 +54,12 @@ of free space** for applications.
 | Bar                      | polybar                |
 | Font                     | DejaVu Sans Mono       |
 | Default theme            | Snazzy                 |
+</details>
 
 #
 
-### **‣ &nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣**
+<details open>
+<summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -67,10 +75,13 @@ of free space** for applications.
 | <kbd>super + t</kbd>                    | Set tiling layout                                         |
 | <kbd>alt + esc</kbd>                    | Launch powermenu                                          |
 | <kbd>super + ctrl + c</kbd>             | Launch calculator                                         |
+</details>
 
 #
 
-### **‣ &nbsp;D E P E N D E N C I E S &nbsp;🔗**
+<details open>
+<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+
 * [rofi-calc](https://github.com/svenstaro/rofi-calc)
 * [bspwm](https://github.com/baskerville/bspwm)
 * [sxhkd](https://github.com/baskerville/sxhkd)
@@ -91,9 +102,13 @@ of free space** for applications.
 * [bottom (Optional)](https://github.com/ClementTsang/bottom)
 * [cmus (Optional)](https://github.com/cmus/cmus)
 * [neofetch (Optional)](https://github.com/dylanaraps/neofetch)
+</details>
 
 #
 
-### **‣ &nbsp;C R E D I T S &nbsp;👥**
+<details open>
+<summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
+
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
 * Original author [@daavidrgz](https://github.com/daavidrgz)
+</details>
