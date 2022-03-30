@@ -1,6 +1,6 @@
 author = 'David Rodríguez (@daavidrgz)'
 description = ''
-credits = 'https://github.com/jollycampio/dotfiles'
+credits = 'https://github.com/wujiocean/dotfiles'
 dependencies = [
 	'paperview (https://github.com/glouw/paperview)',
 	'bspwm',

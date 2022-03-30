@@ -89,5 +89,5 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
-* Original author [@jollycampio](https://github.com/jollycampio)
+* Original author [@wujiocean](https://github.com/wujiocean)
 </details>
