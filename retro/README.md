@@ -3,7 +3,7 @@
 ### **‣ &nbsp;O V E R V I E W &nbsp;👁️‍🗨️**
 
 A desktop that brings you back to 90s, but alongside all the features of modern software. Enjoy
-a **beautilfully customized awesome desktop** that catch your eyes.
+a **beautifully customized awesome desktop** that catch your eyes.
 
 # 
 ### **‣ &nbsp;S C R E E N S H O T S &nbsp;📸**
