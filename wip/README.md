@@ -82,5 +82,5 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 ### **‣ &nbsp;C R E D I T S &nbsp;👥**
-* Desktop ported by @daavidrgz
+* Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
 * Original author [@joni22u](https://github.com/joni22u/)
