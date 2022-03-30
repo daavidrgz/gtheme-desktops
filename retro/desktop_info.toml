@@ -1,5 +1,5 @@
 author = 'David Rodríguez (@daavidrgz)'
-description = 'desktop'
+description = 'A desktop that brings you back to 90s, alongside all the features of modern software.'
 credits = 'https://github.com/ChocolateBread799/dotfiles'
 dependencies = [
 	'awesome',

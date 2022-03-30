@@ -3,7 +3,7 @@
 <details open>
 <summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
-A desktop that brings you back to 90s, but alongside all the features of modern software. Enjoy
+A desktop that brings you back to 90s, alongside all the features of modern software. Enjoy
 a **beautifully customized awesome desktop** that catches your eyes.
 </details>
 
