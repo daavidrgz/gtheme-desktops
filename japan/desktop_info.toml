@@ -1,5 +1,5 @@
 author = 'David Rodríguez (@daavidrgz)'
-description = 'desktop'
+description = ''
 credits = 'https://github.com/jollycampio/dotfiles'
 dependencies = [
 	'paperview (https://github.com/glouw/paperview)',
@@ -11,13 +11,12 @@ dependencies = [
 	'pulseaudio',
 	'pamixer',
 	'feh',
-	'dunstify',
 	'brightnessctl',
 	'playerctl',
 	'mpd',
+	'flameshot',
 	'newsboat (Optional)',
 	'mpd-notification (Optional)',
-	'flameshot (Optional)',
 	'alacritty (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',

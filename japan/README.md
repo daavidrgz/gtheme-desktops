@@ -1,9 +1,9 @@
-<div align="center"> <h1><strong>MINIMAL</strong></h1> </div>
+<div align="center"> <h1><strong>JAPAN</strong></h1> </div>
 
 <details open>
 <summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
-A minimal dependency desktop using bspwm and polybar. It has square corners and **double borders** in windows. 
+An oriental desktop that makes you feel **comfortable** with its **soft color schemes** and **animated wallpapers**. 
 </details>
 
 # 
@@ -11,17 +11,13 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 <details open>
 <summary><strong>&nbsp;S C R E E N S H O T S &nbsp;📸</strong></summary>
 
-* **Mountain Theme**
+* **Japan-Light Theme**
 
-	![Mountain](screenshots/mountain.png)
+	![Japan-Light](screenshots/japan-light.png)
 
-* **Nord Theme**
+* **Japan-Dark Theme**
 
-	![Nord](screenshots/nord.png)
-
-* **Catppuccin Theme**
-
-	![Catppuccin](screenshots/catppuccin.png)
+	![Japan-Dark](screenshots/japan-dark.png)
 </details>
 
 #
@@ -30,17 +26,16 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
-| -------------------------| -----------------------|
+| -------------------------|------------------------|
 | WM                       | bspwm                  |
 | Terminal                 | alacritty              |
 | Shell                    | zsh                    |
 | Editor                   | vscode                 |
-| Compositor               | picom                  |
 | Notifications            | dunst                  |
 | Launcher                 | rofi                   |
 | Bar                      | polybar                |
-| Font                     | Iosevka                |
-| Default theme            | Mountain               |
+| Font                     | Mononoki               |
+| Default theme            | Japan-Light            |
 </details>
 
 #
@@ -67,7 +62,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 <details>
 <summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
 
-* [opt (double borders)](https://github.com/wmutils/opt)
+* [paperview](https://github.com/glouw/paperview)
 * [bspwm](https://github.com/baskerville/bspwm)
 * [sxhkd](https://github.com/baskerville/sxhkd)
 * [picom (ibhagwan fork)](https://github.com/ibhagwan/picom)
@@ -76,10 +71,13 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 * [pulseaudio](https://wiki.archlinux.org/title/PulseAudio)
 * [pamixer](https://github.com/cdemoulins/pamixer)
 * [feh](https://github.com/derf/feh)
+* [mpd](https://github.com/MusicPlayerDaemon/MPD)
 * [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 * [playerctl](https://github.com/altdesktop/playerctl)
 * [polybar](https://github.com/polybar/polybar)
 * [flameshot](https://github.com/flameshot-org/flameshot)
+* [mpd-notification (Optional)](https://github.com/eworm-de/mpd-notification)
+* [newsboat (Optional)](https://github.com/newsboat/newsboat)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
@@ -91,5 +89,5 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
-* Original author [@mdnght-4](https://github.com/mdnght-4)
+* Original author [@jollycampio](https://github.com/jollycampio)
 </details>
