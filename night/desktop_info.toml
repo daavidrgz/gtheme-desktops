@@ -1,5 +1,5 @@
 author = 'Rayhan Kafi Pratama (@rxyhn)'
-description = 'Awesome desktop with floating panels'
+description = 'A full animated desktop in awesomeWM paired with pretty designed widgets.'
 credits = 'https://github.com/rxyhn/dotfiles'
 dependencies = [
 	'awesome-git',
@@ -8,11 +8,9 @@ dependencies = [
 	'alacritty',
 	'brightnessctl',
 	'pulseaudio',
-	'mpd',
-	'mpc',
-	'mpdris2',
-	'ncmpcpp',
 	'playerctl',
-	'lm-sensors',
-	'xclip'
+	'mpd (Optional)',
+	'mpc (Optional)',
+	'mpdris2 (Optional',
+	'ncmpcpp (Optional)',
 ]
