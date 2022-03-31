@@ -8,11 +8,11 @@ dependencies = [
 	'pulseaudio',
 	'feh',
 	'brightnessctl',
-	'playerctl'
+	'playerctl',
 	'flameshot',
 	'firefox',
 	'alacritty (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
-	'bottom (Optional)',
+	'bottom (Optional)'
 ]

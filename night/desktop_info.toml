@@ -1,5 +1,5 @@
 author = 'Rayhan Kafi Pratama (@rxyhn)'
-description = 'A full animated desktop in awesomeWM paired with pretty designed widgets.'
+description = 'A full animated desktop in awesomeWM, paired with pretty designed widgets.'
 credits = 'https://github.com/rxyhn/dotfiles'
 dependencies = [
 	'awesome-git',

@@ -18,7 +18,7 @@ dependencies = [
 	'newsboat (Optional)',
 	'mpd-notification (Optional)',
 	'alacritty (Optional)',
-	'firefox (Optional)'
+	'firefox (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
 	'neofetch (Optional)',

@@ -1,1 +1,0 @@
-poner en el readme que se necesita un .face.icon en el $HOME
