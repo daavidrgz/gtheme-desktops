@@ -1,5 +1,5 @@
 {
-  "default_theme": null,
+  "default_theme": "Tomorrow-Night-Blue",
   "actived": {
     "firefox-homepage": true,
     "dunst": true,
