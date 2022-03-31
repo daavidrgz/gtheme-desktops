@@ -123,7 +123,7 @@ end)
 
 dashboard_show = function()
     dashboard.visible = true
-    slide:set(dpi(100))
+    slide:set(dpi(90))
     dashboard_status = false
 end
 

@@ -12,9 +12,9 @@ local helpers = require("helpers")
 
 local function create_title_button(c, color_focus, color_unfocus, shp)
     local tb = wibox.widget {
-        forced_width = dpi(20),
-        forced_height = dpi(20),
-        bg = color_focus .. 90,
+        forced_width = dpi(17),
+        forced_height = dpi(17),
+        bg = color_focus,
         shape = shp,
         border_color = beautiful.border_color,
         widget = wibox.container.background
@@ -32,7 +32,7 @@ local function create_title_button(c, color_focus, color_unfocus, shp)
     c:connect_signal("focus", update)
     c:connect_signal("unfocus", update)
 
-    tb:connect_signal("mouse::enter", function() tb.bg = color_focus .. 55 end)
+    tb:connect_signal("mouse::enter", function() tb.bg = color_focus .. "cc" end)
     tb:connect_signal("mouse::leave", function() tb.bg = color_focus end)
 
     tb.visible = true
@@ -42,7 +42,7 @@ end
 local wrap_widget = function(w)
     return {
         w,
-        top = dpi(20),
+        top = dpi(8),
         widget = wibox.container.margin
     }
 end
@@ -80,13 +80,13 @@ client.connect_signal("request::titlebars", function(c)
     -- Create titlebars buttons
     ------------------------------
 
-    local close = create_title_button(c, beautiful.xcolor1, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local close = create_title_button(c, beautiful.xcolor1, beautiful.titlebar_unfocused, ci(dpi(9), dpi(9)))
     close:connect_signal("button::press", function() c:kill() end)
 
-    local float = create_title_button(c, beautiful.xcolor4, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local float = create_title_button(c, beautiful.xcolor4, beautiful.titlebar_unfocused, ci(dpi(9), dpi(9)))
     float:connect_signal("button::press", function() awful.client.floating.toggle(c) end)
 
-    local max = create_title_button(c, beautiful.xcolor5, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local max = create_title_button(c, beautiful.xcolor5, beautiful.titlebar_unfocused, ci(dpi(9), dpi(9)))
     max:connect_signal("button::press", function() c.maximized = not c.maximized end)
 
 
@@ -100,7 +100,7 @@ client.connect_signal("request::titlebars", function(c)
             {   -- left
                 wrap_widget({
                     close,
-                    left = dpi(25),
+                    left = dpi(12),
                     widget = wibox.container.margin
                 }),
                 wrap_widget(float),
@@ -115,7 +115,7 @@ client.connect_signal("request::titlebars", function(c)
             {   -- right
                 layout  = wibox.layout.fixed.horizontal
             },
-        bg = beautiful.darker_bg,
+        bg = beautiful.background,
         shape = helpers.prrect(beautiful.border_radius, true, true, false, false),
         widget = wibox.container.background
     }

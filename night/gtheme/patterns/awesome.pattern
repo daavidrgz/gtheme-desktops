@@ -123,7 +123,7 @@ theme.taglist_shape_urgent = helpers.rrect(theme.bar_radius)
 theme.taglist_shape_volatile = helpers.rrect(theme.bar_radius)
 
 -- Titlebars
-theme.titlebar_enabled = false
+theme.titlebar_enabled = true
 theme.titlebar_size = dpi(25)
 theme.titlebar_unfocused = theme.xcolor0
 

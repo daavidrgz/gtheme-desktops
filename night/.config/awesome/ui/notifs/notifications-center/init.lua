@@ -33,7 +33,7 @@ local notif_header = wibox.widget {
 
 -- Clear button
 local clear = wibox.widget {
-    markup = "",
+    markup = "",
     font = beautiful.icon_font_name .. "Round 16",
     align = "center",
     valign = "center",
@@ -343,7 +343,7 @@ local notif_center =  wibox.widget {
 notifs = wibox({
     type = "dock",
     screen = screen.primary,
-    height =  dpi(340),
+    height =  dpi(330),
     width = dpi(300),
     shape = helpers.rrect(beautiful.border_radius),
     ontop = true,
@@ -373,7 +373,7 @@ end)
 -- Make toogle button
 notifs_show = function()
     notifs.visible = true
-    slide:set(dpi(100))
+    slide:set(dpi(90))
     notifs_status = false
 end
 

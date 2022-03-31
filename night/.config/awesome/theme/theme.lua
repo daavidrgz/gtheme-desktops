@@ -1,4 +1,4 @@
--- Night
+-- Nord
 
 -- Standard awesome library
 local gears = require("gears")
@@ -18,27 +18,27 @@ local helpers = require("helpers")
 -- Theme
 ----------
 
-theme.xbackground = "#061115"
-theme.xforeground = "#D9D7D6"
-theme.xcolor0 = "#1C252C"
-theme.xcolor1 = "#DF5B61"
-theme.xcolor2 = "#78B892"
-theme.xcolor3 = "#DE8F78"
-theme.xcolor4 = "#6791C9"
-theme.xcolor5 = "#BC83E3"
-theme.xcolor6 = "#67AFC1"
-theme.xcolor7 = "#D9D7D6"
-theme.xcolor8 = "#1C252C"
-theme.xcolor9 = "#DF5B61"
-theme.xcolor10 = "#78B892"
-theme.xcolor11 = "#DE8F78"
-theme.xcolor12 = "#6791C9"
-theme.xcolor13 = "#BC83E3"
-theme.xcolor14 = "#67AFC1"
-theme.xcolor15 = "#D9D7D6"
-theme.darker_bg = "#1C252C"
-theme.lighter_bg = "#1C252C"
-theme.dashboard_fg = "#1C252C"
+theme.xbackground = "#2e3440"
+theme.xforeground = "#d8dee9"
+theme.xcolor0 = "#3b4252"
+theme.xcolor1 = "#bf616a"
+theme.xcolor2 = "#a3be8c"
+theme.xcolor3 = "#ebcb8b"
+theme.xcolor4 = "#81a1c1"
+theme.xcolor5 = "#b48ead"
+theme.xcolor6 = "#88c0d0"
+theme.xcolor7 = "#e5e8f0"
+theme.xcolor8 = "#4c566a"
+theme.xcolor9 = "#bf616a"
+theme.xcolor10 = "#a3be8c"
+theme.xcolor11 = "#ebcb8b"
+theme.xcolor12 = "#81a1c1"
+theme.xcolor13 = "#b48ead"
+theme.xcolor14 = "#8fbcbb"
+theme.xcolor15 = "#eceff4"
+theme.darker_bg = "#3b4252"
+theme.lighter_bg = "#3b4252"
+theme.dashboard_fg = "#3b4252"
 theme.transparent = "#00000000"
 
 -- PFP
@@ -56,7 +56,7 @@ theme.volume_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "
 theme.brightness_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/brightness.svg")
 
 -- Fonts
-theme.font_name = "NotoSansMono Nerd Font "
+theme.font_name = "JetBrainsMono Nerd Font "
 theme.font = theme.font_name .. "8"
 theme.icon_font_name = "Material Icons "
 theme.icon_font = theme.icon_font_name .. "18"
@@ -122,7 +122,7 @@ theme.taglist_shape_urgent = helpers.rrect(theme.bar_radius)
 theme.taglist_shape_volatile = helpers.rrect(theme.bar_radius)
 
 -- Titlebars
-theme.titlebar_enabled = false
+theme.titlebar_enabled = true
 theme.titlebar_size = dpi(25)
 theme.titlebar_unfocused = theme.xcolor0
 
