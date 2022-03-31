@@ -14,6 +14,14 @@ A **full animated** desktop in awesomeWM, paired with pretty designed widgets.
 * **Night Theme**
 
 	![Night](screenshots/night.gif)
+
+* **Challenger-Deep Theme**
+
+	![Night](screenshots/challenger.png)
+
+* **Roseate Theme**
+
+	![Night](screenshots/roseate.png)
 </details>
 
 #

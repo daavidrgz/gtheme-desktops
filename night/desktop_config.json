@@ -1,16 +1,26 @@
 {
   "default_theme": "Night",
   "actived": {
-    "wallpaper": true,
     "alacritty": true,
-    "awesome": true,
     "rofi": true,
     "vscode": true,
+    "awesome": true,
+    "firefox-homepage": true,
+    "wallpaper": true,
+    "firefox": true,
+    "kitty": true,
+    "spotify": true,
+    "discord": true,
     "intellij-idea": true
   },
   "inverted": {
+    "firefox": false,
+    "rofi": false,
+    "discord": false,
+    "kitty": false,
+    "spotify": false,
     "alacritty": false,
     "awesome": false,
-    "rofi": false
+    "firefox-homepage": false
   }
 }
