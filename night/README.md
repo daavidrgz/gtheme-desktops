@@ -3,7 +3,7 @@
 <details open>
 <summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
-A **full animated** desktop in awesomeWM paired with pretty designed widgets.
+A **full animated** desktop in awesomeWM, paired with pretty designed widgets.
 </details>
 
 # 
@@ -21,7 +21,7 @@ A **full animated** desktop in awesomeWM paired with pretty designed widgets.
 <details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
-* To get your avatar into the bar, you should have an image in ```$HOME/``` called ```.face.icon```
+* To get your avatar into the bar, you should have an image under ```$HOME/``` called ```.face.icon```
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -84,5 +84,5 @@ A **full animated** desktop in awesomeWM paired with pretty designed widgets.
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
-* Original author [@joni22u](https://github.com/joni22u/)
+* Original author [@rxyhn](https://github.com/rxyhn/)
 </details>
