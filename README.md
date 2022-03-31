@@ -5,6 +5,11 @@
 
 An **extensive** collection of desktops featuring different window managers, bars, programs, styles, animations... and
 much more.
+
+<br>
+
+![Desktops](desktops.gif)
+
 </details>
 
 #
