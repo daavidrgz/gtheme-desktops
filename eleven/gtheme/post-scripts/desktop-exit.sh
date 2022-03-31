@@ -1,5 +1,5 @@
 #!/bin/sh
 
 sleep 1
-openbox --exit
+killall -u $(whoami)
 exit $?

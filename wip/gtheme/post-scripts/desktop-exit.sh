@@ -1,5 +1,5 @@
 #!/bin/sh
 
 sleep 1
-bspc quit
+killall -u $(whoami)
 exit $?
