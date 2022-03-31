@@ -85,6 +85,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 * [xob](https://github.com/florentc/xob)
 * [tint2](https://gitlab.com/o9000/tint2)
 * [flameshot](https://github.com/flameshot-org/flameshot)
+* [firefox (Optional)](https://www.mozilla.org/en-US/firefox/new/)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
