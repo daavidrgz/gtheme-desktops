@@ -2,15 +2,15 @@
   "default_theme": "Night",
   "actived": {
     "wallpaper": true,
-    "intellij-idea": true,
+    "alacritty": true,
     "awesome": true,
     "rofi": true,
     "vscode": true,
-    "alacritty": true
+    "intellij-idea": true
   },
   "inverted": {
-    "rofi": false,
     "alacritty": false,
-    "awesome": false
+    "awesome": false,
+    "rofi": false
   }
 }

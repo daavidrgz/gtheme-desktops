@@ -1,7 +1,7 @@
 <div align="center"> <h1><strong>WIP</strong></h1> </div>
 
 <details open>
-<summary><strong>&nbsp;OVERVIEW &nbsp;👁️‍🗨️</strong></summary>
+<summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
 A **simple and minimalistic** desktop with rounded corners and subtle transparency. It's **fast and efficient**, letting you
 enjoy a beautiful experience while being productive at your work (or whatever you do with your time) :)
@@ -10,7 +10,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 # 
 
 <details open>
-<summary><strong>&nbsp;SCREENSHOTS &nbsp;📸</strong></summary>
+<summary><strong>&nbsp;S C R E E N S H O T S &nbsp;📸</strong></summary>
 
 * **Tomorrow-Night-Blue Theme**
 
@@ -29,7 +29,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;DETAILS &nbsp;📝</strong></summary>
+<summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
 | Attribute                | Using                  |
 | -------------------------| -----------------------|
@@ -49,7 +49,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;MAIN KEYBINDS &nbsp;#️⃣</strong></summary>
+<summary><strong>&nbsp;M A I N &nbsp; K E Y B I N D S &nbsp;#️⃣</strong></summary>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
@@ -69,7 +69,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;DEPENDENCIES &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
 
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)
 * [bspwm](https://github.com/baskerville/bspwm)
@@ -96,7 +96,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;CREDITS &nbsp;👥</strong></summary>
+<summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
 * Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
 * Original author [@joni22u](https://github.com/joni22u/)
