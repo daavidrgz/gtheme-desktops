@@ -67,6 +67,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 * [feh](https://github.com/derf/feh)
 * [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 * [playerctl](https://github.com/altdesktop/playerctl)
+* [firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [flameshot](https://github.com/flameshot-org/flameshot)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)

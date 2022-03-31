@@ -78,6 +78,7 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 * [flameshot](https://github.com/flameshot-org/flameshot)
 * [mpd-notification (Optional)](https://github.com/eworm-de/mpd-notification)
 * [newsboat (Optional)](https://github.com/newsboat/newsboat)
+* [firefox (Optional)](https://www.mozilla.org/en-US/firefox/new/)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)

@@ -10,6 +10,7 @@ dependencies = [
 	'brightnessctl',
 	'playerctl'
 	'flameshot',
+	'firefox',
 	'alacritty (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',

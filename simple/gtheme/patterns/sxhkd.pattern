@@ -12,11 +12,11 @@
 
 # Terminal emulator
 super + Return
-    <[terminal]>
+    <[terminal|alacritty]>
 
 # Terminal emulator (nvidia_gpu)
 super + shift + Return
-    prime-run <[terminal]>
+    prime-run <[terminal|alacritty]>
 
 # Launcher
 super + d
@@ -34,7 +34,7 @@ ctrl + super + c
     ~/.config/rofi/calculator/calculator.sh
 
 ctrl + super + f
-    firefox
+    <[browser|firefox]>
 
 alt + Escape
     ~/.config/rofi/powermenu/powermenu.sh

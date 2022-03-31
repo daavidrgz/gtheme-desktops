@@ -81,6 +81,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 * [polybar](https://github.com/polybar/polybar)
 * [flameshot](https://github.com/flameshot-org/flameshot)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
+* [firefox (Optional)](https://www.mozilla.org/en-US/firefox/new/)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
 </details>

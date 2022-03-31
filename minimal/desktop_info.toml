@@ -16,6 +16,7 @@ dependencies = [
 	'playerctl',
 	'flameshot',
 	'alacritty (Optional)',
+	'firefox (Optional)'
 	'better-discord (Optional)',
 	'spicetify (Optional)',
 ]

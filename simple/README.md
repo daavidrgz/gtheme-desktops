@@ -88,6 +88,7 @@ of free space** for applications.
 * [polybar](https://github.com/polybar/polybar)
 * [cava](https://github.com/karlstav/cava)
 * [flameshot](https://github.com/flameshot-org/flameshot)
+* [firefox (Optional)](https://www.mozilla.org/en-US/firefox/new/)
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)

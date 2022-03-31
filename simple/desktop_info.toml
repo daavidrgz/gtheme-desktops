@@ -16,6 +16,7 @@ dependencies = [
 	'cava',
 	'flameshot (Optional)',
 	'alacritty (Optional)',
+	'firefox (Optional)'
 	'better-discord (Optional)',
 	'spicetify (Optional)',
 	'bottom (Optional)',

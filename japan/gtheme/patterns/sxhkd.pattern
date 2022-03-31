@@ -12,11 +12,11 @@
 
 # Terminal emulator
 super + Return
-    <[terminal]>
+    <[terminal|alacritty]>
 
 # Terminal emulator (nvidia_gpu)
 super + shift + Return
-    prime-run <[terminal]>
+    prime-run <[terminal|alacritty]>
 
 # Launcher
 super + d
@@ -35,7 +35,7 @@ super + Escape
 #----------------------
 
 ctrl + super + f
-    firefox
+    <[browser|firefox]>
 
 ctrl + super + o
     kitty --hold -e rclone sync -P OneDrive:Música/Canciones\ Hi-Res ~/music
