@@ -3,7 +3,7 @@
 <details open>
 <summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
-An **extensive** collection of desktops desktops including different window managers, bars, programs, styles, animations... and
+An **extensive** collection of desktops including different window managers, bars, programs, styles, animations... and
 much more.
 </details>
 
