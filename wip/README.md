@@ -48,6 +48,11 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	sudo pip3 install pulsectl
 	```
 
+* Optional dependencies:
+	```console
+	sudo pacman -S alacritty firefox betterdiscord-installer spicetify-cli neofetch bottom kitty
+	```
+
 ## Ubuntu
 
 
