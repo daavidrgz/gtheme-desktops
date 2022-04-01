@@ -56,7 +56,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	yay -S betterdiscord-installer spicetify-cli
 	```
 
-	**Note:** Some of these programs may need some configuration in order to work properly with provided patterns.
+	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
 
 ### Ubuntu
