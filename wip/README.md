@@ -28,6 +28,34 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 #
 
+<details open>
+<summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+
+## Arch Linux
+
+* Mandatory dependencies:
+	```console
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
+	
+	```
+	(You can use any ohter AUR helper)
+	
+	```console
+	yay -S xob
+	```
+
+	```console
+	sudo pip3 install pulsectl
+	```
+
+## Ubuntu
+
+
+
+</details>
+
+#
+
 <details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
@@ -69,7 +97,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y  &nbsp;L I S T&nbsp;🔗</strong></summary>
 
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)
 * [bspwm](https://github.com/baskerville/bspwm)
