@@ -36,7 +36,7 @@ of free space** for applications.
 
 ### Arch Linux
 
-* *Mandatory* dependencies:
+* **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl polybar flameshot
 	```
@@ -46,7 +46,7 @@ of free space** for applications.
 	yay -S polybar cava picom-ibhagwan-git
 	```
 
-* *Optional* dependencies:
+* **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```

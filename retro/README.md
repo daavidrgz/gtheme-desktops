@@ -26,12 +26,12 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 ### Arch Linux
 
-* *Mandatory* dependencies:
+* **Mandatory** dependencies:
 	```console
 	sudo pacman -S awesome rofi dunst picom pulseaudio feh brightnessctl playerctl flameshot
 	```
 
-* *Optional* dependencies:
+* **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox bottom kitty
 	```

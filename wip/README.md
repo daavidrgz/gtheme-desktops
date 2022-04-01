@@ -33,7 +33,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 ### Arch Linux
 
-* *Mandatory* dependencies:
+* **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
 	```
@@ -47,7 +47,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	sudo pip3 install pulsectl
 	```
 
-* *Optional* dependencies:
+* **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```

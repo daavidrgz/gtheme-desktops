@@ -31,7 +31,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 
 ### Arch Linux
 
-* *Mandatory* dependencies:
+* **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl flameshot
 	```
@@ -49,7 +49,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 	sudo make install
 	```
 
-* *Optional* dependencies:
+* **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox kitty
 	```
