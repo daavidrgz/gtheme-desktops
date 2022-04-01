@@ -21,6 +21,33 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 #
 
+<details open>
+<summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+
+### Arch Linux
+
+* *Mandatory* dependencies:
+	```console
+	sudo pacman -S awesome rofi dunst picom pulseaudio feh brightnessctl playerctl flameshot
+	```
+
+* *Optional* dependencies:
+	```console
+	sudo pacman -S alacritty firefox bottom kitty
+	```
+
+	```console
+	yay -S betterdiscord-installer spicetify-cli
+	```
+
+	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
+
+
+### Ubuntu
+</details>
+
+#
+
 <details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
@@ -58,7 +85,7 @@ a **beautifully customized awesome desktop** that catches your eyes.
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y &nbsp;L I S T &nbsp;🔗</strong></summary>
 
 * [awesome](https://github.com/svenstaro/rofi-calc)
 * [picom (ibhagwan fork)](https://github.com/ibhagwan/picom)

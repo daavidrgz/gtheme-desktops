@@ -31,6 +31,38 @@ of free space** for applications.
 
 #
 
+<details open>
+<summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+
+### Arch Linux
+
+* *Mandatory* dependencies:
+	```console
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl polybar flameshot
+	```
+	(You can use any other AUR helper)
+	
+	```console
+	yay -S polybar cava picom-ibhagwan-git
+	```
+
+* *Optional* dependencies:
+	```console
+	sudo pacman -S alacritty firefox neofetch bottom kitty
+	```
+
+	```console
+	yay -S betterdiscord-installer spicetify-cli
+	```
+
+	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
+
+
+### Ubuntu
+</details>
+
+#
+
 <details>
 <summary><strong>&nbsp;D E T A I L S &nbsp;📝</strong></summary>
 
@@ -72,7 +104,7 @@ of free space** for applications.
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y &nbsp;L I S T &nbsp;🔗</strong></summary>
 
 * [rofi-calc](https://github.com/svenstaro/rofi-calc)
 * [bspwm](https://github.com/baskerville/bspwm)

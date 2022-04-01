@@ -5,7 +5,7 @@ dependencies = [
 	'pulsectl (pip)',
 	'bspwm',
 	'sxhkd',
-	'picom',
+	'picom (ibhagwan fork)',
 	'rofi',
 	'dunst',
 	'pulseaudio',

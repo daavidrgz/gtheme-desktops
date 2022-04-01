@@ -20,6 +20,38 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 	![Japan-Dark](screenshots/japan-dark.png)
 </details>
 
+<details open>
+<summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+
+#
+
+### Arch Linux
+
+* *Mandatory* dependencies:
+	```console
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl mpd flameshot
+	```
+	(You can use any other AUR helper)
+	
+	```console
+	yay -S paperview-git polybar
+	```
+
+* *Optional* dependencies:
+	```console
+	sudo pacman -S alacritty firefox neofetch kitty newsboat zathura
+	```
+
+	```console
+	yay -S betterdiscord-installer spicetify-cli mpd-notification
+	```
+
+	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
+
+
+### Ubuntu
+</details>
+
 #
 
 <details>
@@ -60,7 +92,7 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y &nbsp;L I S T &nbsp;🔗</strong></summary>
 
 * [paperview](https://github.com/glouw/paperview)
 * [bspwm](https://github.com/baskerville/bspwm)

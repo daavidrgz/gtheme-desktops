@@ -4,7 +4,7 @@ credits = 'http://github.com:daavidrgz'
 dependencies = [
 	'bspwm',
 	'sxhkd',
-	'picom',
+	'picom (ibhagwan fork)',
 	'rofi',
 	'polybar',
 	'dunst',
@@ -16,10 +16,10 @@ dependencies = [
 	'cava',
 	'flameshot (Optional)',
 	'alacritty (Optional)',
+	'kitty (Optional)',
 	'firefox (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
 	'bottom (Optional)',
-	'cmus (Optional)',
 	'neofetch (Optional)',
 ]

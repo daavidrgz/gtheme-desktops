@@ -24,6 +24,46 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 	![Catppuccin](screenshots/catppuccin.png)
 </details>
 
+<details open>
+<summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+
+#
+
+### Arch Linux
+
+* *Mandatory* dependencies:
+	```console
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl flameshot
+	```
+
+	(You can use any other AUR helper)
+	
+	```console
+	yay -S polybar
+	```
+	(Tool to have double borders in bspwm)
+
+	```console
+	git clone https://github.com/wmutils/opt opt
+	cd opt
+	sudo make install
+	```
+
+* *Optional* dependencies:
+	```console
+	sudo pacman -S alacritty firefox kitty
+	```
+
+	```console
+	yay -S betterdiscord-installer spicetify-cli
+	```
+
+	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
+
+
+### Ubuntu
+</details>
+
 #
 
 <details>
@@ -65,7 +105,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C I E S &nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y &nbsp;L I S T &nbsp;🔗</strong></summary>
 
 * [opt (double borders)](https://github.com/wmutils/opt)
 * [bspwm](https://github.com/baskerville/bspwm)
