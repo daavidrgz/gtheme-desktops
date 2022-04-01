@@ -27,7 +27,7 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 
 ### Arch Linux
 
-* *Mandatory* dependencies:
+* **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl mpd flameshot
 	```
@@ -37,7 +37,7 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 	yay -S paperview-git polybar
 	```
 
-* *Optional* dependencies:
+* **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch kitty newsboat zathura
 	```
