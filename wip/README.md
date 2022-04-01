@@ -33,21 +33,21 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 ### Arch Linux
 
-* Mandatory dependencies:
+* *Mandatory* dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
 	```
 	(You can use any other AUR helper)
 	
 	```console
-	yay -S xob
+	yay -S xob picom-ibhagwan-git
 	```
 
 	```console
 	sudo pip3 install pulsectl
 	```
 
-* Optional dependencies:
+* *Optional* dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```
@@ -59,10 +59,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	**Note:** Some of these programs may need some configuration in order to work properly with provided patterns.
 
 
-## Ubuntu
-
-
-
+### Ubuntu
 </details>
 
 #
@@ -108,7 +105,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 #
 
 <details>
-<summary><strong>&nbsp;D E P E N D E N C Y  &nbsp;L I S T&nbsp;🔗</strong></summary>
+<summary><strong>&nbsp;D E P E N D E N C Y  &nbsp;L I S T &nbsp;🔗</strong></summary>
 
 * [pulsectl (pip)](https://pypi.org/project/pulsectl/)
 * [bspwm](https://github.com/baskerville/bspwm)
