@@ -31,7 +31,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
-## Arch Linux
+### -> Arch Linux
 
 * Mandatory dependencies:
 	```console
