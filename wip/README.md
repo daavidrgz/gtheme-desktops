@@ -36,9 +36,8 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 * Mandatory dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
-	
 	```
-	(You can use any ohter AUR helper)
+	(You can use any other AUR helper)
 	
 	```console
 	yay -S xob
@@ -50,8 +49,15 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 * Optional dependencies:
 	```console
-	sudo pacman -S alacritty firefox betterdiscord-installer spicetify-cli neofetch bottom kitty
+	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```
+
+	```console
+	yay -S betterdiscord-installer spicetify-cli
+	```
+
+	**Note:** Some of these programs may need some configuration in order to work properly with provided patterns.
+
 
 ## Ubuntu
 
