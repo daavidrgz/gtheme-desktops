@@ -77,6 +77,7 @@ element-icon {
 	size:                           38px;
 	border:                         0px;
 	horizontal-align:	 	            0.5;
+	background-color:               transparent;
 }
 
 element-text {
@@ -85,4 +86,5 @@ element-text {
 	vertical-align:                 0.5;
 	margin:                         0.5% 0.5% -0.5% 0.5%;
 	text-color:                     @fg;
+	background-color:               transparent;
 }

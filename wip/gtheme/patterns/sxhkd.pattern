@@ -20,7 +20,7 @@ super + shift + Return
  
 # Launcher
 super + d
-    rofi -show
+    $HOME/.config/rofi/launcher/launcher.sh
  
 # Reload sxhkd
 super + Escape
@@ -34,7 +34,7 @@ ctrl + super + f
     <[browser|firefox]>
 
 alt + Escape
-    $HOME/.config/rofi/powermenu
+    $HOME/.config/rofi/powermenu/powermenu.sh
 
 ctrl + super + o
     kitty --hold -e rclone sync -P OneDrive:Música/Canciones\ Hi-Res ~/music

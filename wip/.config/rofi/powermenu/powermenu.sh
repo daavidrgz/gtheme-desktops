@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-dir="$HOME/.config/rofi/"
-rofi_command="rofi -theme $dir/powermenu.rasi"
+rofi_command="rofi -theme $HOME/.config/rofi/powermenu/powermenu.rasi"
 
 shutdown="襤"
 reboot="累"

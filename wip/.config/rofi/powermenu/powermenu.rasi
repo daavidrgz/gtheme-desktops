@@ -31,15 +31,14 @@ mainbox {
 element {
 	background-color:               @button;
 	orientation:                    vertical;
-	border-radius:                  10px;
+	border-radius:                  12px;
 }
 
 element-text {
-	font:				"DejaVuSansMono Nerd Font 18";
+	font:				                    "CaskaydiaCove Nerd Font Mono 20";
 	expand:                         false;
 	horizontal-align:               0.5;
-	vertical-align:		    	1;
-	margin:                         5px 22px 25px 20px;
+	margin:                         18px 18px 18px 18px;
 }
 
 element-text, element-icon {

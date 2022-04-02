@@ -17,7 +17,7 @@ dependencies = [
 	'tint2',
 	'flameshot',
 	'alacritty (Optional)',
-	'kitty (Optional)'
+	'kitty (Optional)',
 	'firefox (Optional)',
 	'better-discord (Optional)',
 	'spicetify (Optional)',
