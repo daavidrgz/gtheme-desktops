@@ -32,10 +32,9 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
 
-*	<details>
-	<summary><strong>&nbsp;Arch Linux</strong></summary>
+*	### Arch Linux
 
-	* ### **Mandatory** dependencies:
+	* **Mandatory** dependencies:
 		```console
 		sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 		```
@@ -47,7 +46,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		pip3 install pulsectl
 		```
 
-	* ### **Optional** dependencies:
+	* **Optional** dependencies:
 		```console
 		sudo pacman -S alacritty firefox neofetch bottom kitty
 		```
@@ -56,12 +55,10 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		```
 
 		**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
-</details>
 
-*	<details>
-	<summary><strong>&nbsp;Ubuntu</strong></summary>
+*	### Ubuntu
 
-	* ### **Mandatory** dependencies:
+	* **Mandatory** dependencies:
 		```console
 		sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 		```
@@ -109,7 +106,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 			and follow the instructions for installing.
 
 
-	* ### **Optional** dependencies:
+	* **Optional** dependencies:
 		#### Paste friendly command to install most of the dependencies:
 		```console
 		sudo apt-get install bottom alacritty neofetch
@@ -122,7 +119,6 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		* ### Spicetify
 			Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
 			Untested.
-	</details>
 </details>
 
 #
