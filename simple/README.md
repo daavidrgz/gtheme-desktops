@@ -89,7 +89,7 @@ of free space** for applications.
 
 		**Note:** It's assumed you already have pulseaudio installed from the above sections.
 	
-		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer).
+		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer#installation).
 		
 		<span style="font-size: 120%">**If you have issues building pamixer, read the following guide:**</span>
 		
@@ -225,11 +225,11 @@ of free space** for applications.
 
 	* ### Better-discord
 		Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
-		Untested
+		Untested.
 
 	* ### Spicetify
 		Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
-		Untested
+		Untested.
 </details>
 
 #

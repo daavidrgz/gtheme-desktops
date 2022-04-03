@@ -86,7 +86,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 		**Note:** It's assumed you already have pulseaudio installed from the above sections.
 	
-		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer).
+		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer#installation).
 		
 		<span style="font-size: 120%">**If you have issues building pamixer, read the following guide:**</span>
 		
@@ -153,7 +153,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		```console
 		sudo apt install libx11-dev libxrender-dev
 		```
-		then clone [this repository](https://github.com/florentc/xob):
+		then clone [this repository](https://github.com/florentc/xob#installation):
 		```console
 		git clone git@github.com:florentc/xob.git
 		```
