@@ -34,7 +34,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 ## Arch Linux
 * ### **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
 	(You can use any other AUR helper)
 	

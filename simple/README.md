@@ -37,16 +37,12 @@ of free space** for applications.
 ## Arch Linux
 * ### **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl flameshot
 	```
 	(You can use any other AUR helper)
 	
 	```console
-	yay -S xob picom-ibhagwan-git
-	```
-
-	```console
-	sudo pip3 install pulsectl
+	yay -S picom-ibhagwan-git
 	```
 
 * ### **Optional** dependencies:
@@ -65,9 +61,6 @@ of free space** for applications.
 	#### Paste friendly command to install most of the needed dependencies:
 	```console
 	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
-	```
-	```console
-	pip3 install pulsectl
 	```
 	* ### **Brightnessctl**
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
