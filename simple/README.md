@@ -35,7 +35,6 @@ of free space** for applications.
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
 ## Arch Linux
----
 * ### **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
@@ -62,7 +61,6 @@ of free space** for applications.
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
 ## <br>Ubuntu</br>
----
 * ### **Mandatory** dependencies:
 	#### Paste friendly command to install most of the needed dependencies:
 	```

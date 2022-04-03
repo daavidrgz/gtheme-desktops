@@ -32,7 +32,6 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
 ## Arch Linux
----
 * ### **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
@@ -59,7 +58,6 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
 ## <br>Ubuntu</br>
----
 * ### **Mandatory** dependencies:
 	#### Paste friendly command to install most of the needed dependencies:
 	```
@@ -151,7 +149,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 
     * ### **XOB**
-		The following dependencies are needed
+		The following dependencies are needed:
 		```console
 		sudo apt install libx11-dev libxrender-dev
 		```
@@ -159,22 +157,22 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		```console
 		git clone git@github.com:florentc/xob.git
 		```
-		and follow the instructions
+		and follow the instructions for installing.
 
 
 * ### **Optional** dependencies:
-	### Paste friendly command to install most of the dependencies
+	#### Paste friendly command to install most of the dependencies:
 	```console
 	sudo apt-get install bottom alacritty neofetch
 	```
 
 	* ### Better-discord
 		Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
-		Untested
+		Untested.
 
 	* ### Spicetify
 		Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
-		Untested
+		Untested.
 </details>
 
 #
