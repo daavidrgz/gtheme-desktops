@@ -5,10 +5,7 @@ getDefaultSinkName() {
 }
 
 getDefaultSinkVolume() {
-	pacmd list-sinks |
-		awk '/^\s+name: /{indefault = $2 == "<'$(getDefaultSinkName)'>"}
-			/^\s+volume: / && indefault {print $5; exit}' |
-		awk -F "%" '{print $1}'
+	pacmd list-sinks | tr -d '\n' | grep -Pozi "$(getDefaultSinkName).*volume.*%" | grep -Poz "(?<=/)[ ]*(\d+)(?=%)" | awk '{print $1}'
 }
 
 getDefaultSinkMute() {
@@ -37,9 +34,13 @@ if getDefaultSinkName | grep -i "bluez_sink" &>/dev/null; then
 	VOLUME_STEP=1
 fi
 
+if [[ "$1" == "--decrease" ]]; then
+	VOLUME_STEP=-$VOLUME_STEP
+fi
+
 PREV_VOL=$(getDefaultSinkVolume)
 if [[ "$1" == "-" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
-	setDefaultSinkVol "$1$VOLUME_STEP%"
+	setDefaultSinkVol "$(($PREV_VOL+$VOLUME_STEP))%"
 fi
 CURRENT_VOL=$(getDefaultSinkVolume)
 dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:$CURRENT_VOL "Volume: $CURRENT_VOL%"
