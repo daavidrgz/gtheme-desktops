@@ -34,19 +34,23 @@ of free space** for applications.
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
-### Arch Linux
-
-* **Mandatory** dependencies:
+## Arch Linux
+---
+* ### **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl polybar flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
 	```
 	(You can use any other AUR helper)
 	
 	```console
-	yay -S polybar cava picom-ibhagwan-git
+	yay -S xob picom-ibhagwan-git
 	```
 
-* **Optional** dependencies:
+	```console
+	sudo pip3 install pulsectl
+	```
+
+* ### **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```
@@ -57,8 +61,177 @@ of free space** for applications.
 
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
+## <br>Ubuntu</br>
+---
+* ### **Mandatory** dependencies:
+	#### Paste friendly command to install most of the needed dependencies:
+	```
+	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
+	```
 
-### Ubuntu
+	* ### **Brightnessctl**
+		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
+		To be able to tweak the brightness normally you need to execute the following command:
+		```
+		sudo usermod -aG video ${USER}
+		```
+		and after rebooting you will be able to change your screen brightness.
+
+
+	* ### **Pamixer**
+		Clone the pamixer repository:
+		```console
+		git clone https://github.com/cdemoulins/pamixer.git
+		```
+	
+		Then run:
+		```console
+		sudo apt install libpulse
+		```
+
+		**Note:** It's assumed you already have pulseaudio installed from the above sections.
+	
+		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer).
+		
+		<span style="font-size: 120%">**If you have issues building pamixer, read the following guide:**</span>
+		
+		
+		For the cxxopts dependency, you will need to clone [this repository](https://github.com/jarro2783/cxxopts):
+		```console
+		git clone git@github.com:jarro2783/cxxopts.git
+		```
+		Then execute:
+		```console
+		cd ./cxxopts
+		sudo cp include/cxxopts.hpp /usr/include
+		sudo cp include/cxxopts.hpp /usr/local/include
+		```
+
+		Even then, cxxopts may not be detected properly by meson. So we need to remove it as a dependency in the 
+		project settings.  
+		
+		Go back to the directory where pamixer was cloned and edit the ``meson.build`` file:
+		remove the following line:
+		```console
+		cxxopts = dependency('cxxopts')
+		```
+		And edit this line:
+		```console
+		dependencies : [pulse, cxxopts])
+		```
+		So it is now:
+		```console
+		dependencies : [pulse])
+		```
+
+		This allows us to continue with the build process without interruptions.
+
+		Finally, run:
+		```console
+		meson setup build
+		meson compile build
+		sudo meson install -C build
+		```
+
+
+	* ### **Picom**
+		Clone [this fork](https://github.com/ibhagwan/picom):
+		```console
+		git clone git@github.com:ibhagwan/picom.git
+		```
+		and refer to the [original picom repository](https://github.com/yshui/picom#dependencies) for a detailed installation guide and dependencies.
+
+		Briefly, install these dependencies:
+		```console
+		sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+		```
+
+		Then cd into the ``picom`` directory and run:
+		```console
+		meson --buildtype=release . build
+		sudo ninja -C build install
+		``` 
+
+
+    * ### **XOB**
+		The following dependencies are needed:
+		```console
+		sudo apt install libx11-dev libxrender-dev
+		```
+		Then clone [this repository](https://github.com/florentc/xob#installation):
+		```console
+		git clone git@github.com:florentc/xob.git
+		```
+		and follow the instructions for installing.
+
+	* ### **Cava**
+		Needs manual compiling and installing.
+		You can check a detailed guide [here](https://github.com/karlstav/cava#from-source).
+
+		Briefly, you need to clone the repository:
+		```console
+		git clone git@github.com:karlstav/cava.git
+		```
+		Install the following dependencies:
+		```console
+		apt install libiniparser-dev libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake libiniparser-dev libsdl2-2.0-0 libsdl2-dev
+		```
+		cd into ``cava`` directory and run:
+		```console
+		./autogen.sh
+		./configure
+		make
+		sudo make install
+		```
+
+
+	* ### **Polybar**
+		Clone the latest tagged release from [this repository](https://github.com/polybar/polybar).  
+		
+		Then, install the following packages:
+		```console
+		sudo apt install -s python3-packaging libuv1-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-ewmh-dev libxcb-image0-dev libxcb-icccm4-dev libuv1-dev libcairo2-dev python3-sphinx libfontconfig1-dev libfreetype6-dev libnl-genl wireless-tools libnl-genl-3-dev libiw-dev curl libcurl libcurl4-openssl-dev libmpdclient-dev
+		```
+
+		<span style="color:red">**Please note**</span> that the command above may fail to install some dependencies.  
+		That is because some libraries, like ``libfreetype6-dev``, depend on specific versions of other libraries.  
+		For instance, you may need to downgrade these packages to a different version (whichever version is listed when it fails) with the following command:
+		```console
+		sudo apt install libfreetype6=2.10.1-2 
+		sudo apt install libcurl4=7.68.0-1ubuntu2
+		```
+		Before installing these
+		```console
+		sudo apt install libfreetype6-dev libcairo2-dev libcurl4-openssl-dev
+		```
+		**Note:** *The versions listed in the commands are the ones that worked at the time of writing this, they may vary over time.*
+		
+		After fixing the broken dependencies you **might want to re-run the first command** to ensure that all the dependencies were installed.
+
+		Then, just cd into the ``polybar`` directory, then run:
+		```console
+		./build.sh
+		make -j$(nproc)
+		cd build
+		sudo make install
+		```
+
+		Refer to the [**Polybar wiki, compiling section**](https://github.com/polybar/polybar/wiki/Compiling) for a detailed dependencies and installation guide.
+
+
+* ### **Optional** dependencies:
+	### Paste friendly command to install most of the dependencies
+	```console
+	sudo apt-get install bottom alacritty neofetch
+	```
+
+	* ### Better-discord
+		Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
+		Untested
+
+	* ### Spicetify
+		Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
+		Untested
 </details>
 
 #

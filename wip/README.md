@@ -31,9 +31,9 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
-### Arch Linux
-
-* **Mandatory** dependencies:
+## Arch Linux
+---
+* ### **Mandatory** dependencies:
 	```console
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
 	```
@@ -47,7 +47,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	sudo pip3 install pulsectl
 	```
 
-* **Optional** dependencies:
+* ### **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```
@@ -58,8 +58,123 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
+## <br>Ubuntu</br>
+---
+* ### **Mandatory** dependencies:
+	#### Paste friendly command to install most of the needed dependencies:
+	```
+	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
+	```
 
-### Ubuntu
+	* ### **Brightnessctl**
+		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
+		To be able to tweak the brightness normally you need to execute the following command:
+		```
+		sudo usermod -aG video ${USER}
+		```
+		and after rebooting you will be able to change your screen brightness.
+
+
+	* ### **Pamixer**
+		Clone the pamixer repository:
+		```console
+		git clone https://github.com/cdemoulins/pamixer.git
+		```
+	
+		Then run:
+		```console
+		sudo apt install libpulse
+		```
+
+		**Note:** It's assumed you already have pulseaudio installed from the above sections.
+	
+		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer).
+		
+		<span style="font-size: 120%">**If you have issues building pamixer, read the following guide:**</span>
+		
+		
+		For the cxxopts dependency, you will need to clone [this repository](https://github.com/jarro2783/cxxopts):
+		```console
+		git clone git@github.com:jarro2783/cxxopts.git
+		```
+		Then execute:
+		```console
+		cd ./cxxopts
+		sudo cp include/cxxopts.hpp /usr/include
+		sudo cp include/cxxopts.hpp /usr/local/include
+		```
+
+		Even then, cxxopts may not be detected properly by meson. So we need to remove it as a dependency in the 
+		project settings.  
+		
+		Go back to the directory where pamixer was cloned and edit the ``meson.build`` file:
+		remove the following line:
+		```console
+		cxxopts = dependency('cxxopts')
+		```
+		And edit this line:
+		```console
+		dependencies : [pulse, cxxopts])
+		```
+		So it is now:
+		```console
+		dependencies : [pulse])
+		```
+
+		This allows us to continue with the build process without interruptions.
+
+		Finally, run:
+		```console
+		meson setup build
+		meson compile build
+		sudo meson install -C build
+		```
+
+
+	* ### **Picom**
+		Clone [this fork](https://github.com/ibhagwan/picom):
+		```console
+		git clone git@github.com:ibhagwan/picom.git
+		```
+		and refer to the [original picom repository](https://github.com/yshui/picom#dependencies) for a detailed installation guide and dependencies.
+
+		Briefly, install these dependencies:
+		```console
+		sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+		```
+
+		Then cd into the picom directory and run:
+		```console
+		meson --buildtype=release . build
+		sudo ninja -C build install
+		``` 
+
+
+    * ### **XOB**
+		The following dependencies are needed
+		```console
+		sudo apt install libx11-dev libxrender-dev
+		```
+		then clone [this repository](https://github.com/florentc/xob):
+		```console
+		git clone git@github.com:florentc/xob.git
+		```
+		and follow the instructions
+
+
+* ### **Optional** dependencies:
+	### Paste friendly command to install most of the dependencies
+	```console
+	sudo apt-get install bottom alacritty neofetch
+	```
+
+	* ### Better-discord
+		Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
+		Untested
+
+	* ### Spicetify
+		Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
+		Untested
 </details>
 
 #
