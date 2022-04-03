@@ -63,10 +63,12 @@ of free space** for applications.
 ## <br>Ubuntu</br>
 * ### **Mandatory** dependencies:
 	#### Paste friendly command to install most of the needed dependencies:
-	```
+	```console
 	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
-
+	```console
+	sudo pip3 install pulsectl
+	```
 	* ### **Brightnessctl**
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
 		To be able to tweak the brightness normally you need to execute the following command:
