@@ -75,23 +75,17 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 			and after rebooting you will be able to change your screen brightness.
 
 		* **Picom**
-
-			Clone [this fork](https://github.com/ibhagwan/picom):
-			```console
-			git clone git@github.com:ibhagwan/picom.git
-			```
-			and refer to the [original picom repository](https://github.com/yshui/picom#dependencies) for a detailed installation guide and dependencies.
-
-			Briefly, install these dependencies:
 			```console
 			sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
 			```
-
-			Then cd into the picom directory and run:
 			```console
+			git clone git@github.com:ibhagwan/picom.git picom
+			cd picom
 			meson --buildtype=release . build
 			sudo ninja -C build install
 			``` 
+
+			For more info see: https://github.com/yshui/picom
 
 		* **XOB**
 
