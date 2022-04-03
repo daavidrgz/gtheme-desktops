@@ -101,7 +101,6 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 
 	* **Optional** dependencies:
-		#### Paste friendly command to install most of the dependencies:
 		```console
 		sudo apt-get install bottom alacritty neofetch
 		```
