@@ -63,7 +63,9 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	```
 	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
-
+	```console
+	pip3 install pulsectl
+	```
 	* ### **Brightnessctl**
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
 		To be able to tweak the brightness normally you need to execute the following command:
