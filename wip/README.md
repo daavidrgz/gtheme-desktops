@@ -187,6 +187,6 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <details>
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
-* Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
+* Desktop ported by [@daavidrgz](https://github.com/daavidrgz) and [@LucaDangeloS](https://github.com/LucaDangeloS)
 * Original author [@joni22u](https://github.com/joni22u/)
 </details>

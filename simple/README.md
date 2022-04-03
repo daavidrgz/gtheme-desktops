@@ -289,6 +289,6 @@ of free space** for applications.
 <details>
 <summary><strong>&nbsp;C R E D I T S &nbsp;👥</strong></summary>
 
-* Desktop ported by [@daavidrgz](https://github.com/daavidrgz)
+* Desktop ported by [@daavidrgz](https://github.com/daavidrgz) and [@LucaDangeloS](https://github.com/LucaDangeloS)
 * Original author [@daavidrgz](https://github.com/daavidrgz)
 </details>
