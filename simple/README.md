@@ -37,7 +37,7 @@ of free space** for applications.
 ## Arch Linux
 * ### **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl tint2 flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl flameshot
 	```
 	(You can use any other AUR helper)
 	
@@ -150,17 +150,6 @@ of free space** for applications.
 		sudo ninja -C build install
 		``` 
 
-
-    * ### **XOB**
-		The following dependencies are needed:
-		```console
-		sudo apt install libx11-dev libxrender-dev
-		```
-		Clone [this repository](https://github.com/florentc/xob#installation):
-		```console
-		git clone git@github.com:florentc/xob.git
-		```
-		and follow the instructions for installing.
 
 	* ### **Cava**
 		Needs manual compiling and installing.
