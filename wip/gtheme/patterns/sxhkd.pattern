@@ -158,10 +158,10 @@ alt + super + {Left,Down,Up,Right}
 #----------------------
 
 XF86Audio{Raise,Lower}Volume
-    ~/.config/sxhkd/scripts/manageVolume.sh {--increase,--decrease}
+    ~/.config/sxhkd/scripts/manageVolume.sh {+,-}
 
 XF86AudioMute
-	pamixer --toggle-mute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 XF86Audio{Play,Stop,Next,Prev} 
     playerctl {play-pause,stop,next,previous}

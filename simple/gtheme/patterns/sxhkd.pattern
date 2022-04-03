@@ -161,10 +161,13 @@ alt + super + {Left,Down,Up,Right}
 #----------------------
 
 XF86Audio{Raise,Lower}Volume
-    ~/.config/sxhkd/scripts/manageVolume.sh {--increase,--decrease}
+    ~/.config/sxhkd/scripts/manageVolume.sh {+,-}
 
 XF86AudioMute
-	pamixer --toggle-mute && if pamixer --get-mute; then dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume "Audio Muted"; else dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume "Audio Unmuted"; fi
+    ~/.config/sxhkd/scripts/manageVolume.sh toggleMute
+
+XF86AudioMute
+	pamixer --toggle-mute 
 
 XF86Audio{Play,Stop,Next,Prev} 
     playerctl {play-pause,stop,next,previous}
