@@ -37,20 +37,17 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
 	(You can use any other AUR helper)
-	
 	```console
 	yay -S xob picom-ibhagwan-git
 	```
-
 	```console
-	sudo pip3 install pulsectl
+	pip3 install pulsectl
 	```
 
 * ### **Optional** dependencies:
 	```console
 	sudo pacman -S alacritty firefox neofetch bottom kitty
 	```
-
 	```console
 	yay -S betterdiscord-installer spicetify-cli
 	```
@@ -60,78 +57,23 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 ## <br>Ubuntu</br>
 * ### **Mandatory** dependencies:
 	#### Paste friendly command to install most of the needed dependencies:
-	```
+	```console
 	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
 	```console
 	pip3 install pulsectl
 	```
-	* ### **Brightnessctl**
+	* **Brightnessctl**
+
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
 		To be able to tweak the brightness normally you need to execute the following command:
-		```
+		```console
 		sudo usermod -aG video ${USER}
 		```
 		and after rebooting you will be able to change your screen brightness.
 
+	* **Picom**
 
-	* ### **Pamixer**
-		Clone the pamixer repository:
-		```console
-		git clone https://github.com/cdemoulins/pamixer.git
-		```
-	
-		Then run:
-		```console
-		sudo apt install libpulse
-		```
-
-		**Note:** It's assumed you already have pulseaudio installed from the above sections.
-	
-		A simple installation guide can be found at the [repo main page](https://github.com/cdemoulins/pamixer#installation).
-		
-		<span style="font-size: 120%">**If you have issues building pamixer, read the following guide:**</span>
-		
-		
-		For the cxxopts dependency, you will need to clone [this repository](https://github.com/jarro2783/cxxopts):
-		```console
-		git clone git@github.com:jarro2783/cxxopts.git
-		```
-		Then execute:
-		```console
-		cd ./cxxopts
-		sudo cp include/cxxopts.hpp /usr/include
-		sudo cp include/cxxopts.hpp /usr/local/include
-		```
-
-		Even then, cxxopts may not be detected properly by meson. So we need to remove it as a dependency in the 
-		project settings.  
-		
-		Go back to the directory where pamixer was cloned and edit the ``meson.build`` file:
-		remove the following line:
-		```console
-		cxxopts = dependency('cxxopts')
-		```
-		And edit this line:
-		```console
-		dependencies : [pulse, cxxopts])
-		```
-		So it is now:
-		```console
-		dependencies : [pulse])
-		```
-
-		This allows us to continue with the build process without interruptions.
-
-		Finally, run:
-		```console
-		meson setup build
-		meson compile build
-		sudo meson install -C build
-		```
-
-
-	* ### **Picom**
 		Clone [this fork](https://github.com/ibhagwan/picom):
 		```console
 		git clone git@github.com:ibhagwan/picom.git
@@ -150,7 +92,8 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		``` 
 
 
-    * ### **XOB**
+    * **XOB**
+
 		The following dependencies are needed:
 		```console
 		sudo apt install libx11-dev libxrender-dev
