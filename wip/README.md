@@ -31,93 +31,98 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
-## Arch Linux
-* ### **Mandatory** dependencies:
-	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
-	```
-	(You can use any other AUR helper)
-	```console
-	yay -S xob picom-ibhagwan-git
-	```
-	```console
-	pip3 install pulsectl
-	```
 
-* ### **Optional** dependencies:
-	```console
-	sudo pacman -S alacritty firefox neofetch bottom kitty
-	```
-	```console
-	yay -S betterdiscord-installer spicetify-cli
-	```
+*	<details>
+	<summary><strong>&nbsp;Arch Linux</strong></summary>
 
-	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
-
-## <br>Ubuntu</br>
-* ### **Mandatory** dependencies:
-	#### Paste friendly command to install most of the needed dependencies:
-	```console
-	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
-	```
-	```console
-	pip3 install pulsectl
-	```
-	* **Brightnessctl**
-
-		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
-		To be able to tweak the brightness normally you need to execute the following command:
+	* ### **Mandatory** dependencies:
 		```console
-		sudo usermod -aG video ${USER}
+		sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 		```
-		and after rebooting you will be able to change your screen brightness.
-
-	* **Picom**
-
-		Clone [this fork](https://github.com/ibhagwan/picom):
+		(You can use any other AUR helper)
 		```console
-		git clone git@github.com:ibhagwan/picom.git
+		yay -S xob picom-ibhagwan-git
 		```
-		and refer to the [original picom repository](https://github.com/yshui/picom#dependencies) for a detailed installation guide and dependencies.
-
-		Briefly, install these dependencies:
 		```console
-		sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+		pip3 install pulsectl
 		```
 
-		Then cd into the picom directory and run:
+	* ### **Optional** dependencies:
 		```console
-		meson --buildtype=release . build
-		sudo ninja -C build install
-		``` 
-
-
-    * **XOB**
-
-		The following dependencies are needed:
-		```console
-		sudo apt install libx11-dev libxrender-dev
+		sudo pacman -S alacritty firefox neofetch bottom kitty
 		```
-		Clone [this repository](https://github.com/florentc/xob#installation):
 		```console
-		git clone git@github.com:florentc/xob.git
+		yay -S betterdiscord-installer spicetify-cli
 		```
-		and follow the instructions for installing.
+
+		**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
+</details>
+
+*	<details>
+	<summary><strong>&nbsp;Ubuntu</strong></summary>
+
+	* ### **Mandatory** dependencies:
+		```console
+		sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
+		```
+		```console
+		pip3 install pulsectl
+		```
+		* **Brightnessctl**
+
+			Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
+			To be able to tweak the brightness normally you need to execute the following command:
+			```console
+			sudo usermod -aG video ${USER}
+			```
+			and after rebooting you will be able to change your screen brightness.
+
+		* **Picom**
+
+			Clone [this fork](https://github.com/ibhagwan/picom):
+			```console
+			git clone git@github.com:ibhagwan/picom.git
+			```
+			and refer to the [original picom repository](https://github.com/yshui/picom#dependencies) for a detailed installation guide and dependencies.
+
+			Briefly, install these dependencies:
+			```console
+			sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+			```
+
+			Then cd into the picom directory and run:
+			```console
+			meson --buildtype=release . build
+			sudo ninja -C build install
+			``` 
+
+		* **XOB**
+
+			The following dependencies are needed:
+			```console
+			sudo apt install libx11-dev libxrender-dev
+			```
+			Clone [this repository](https://github.com/florentc/xob#installation):
+			```console
+			git clone git@github.com:florentc/xob.git
+			```
+			and follow the instructions for installing.
 
 
-* ### **Optional** dependencies:
-	#### Paste friendly command to install most of the dependencies:
-	```console
-	sudo apt-get install bottom alacritty neofetch
-	```
+	* ### **Optional** dependencies:
+		#### Paste friendly command to install most of the dependencies:
+		```console
+		sudo apt-get install bottom alacritty neofetch
+		```
 
-	* ### Better-discord
-		Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
-		Untested.
+		* ### Better-discord
+			Refer to [this repo](https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172#install-betterdiscordctl).  
+			Untested.
 
-	* ### Spicetify
-		Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
-		Untested.
+		* ### Spicetify
+			Refer to [this guide](https://spicetify.app/docs/getting-started/simple-installation).  
+			Untested.
+	</details>
 </details>
 
 #
