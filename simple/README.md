@@ -64,7 +64,7 @@ of free space** for applications.
 	```
 	* **Dunst**
 
-		In order to replace volume notifications dunstify is required. To install:
+		In order to replace volume notifications dunstify is required. To install it just run:
 		```console
 		git clone https://github.com/dunst-project/dunst.git dunst
 		cd dunst
