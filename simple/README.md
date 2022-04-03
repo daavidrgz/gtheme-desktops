@@ -218,7 +218,7 @@ of free space** for applications.
 
 
 * ### **Optional** dependencies:
-	### Paste friendly command to install most of the dependencies
+	#### Paste friendly command to install most of the dependencies
 	```console
 	sudo apt-get install bottom alacritty neofetch
 	```
