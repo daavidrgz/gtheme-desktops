@@ -156,7 +156,7 @@ of free space** for applications.
 		```console
 		sudo apt install libx11-dev libxrender-dev
 		```
-		Then clone [this repository](https://github.com/florentc/xob#installation):
+		Clone [this repository](https://github.com/florentc/xob#installation):
 		```console
 		git clone git@github.com:florentc/xob.git
 		```
@@ -206,7 +206,7 @@ of free space** for applications.
 		
 		After fixing the broken dependencies you **might want to re-run the first command** to ensure that all the dependencies were installed.
 
-		Then, just cd into the ``polybar`` directory, then run:
+		Then, just cd into the ``polybar`` directory and run:
 		```console
 		./build.sh
 		make -j$(nproc)
