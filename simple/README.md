@@ -67,7 +67,7 @@ of free space** for applications.
 	sudo apt install bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl tint2 flameshot
 	```
 	```console
-	sudo pip3 install pulsectl
+	pip3 install pulsectl
 	```
 	* ### **Brightnessctl**
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
