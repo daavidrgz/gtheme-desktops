@@ -33,7 +33,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl flameshot
 	```
 
 	(You can use any other AUR helper)

@@ -29,7 +29,7 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio pamixer feh brightnessctl playerctl mpd flameshot
+	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl mpd flameshot
 	```
 	(You can use any other AUR helper)
 	

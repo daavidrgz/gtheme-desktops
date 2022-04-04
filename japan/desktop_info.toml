@@ -9,7 +9,6 @@ dependencies = [
 	'polybar',
 	'dunst',
 	'pulseaudio',
-	'pamixer',
 	'feh',
 	'brightnessctl',
 	'playerctl',

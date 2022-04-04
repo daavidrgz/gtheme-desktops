@@ -120,7 +120,7 @@ label = "%output%"
 inherit = module/basemodule
 type = custom/script
 exec = ~/.config/polybar/scripts/checkupdates.sh
-interval = 120
+interval = 10
 format-prefix = "PKG"
 label = "%output%"
 
