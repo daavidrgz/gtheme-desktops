@@ -75,16 +75,19 @@ of free space** for applications.
 	* **Brightnessctl**
 
 		Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
-		To be able to tweak the brightness normally you need to execute the following command:
-		```
+		To be able to tweak the brightness normally you need to execute the following command and reboot your computer:
+		```console
 		sudo usermod -aG video ${USER}
 		```
-		and after rebooting you will be able to change your screen brightness.
 
 	* **Picom**
+
+		Dependencies:
 		```console
 		sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
 		```
+
+		Installation:
 		```console
 		git clone git@github.com:ibhagwan/picom.git picom
 		cd picom
@@ -95,6 +98,7 @@ of free space** for applications.
 		For more info see: https://github.com/yshui/picom
 
 	* **Cava**
+	
 		Needs manual compiling and installing.
 		You can check a detailed guide [here](https://github.com/karlstav/cava#from-source).
 
