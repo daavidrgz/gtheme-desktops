@@ -14,10 +14,6 @@ getDefaultSinkMute() {
 			/^\s+muted: / && indefault {print $2; exit}'
 }
 
-setDefaultSinkVol() {
-  pactl set-sink-volume $(getDefaultSinkName) $1
-}
-
 if [ "$1" == "--toggle"  ]; then
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 	if [ "$(getDefaultSinkMute)" == "yes" ]; then
@@ -39,7 +35,8 @@ fi
 
 PREV_VOL=$(getDefaultSinkVolume)
 if [[ "$1" == "--decrease" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
-	setDefaultSinkVol "$(($PREV_VOL + $VOLUME_STEP))%"
+  pactl set-sink-volume @DEFAULT_SINK@ "$(($PREV_VOL + $VOLUME_STEP))%"
+	setDefaultSinkVol 
 fi
 CURRENT_VOL=$(getDefaultSinkVolume)
 dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:$CURRENT_VOL "Volume: $CURRENT_VOL%"
