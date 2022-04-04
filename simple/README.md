@@ -214,7 +214,6 @@ of free space** for applications.
 * [rofi](https://github.com/davatorium/rofi)
 * [dunst](https://github.com/dunst-project/dunst)
 * [pulseaudio](https://wiki.archlinux.org/title/PulseAudio)
-* [pamixer](https://github.com/cdemoulins/pamixer)
 * [feh](https://github.com/derf/feh)
 * [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 * [playerctl](https://github.com/altdesktop/playerctl)
