@@ -75,9 +75,13 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 			and after rebooting you will be able to change your screen brightness.
 
 		* **Picom**
+
+			Dependencies:
 			```console
 			sudo apt install libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
 			```
+
+			Installation:
 			```console
 			git clone git@github.com:ibhagwan/picom.git picom
 			cd picom
@@ -89,16 +93,21 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 		* **XOB**
 
-			The following dependencies are needed:
+			Dependencies:
 			```console
 			sudo apt install libx11-dev libxrender-dev
 			```
-			Clone [this repository](https://github.com/florentc/xob#installation):
-			```console
-			git clone git@github.com:florentc/xob.git
-			```
-			and follow the instructions for installing.
 
+			Installation:
+			```console
+			git clone git@github.com:florentc/xob.git xob
+			cd xob
+			sed 's|?= /usr/local|?= /usr|' -i Makefile
+			sed 's|?= $(prefix)/etc|?= /etc|' -i Makefile
+			sudo make install
+			```
+
+			For more info see: https://github.com/florentc/xob
 
 	* **Optional** dependencies:
 		```console
