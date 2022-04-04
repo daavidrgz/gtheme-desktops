@@ -11,8 +11,7 @@ getDefaultSinkVolume() {
 getDefaultSinkMute() {
 	pacmd list-sinks |
 		awk '/^\s+name: /{indefault = $2 == "<'$(getDefaultSinkName)'>"}
-			/^\s+muted: / && indefault {print $2; exit}' |
-		awk -F "%" '{print $1}'
+			/^\s+muted: / && indefault {print $2; exit}'
 }
 
 setDefaultSinkVol() {
@@ -34,12 +33,12 @@ if getDefaultSinkName | grep -i "bluez_sink" &>/dev/null; then
 	VOLUME_STEP=1
 fi
 
-if [[ "$1" == "--decrease" ]]; then
+if [ "$1" == "--decrease" ]; then
 	VOLUME_STEP=-$VOLUME_STEP
 fi
 
 PREV_VOL=$(getDefaultSinkVolume)
-if [[ "$1" == "-" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
+if [[ "$1" == "--decrease" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
 	setDefaultSinkVol "$(($PREV_VOL+$VOLUME_STEP))%"
 fi
 CURRENT_VOL=$(getDefaultSinkVolume)
