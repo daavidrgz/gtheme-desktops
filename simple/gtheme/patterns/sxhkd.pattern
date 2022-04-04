@@ -164,7 +164,7 @@ XF86Audio{Raise,Lower}Volume
     ~/.config/sxhkd/scripts/manageVolume.sh {--increase,--decrease}
 
 XF86AudioMute
-    ~/.config/sxhkd/scripts/manageVolume.sh toggleMute
+    ~/.config/sxhkd/scripts/manageVolume.sh --toggle
 
 XF86AudioMute
 	pamixer --toggle-mute 

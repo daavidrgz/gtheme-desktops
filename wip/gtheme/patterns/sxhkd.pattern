@@ -158,7 +158,7 @@ alt + super + {Left,Down,Up,Right}
 #----------------------
 
 XF86Audio{Raise,Lower}Volume
-    ~/.config/sxhkd/scripts/manageVolume.sh {+,-}
+    ~/.config/sxhkd/scripts/manageVolume.sh {--increase,--decrease}
 
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
