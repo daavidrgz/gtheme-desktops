@@ -9,9 +9,7 @@ getDefaultSinkVolume() {
 }
 
 getDefaultSinkMute() {
-	pacmd list-sinks |
-		awk '/^\s+name: /{indefault = $2 == "<'$(getDefaultSinkName)'>"}
-			/^\s+muted: / && indefault {print $2; exit}'
+	pacmd list-sinks | tr -d '\n' | grep -Pozi "$(getDefaultSinkName).*(muted:[ ]*(yes|no))" | grep -Pozi "(?<=muted:)(?:.*)(yes|no)" | tr -d '\0 '
 }
 
 if [ "$1" == "--toggle"  ]; then
@@ -36,7 +34,6 @@ fi
 PREV_VOL=$(getDefaultSinkVolume)
 if [[ "$1" == "--decrease" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
   pactl set-sink-volume @DEFAULT_SINK@ "$(($PREV_VOL + $VOLUME_STEP))%"
-	setDefaultSinkVol 
 fi
 CURRENT_VOL=$(getDefaultSinkVolume)
 dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:$CURRENT_VOL "Volume: $CURRENT_VOL%"
