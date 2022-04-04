@@ -98,58 +98,72 @@ of free space** for applications.
 		For more info see: https://github.com/yshui/picom
 
 	* **Cava**
+		* **Ubuntu 20.10 or newer**: 
+		
+			Cava is available in official repositories. To install it just run:
+			```console
+			sudo apt install cava
+			```
 
-		Needs manual compiling and installing.
-		You can check a detailed guide [here](https://github.com/karlstav/cava#from-source).
+		* **Ubuntu 20.04 or older**:
 
-		Briefly, you need to clone the repository:
-		```console
-		git clone git@github.com:karlstav/cava.git
-		```
-		Install the following dependencies:
-		```console
-		apt install libiniparser-dev libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake libiniparser-dev libsdl2-2.0-0 libsdl2-dev
-		```
-		cd into ``cava`` directory and run:
-		```console
-		./autogen.sh
-		./configure
-		make
-		sudo make install
-		```
+			Dependencies:
+			```console
+			sudo apt install libiniparser-dev libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake libiniparser-dev libsdl2-2.0-0 libsdl2-dev
+			```
+
+			Installation:
+			```console
+			git clone git@github.com:karlstav/cava.git cava
+			cd cava
+			./autogen.sh
+			./configure --prefix=/usr
+			sudo make install
+			```
+
+			For more info see: https://github.com/karlstav/cava#from-source
 
 	* **Polybar**
-		Clone the latest tagged release from [this repository](https://github.com/polybar/polybar).  
+		* **Ubuntu 20.10 or newer**:
+
+			Polybar is available in official repositories. To install it just run:
+			```console
+			sudo apt install polybar
+			```
+
+		* **Ubuntu 20.04 or older**:
 		
-		Then, install the following packages:
-		```console
-		sudo apt install -s python3-packaging libuv1-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-ewmh-dev libxcb-image0-dev libxcb-icccm4-dev libuv1-dev libcairo2-dev python3-sphinx libfontconfig1-dev libfreetype6-dev libnl-genl wireless-tools libnl-genl-3-dev libiw-dev curl libcurl libcurl4-openssl-dev libmpdclient-dev
-		```
+			Clone the latest tagged release from [this repository](https://github.com/polybar/polybar).  
+			
+			Then, install the following packages:
+			```console
+			sudo apt install -s python3-packaging libuv1-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-ewmh-dev libxcb-image0-dev libxcb-icccm4-dev libuv1-dev libcairo2-dev python3-sphinx libfontconfig1-dev libfreetype6-dev libnl-genl wireless-tools libnl-genl-3-dev libiw-dev curl libcurl libcurl4-openssl-dev libmpdclient-dev
+			```
 
-		<span style="color:red">**Please note**</span> that the command above may fail to install some dependencies.  
-		That is because some libraries, like ``libfreetype6-dev``, depend on specific versions of other libraries.  
-		For instance, you may need to downgrade these packages to a different version (whichever version is listed when it fails) with the following command:
-		```console
-		sudo apt install libfreetype6=2.10.1-2 
-		sudo apt install libcurl4=7.68.0-1ubuntu2
-		```
-		Before installing these
-		```console
-		sudo apt install libfreetype6-dev libcairo2-dev libcurl4-openssl-dev
-		```
-		**Note:** *The versions listed in the commands are the ones that worked at the time of writing this, they may vary over time.*
-		
-		After fixing the broken dependencies you **might want to re-run the first command** to ensure that all the dependencies were installed.
+			<span style="color:red">**Please note**</span> that the command above may fail to install some dependencies.  
+			That is because some libraries, like ``libfreetype6-dev``, depend on specific versions of other libraries.  
+			For instance, you may need to downgrade these packages to a different version (whichever version is listed when it fails) with the following command:
+			```console
+			sudo apt install libfreetype6=2.10.1-2 
+			sudo apt install libcurl4=7.68.0-1ubuntu2
+			```
+			Before installing these
+			```console
+			sudo apt install libfreetype6-dev libcairo2-dev libcurl4-openssl-dev
+			```
+			**Note:** *The versions listed in the commands are the ones that worked at the time of writing this, they may vary over time.*
+			
+			After fixing the broken dependencies you **might want to re-run the first command** to ensure that all the dependencies were installed.
 
-		Then, just cd into the ``polybar`` directory and run:
-		```console
-		./build.sh
-		make -j$(nproc)
-		cd build
-		sudo make install
-		```
+			Then, just cd into the ``polybar`` directory and run:
+			```console
+			./build.sh
+			make -j$(nproc)
+			cd build
+			sudo make install
+			```
 
-		Refer to the [**Polybar wiki, compiling section**](https://github.com/polybar/polybar/wiki/Compiling) for a detailed dependencies and installation guide.
+			Refer to the [**Polybar wiki, compiling section**](https://github.com/polybar/polybar/wiki/Compiling) for a detailed dependencies and installation guide.
 
 
 * **Optional** dependencies:

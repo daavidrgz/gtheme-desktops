@@ -90,7 +90,7 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 
 			For more info see: https://github.com/yshui/picom
 
-		* **XOB**
+		* **Xob**
 
 			Dependencies:
 			```console
