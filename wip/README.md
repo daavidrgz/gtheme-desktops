@@ -68,11 +68,10 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 		* **Brightnessctl**
 
 			Even though this dependency can be installed normally with apt, the brightness can't be changed without root privileges.  
-			To be able to tweak the brightness normally you need to execute the following command:
+			To be able to tweak the brightness normally you need to execute the following command and reboot your computer:
 			```console
 			sudo usermod -aG video ${USER}
 			```
-			and after rebooting you will be able to change your screen brightness.
 
 		* **Picom**
 
