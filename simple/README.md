@@ -37,12 +37,12 @@ of free space** for applications.
 ### Arch Linux
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi dunst pulseaudio feh brightnessctl playerctl flameshot
+	sudo pacman -S bspwm sxhkd rofi polybar dunst pulseaudio feh brightnessctl playerctl flameshot
 	```
 	(You can use any other AUR helper)
 	
 	```console
-	yay -S picom-ibhagwan-git
+	yay -S cava picom-ibhagwan-git
 	```
 
 * **Optional** dependencies:
@@ -98,7 +98,7 @@ of free space** for applications.
 		For more info see: https://github.com/yshui/picom
 
 	* **Cava**
-	
+
 		Needs manual compiling and installing.
 		You can check a detailed guide [here](https://github.com/karlstav/cava#from-source).
 
