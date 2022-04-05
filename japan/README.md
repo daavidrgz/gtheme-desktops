@@ -39,11 +39,11 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 
 * **Optional** dependencies:
 	```console
-	sudo pacman -S alacritty firefox neofetch kitty newsboat zathura
+	sudo pacman -S alacritty firefox neofetch kitty newsboat zathura discord
 	```
 
 	```console
-	yay -S betterdiscord-installer spicetify-cli mpd-notification
+	yay -S betterdiscord-installer spicetify-cli mpd-notification spotify
 	```
 
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.

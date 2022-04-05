@@ -33,11 +33,11 @@ a **beautifully customized awesome desktop** that catches your eyes.
 
 * **Optional** dependencies:
 	```console
-	sudo pacman -S alacritty firefox bottom kitty
+	sudo pacman -S alacritty firefox bottom kitty discord
 	```
 
 	```console
-	yay -S betterdiscord-installer spicetify-cli
+	yay -S betterdiscord-installer spicetify-cli spotify
 	```
 
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.

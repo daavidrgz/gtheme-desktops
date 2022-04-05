@@ -39,7 +39,7 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 	(You can use any other AUR helper)
 	
 	```console
-	yay -S polybar
+	yay -S polybar picom-ibhagwan-git
 	```
 	(Tool to have double borders in bspwm)
 
@@ -51,11 +51,11 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 
 * **Optional** dependencies:
 	```console
-	sudo pacman -S alacritty firefox kitty
+	sudo pacman -S alacritty firefox kitty discord
 	```
 
 	```console
-	yay -S betterdiscord-installer spicetify-cli
+	yay -S betterdiscord-installer spicetify-cli spotify
 	```
 
 	**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
