@@ -27,6 +27,3 @@ bspc config presel_feedback_color '#<[yellow]>'
 # •• Compositor
 # Disable compositor in order to make paperview to work
 # picom --experimental-backends &
-
-# •• Key press rate
-xset r rate 200 40

@@ -16,8 +16,6 @@ bspc config normal_border_color  "#<[background]>"
 bspc config active_border_color  "#<[background]>"
 bspc config focused_border_color "#<[background]>"
 
-xset r rate 200 40
-
 # autostart
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh

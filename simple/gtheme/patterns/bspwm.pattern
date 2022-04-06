@@ -30,6 +30,3 @@ bspc rule -a Zathura state=tiled
 
 # •• Compositor
 picom --experimental-backends &
-
-# •• Key press rate
-xset r rate 200 40
