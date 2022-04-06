@@ -159,6 +159,9 @@ XF86Audio{Play,Stop,Next,Prev}
 XF86MonBrightness{Up,Down}
 	brightnessctl set {+5%,5%-}
 
+XF86TouchpadToggle
+        ~/.config/sxhkd/scripts/toggleTouchpad.sh
+
 Print
     flameshot full -c -p ~/pictures/screenshots
 

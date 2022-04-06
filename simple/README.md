@@ -37,7 +37,7 @@ of free space** for applications.
 ### Arch Linux
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S bspwm sxhkd rofi polybar dunst pulseaudio feh brightnessctl playerctl flameshot
+	sudo pacman -S bspwm sxhkd rofi polybar dunst pulseaudio feh brightnessctl playerctl flameshot bc bluez bluez-utils
 	```
 	(You can use any other AUR helper)
 	
