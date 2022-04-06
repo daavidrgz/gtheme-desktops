@@ -231,7 +231,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
         type = "dock",
         position = "left",
         screen = s,
-        height = awful.screen.focused().geometry.height - dpi(50),
+        height = awful.screen.focused().geometry.height - dpi(32),
         width = dpi(45),
         shape = helpers.rrect(beautiful.border_radius),
         bg = beautiful.transparent,
@@ -306,5 +306,5 @@ screen.connect_signal("request::desktop_decoration", function(s)
     }
 
     -- wibar position
-    s.mywibar.x = dpi(25)
+    s.mywibar.x = dpi(19)
 end)
