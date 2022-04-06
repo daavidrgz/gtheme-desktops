@@ -3,9 +3,6 @@
 # Wallpaper
 ~/.fehbg
 
-# Resolution
-setxkbmap -layout us -variant altgr-intl
-
 # Compositor
 picom &
 

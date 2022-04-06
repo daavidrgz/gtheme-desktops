@@ -3,9 +3,6 @@
 # •• Wallpaper
 ~/.fehbg
 
-# •• Keymap
-setxkbmap -layout us -variant altgr-intl 
-
 # •• Polybar
 ~/.config/polybar/launch.sh
 
