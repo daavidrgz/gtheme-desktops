@@ -52,30 +52,10 @@ end)
 -- Screen Padding and Tags
 screen.connect_signal("request::desktop_decoration", function(s)
     -- Screen padding
-    screen[s].padding = {left = dpi(40), right = dpi(15), top = dpi(15), bottom = dpi(15)}
+    screen[s].padding = {left = dpi(30), right = dpi(10), top = dpi(10), bottom = dpi(10)}
     -- Each screen has its own tag table.
     awful.tag({"1", "2", "3", "4", "5"}, s, awful.layout.layouts[1])
 end)
-
--- Wallpapers
--- set wallpapers
-awful.screen.connect_for_each_screen(function(s)
-    -- gears.wallpaper.maximized(beautiful.wallpaper, s, false, nil)
-    gears.wallpaper.set(beautiful.xcolor8)
-end)
-
--- Set Tile Wallpaper
--- bling.module.tiled_wallpaper("", s, {
---     fg = beautiful.lighter_bg,
---     bg = beautiful.xbackground,
---     offset_y = 6,
---     offset_x = 18,
---     font = "Iosevka",
---     font_size = 17,
---     padding = 70,
---     zickzack = true
--- })
-
 
 -- Stuff
 -----------

@@ -99,7 +99,7 @@ end)
 ----------
 
 local hour = wibox.widget{
-    font = beautiful.font_name .. "bold 14",
+    font = beautiful.font_name .. "bold 11",
     format = "%H",
     align = "center",
     valign = "center",
@@ -107,7 +107,7 @@ local hour = wibox.widget{
 }
 
 local min = wibox.widget{
-    font = beautiful.font_name .. "bold 14",
+    font = beautiful.font_name .. "bold 11",
     format = "%M",
     align = "center",
     valign = "center",
@@ -163,14 +163,14 @@ end)
 
 local notifs = wibox.widget{
     markup = helpers.colorize_text("", beautiful.xcolor3),
-    font = beautiful.font_name .. "18",
+    font = beautiful.font_name .. "14",
     align = "center",
     valign = "center",
     widget = wibox.widget.textbox
 }
 
 notifs:connect_signal("mouse::enter", function()
-    notifs.markup = helpers.colorize_text(notifs.text, beautiful.xcolor3 .. 55)
+    notifs.markup = helpers.colorize_text(notifs.text, beautiful.xcolor3 .. 99)
 end)
 
 notifs:connect_signal("mouse::leave", function()
@@ -219,7 +219,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
     local layoutbox = wibox.widget{
         s.mylayoutbox,
-        margins = {bottom = dpi(7), left = dpi(8), right = dpi(8)},
+        margins = {bottom = dpi(4), left = dpi(8), right = dpi(8)},
         widget = wibox.container.margin
     }
 
@@ -231,7 +231,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
         type = "dock",
         position = "left",
         screen = s,
-        height = awful.screen.focused().geometry.height - dpi(32),
+        height = awful.screen.focused().geometry.height - dpi(36),
         width = dpi(45),
         shape = helpers.rrect(beautiful.border_radius),
         bg = beautiful.transparent,

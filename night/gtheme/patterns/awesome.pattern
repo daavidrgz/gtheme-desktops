@@ -196,7 +196,7 @@ theme.layoutlist_bg_selected = theme.lighter_bg
 theme = theme_assets.recolor_layout(theme, theme.xforeground)
 
 -- Gaps
-theme.useless_gap = dpi(0)
+theme.useless_gap = dpi(4)
 
 -- Wibar
 theme.wibar_width = dpi(45)
