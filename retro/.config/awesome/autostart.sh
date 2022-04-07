@@ -4,4 +4,4 @@
 ~/.fehbg
 
 # Compositor
-picom &
+picom --config ~/.config/picom/picom.conf &
