@@ -106,8 +106,8 @@
      | B | U | T | T | O | N | S |
      +---+---+---+---+---+---+---*/
 
-     #back-button,
-     #forward-button { display: none !important; }
+     /* #back-button,
+     #forward-button { display: none !important; } */
 
      /* bookmark icon */
      #star-button{ display: none !important; }
