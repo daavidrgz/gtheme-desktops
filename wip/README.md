@@ -31,6 +31,11 @@ enjoy a beautiful experience while being productive at your work (or whatever yo
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 
+**Note**: To fix that some java applications aren't workng well under bspwm,
+add to your shell config file (`.bashrc`, `.zshrc`, ...)
+```console
+export _JAVA_AWT_WM_NONREPARENTING=1
+``` 
 
 *	### Arch Linux
 
