@@ -22,8 +22,13 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+<br>
 
-#
+**Note**: To ensure that all java applications are working well under bspwm,
+add to your shell config file (`.bashrc`, `.zshrc`, ...)
+```console
+export _JAVA_AWT_WM_NONREPARENTING=1
+```
 
 ### Arch Linux
 

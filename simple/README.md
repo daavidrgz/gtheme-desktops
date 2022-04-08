@@ -33,6 +33,13 @@ of free space** for applications.
 
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
+<br>
+
+**Note**: To ensure that all java applications are working well under bspwm,
+add to your shell config file (`.bashrc`, `.zshrc`, ...)
+```console
+export _JAVA_AWT_WM_NONREPARENTING=1
+``` 
 
 ### Arch Linux
 * **Mandatory** dependencies:
