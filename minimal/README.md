@@ -24,6 +24,8 @@ A minimal dependency desktop using bspwm and polybar. It has square corners and 
 	![Catppuccin](screenshots/catppuccin.png)
 </details>
 
+#
+
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 <br>

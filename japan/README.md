@@ -20,6 +20,8 @@ An oriental desktop that makes you feel **comfortable** with its **soft color sc
 	![Japan-Dark](screenshots/japan-dark.png)
 </details>
 
+#
+
 <details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;🛠</strong></summary>
 <br>
