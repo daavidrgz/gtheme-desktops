@@ -10,6 +10,10 @@ much more.
 
 ![Desktops](desktops.gif)
 
+<br>
+
+To see more information about each desktop and detailed installation instructions, go inside each folder.
+
 </details>
 
 #
