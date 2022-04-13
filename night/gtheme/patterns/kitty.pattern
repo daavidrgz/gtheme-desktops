@@ -20,6 +20,7 @@ font_size         <[default-font-size|12]>
 enable_audio_bell no
 cursor_shape beam
 window_padding_width 20.0
+background_opacity 0.95
 
 # •• Performance
 repaint_delay 7

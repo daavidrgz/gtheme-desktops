@@ -84,6 +84,7 @@ A **full animated** desktop in awesomeWM, paired with pretty designed widgets.
 * [alacritty (Optional)](https://github.com/alacritty/alacritty)
 * [better-discord (Optional)](https://betterdiscord.app/)
 * [spicetify (Optional)](https://spicetify.app/)
+
 </details>
 
 #

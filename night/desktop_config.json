@@ -1,26 +1,26 @@
 {
   "default_theme": "Night",
   "actived": {
+    "discord": true,
     "alacritty": true,
-    "wallpaper": true,
+    "rofi": true,
+    "firefox": true,
     "awesome": true,
+    "firefox-homepage": true,
     "kitty": true,
     "vscode": true,
     "intellij-idea": true,
-    "firefox-homepage": true,
-    "rofi": true,
-    "spotify": true,
-    "discord": true,
-    "firefox": true
+    "wallpaper": true,
+    "spotify": true
   },
   "inverted": {
-    "alacritty": false,
-    "kitty": false,
-    "firefox": false,
-    "firefox-homepage": false,
-    "discord": false,
     "rofi": false,
     "spotify": false,
+    "firefox": false,
+    "alacritty": false,
+    "firefox-homepage": false,
+    "discord": false,
+    "kitty": false,
     "awesome": false
   }
 }

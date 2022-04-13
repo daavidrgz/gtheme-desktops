@@ -2,6 +2,7 @@
 # <[theme-name]>
 
 window:
+  opacity: 0.95
   padding:
     x: 28
     y: 28

@@ -22,7 +22,7 @@ dpi = beautiful.xresources.apply_dpi
 beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 
 -- Default Applications
-terminal = "<[terminal|alacritty]>"
+terminal = "<[terminal|kitty]>"
 editor = "nano"
 vscode = "code"
 browser = "<[browser|firefox]>"
