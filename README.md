@@ -12,7 +12,7 @@ much more.
 
 <br>
 
-To see more information about each desktop and detailed installation instructions, go inside each folder.
+To **see more information** about each desktop and **detailed installation instructions**, go inside each folder.
 
 </details>
 
