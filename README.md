@@ -3,8 +3,8 @@
 <details open>
 <summary><strong>&nbsp;O V E R V I E W &nbsp;👁️‍🗨️</strong></summary>
 
-An **extensive** collection of desktops featuring different window managers, bars, programs, styles, animations... and
-much more.
+An **extensive** collection of desktops for [Gtheme](https://github.com/daavidrgz/gtheme), featuring different window managers, 
+bars, programs, styles, animations... and much more.
 
 <br>
 
