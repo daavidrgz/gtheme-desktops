@@ -89,11 +89,11 @@ format-full-background = ${color.background}
 format-full-padding = 1
 
 label-charging = " %percentage%% "
-label-discharging = " %percentage%% (%consumption%W) "
+label-discharging = " %percentage%%%{F-} (%consumption%W) "
 label-full = " Full "
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
+ramp-capacity-0 = %{F#FF0000}
+ramp-capacity-1 = %{F#FA5B3D}
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
