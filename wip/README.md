@@ -59,6 +59,13 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 		```console
 		yay -S betterdiscord-installer spicetify-cli spotify
 		```
+ 
+		* For spicetify run after installation:
+			```console
+			sudo chmod a+wr /opt/spotify
+			sudo chmod a+wr -R /opt/spotify/Apps
+			spicetify backup apply
+			```
 
 		**Note:** Some of these optional programs may need some configuration in order to work properly with provided patterns.
 
