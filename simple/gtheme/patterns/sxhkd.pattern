@@ -107,7 +107,7 @@ super + alt + bracket{left,right}
 
 # move windows betweeen monitors
 super + alt + shift + bracket{left,right}
-    bspc node -m {prev,next} -
+    bspc node -m {prev,next} -f
 
 # focus the last node/desktop
 super + {grave,Tab}
