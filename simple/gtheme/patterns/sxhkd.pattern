@@ -182,5 +182,5 @@ Print
     flameshot full -c -p ~/pictures/screenshots
 
 super + Print
-    flameshot gui -p ~/pictures/screenshots
+    flameshot gui -c -p ~/pictures/screenshots
     
