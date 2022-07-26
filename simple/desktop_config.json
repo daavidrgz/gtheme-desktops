@@ -14,7 +14,7 @@
     "spotify": true,
     "sxhkd": true,
     "vscode": true,
-    "wallpaper": true
+    "wallpaper": false
   },
   "inverted": {
     "alacritty": false,
