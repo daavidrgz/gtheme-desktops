@@ -258,7 +258,7 @@ bottom = false
 fixed-center = true
 
 width = 100%
-height = 40
+height = 32
 
 offset-x = 0%
 offset-y = 0%
@@ -282,7 +282,7 @@ module-margin-right = 0
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-font-0 = "<[default-font|FiraCode Nerd Font]>:style=Medium:pixelsize=<[default-font-size|10]>;3"
+font-0 = "<[default-font|FiraCode Nerd Font]>:style=Medium:pixelsize=11;3"
 
 modules-left = launcher network system-cpu system-bluetooth
 modules-center = workspaces
@@ -307,9 +307,6 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 enable-ipc = true
-
-dpi-x = 96
-dpi-y = 96
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 

@@ -30,7 +30,7 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Rofi state=floating
 
 # •• Apps
-picom --config ~/.config/picom/picom.conf --experimental-backends &
+picom --config ~/.config/picom/picom.conf &
 
 $HOME/.config/xob/xob-start &
 $HOME/.config/tint2/tint2-start &

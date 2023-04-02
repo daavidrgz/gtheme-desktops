@@ -1,9 +1,8 @@
 {
-  "default_theme": "Mountain",
+  "default_theme": "Snazzy",
   "actived": {
     "alacritty": true,
     "bspwm": true,
-    "dborder": true,
     "discord": true,
     "dunst": true,
     "firefox": true,
@@ -15,22 +14,19 @@
     "spotify": true,
     "sxhkd": true,
     "vscode": true,
-    "wallpaper": true,
-    "wallpaper-theme": true
+    "wallpaper": true
   },
   "inverted": {
     "alacritty": false,
     "bspwm": false,
-    "dborder": false,
     "discord": false,
     "dunst": false,
     "firefox": false,
     "firefox-homepage": false,
     "kitty": false,
-    "polybar": false,
+    "polybar": true,
     "rofi": false,
     "spotify": false,
-    "sxhkd": false,
-    "wallpaper-theme": false
+    "sxhkd": false
   }
 }

@@ -29,4 +29,4 @@ bspc config gapless_monocle      true
 bspc rule -a Zathura state=tiled
 
 # •• Compositor
-picom --config ~/.config/picom/picom.conf --experimental-backends &
+picom --config ~/.config/picom/picom.conf &

@@ -1,0 +1,15 @@
+[colors]
+table_header_color="Cyan"
+widget_title_color="Cyan"
+avg_cpu_color="Blue"
+cpu_core_colors=["Reset", "Reset", "Reset", "Reset", "Reset", "Reset", "Reset", "Reset", "Reset", "Reset"]
+ram_color="Yellow"
+rx_color="LightGreen"
+tx_color="LightBlue"
+border_color="Blue"
+text_color="Reset"
+selected_text_color="White"
+selected_bg_color="Blue"
+graph_color="Reset"
+high_battery_color="Green"
+low_battery_color="Red"

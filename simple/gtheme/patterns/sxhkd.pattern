@@ -179,7 +179,7 @@ XF86TouchpadToggle
         ~/.config/sxhkd/scripts/toggleTouchpad.sh
 
 Print
-    flameshot full -c -p ~/pictures/screenshots
+    flameshot screen -c -p ~/pictures/screenshots
 
 super + Print
     flameshot gui -c -p ~/pictures/screenshots

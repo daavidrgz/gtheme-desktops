@@ -35,7 +35,7 @@ setxkbmap -layout us -variant altgr-intl
 xset r rate 200 40
 
 # •• Apps
-picom --experimental-backends &
+picom &
 
 $HOME/.config/xob/xob-start &
 $HOME/.config/tint2/tint2-start &

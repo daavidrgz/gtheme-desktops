@@ -1,0 +1,24 @@
+author = 'David Rodríguez (@daavidrgz)'
+description = 'desktop'
+credits = 'http://github.com:daavidrgz'
+dependencies = [
+	'bspwm',
+	'sxhkd',
+	'picom (ibhagwan fork)',
+	'rofi',
+	'polybar',
+	'dunst',
+	'pulseaudio',
+	'feh',
+	'brightnessctl',
+	'playerctl',
+	'cava',
+	'flameshot (Optional)',
+	'alacritty (Optional)',
+	'kitty (Optional)',
+	'firefox (Optional)',
+	'better-discord (Optional)',
+	'spicetify (Optional)',
+	'bottom (Optional)',
+	'neofetch (Optional)',
+]

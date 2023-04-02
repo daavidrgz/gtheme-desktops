@@ -1,4 +1,4 @@
-<[output-file]>=~/.mozilla/firefox/16zmwpil.default-release/chrome/userChrome.css
+<[output-file]>=~/.mozilla/firefox/l6lop2co.default-release/chrome/userChrome.css
 /* <[theme-name]> */
 
 :root {
@@ -30,27 +30,27 @@
   > #tabbrowser-arrowscrollbox
   > .tabbrowser-tab
   > .tab-stack
-  > .tab-background[multiselected="true"],
+  > .tab-background[multiselected='true'],
 #tabbrowser-tabs:not([movingtab])
   > #tabbrowser-arrowscrollbox
   > .tabbrowser-tab
   > .tab-stack
-  > .tab-background[selected="true"] {
+  > .tab-background[selected='true'] {
   background-image: none !important;
   background-color: var(--toolbar-bgcolor) !important;
 }
 
 .tabbrowser-tab {
-  color: #<[foreground]> !important;
   font-weight: 600 !important;
 }
-.tabbrowser-tab[selected="true"] {
-  color: #<[background]> !important;
-}
+/*.tabbrowser-tab[selected='true'] {
+  color: var(--sfwindow) !important;
+}*/
 
+/* Inactive tabs color */
 #navigator-toolbox {
   font-weight: 500 !important;
-  color: #<[background]> !important;
+  color: #<[foreground]> !important;
   background-color: var(--sfwindow) !important;
 }
 
@@ -65,7 +65,6 @@
 /* Sidebar color  */
 #sidebar-box,
 .sidebar-placesTree {
-  color: #<[foreground]> !important;
   background-color: var(--sfwindow) !important;
 }
 
@@ -87,7 +86,7 @@
   display: none !important;
 }
 
-#nav-bar:not([tabs-hidden="true"]) {
+#nav-bar:not([tabs-hidden='true']) {
   box-shadow: none;
 }
 
@@ -109,13 +108,21 @@
   margin-left: -4px !important;
 }
 
-.tabbrowser-tab:is([visuallyselected="true"], [multiselected])
+.tabbrowser-tabs .tab-text {
+  color: #<[foreground]> !important;
+}
+
+.tabbrowser-tabs .tab-text2 {
+  color: #<[foreground]> !important;
+}
+
+.tabbrowser-tab:is([visuallyselected='true'], [multiselected])
   > .tab-stack
   > .tab-background {
   box-shadow: none !important;
 }
 
-.tabbrowser-tab[last-visible-tab="true"] {
+.tabbrowser-tab[last-visible-tab='true'] {
   padding-inline-end: 0 !important;
 }
 
@@ -125,7 +132,6 @@
 
 /* Url Bar  */
 #urlbar-input-container {
-  color: #<[background]> !important;
   background-color: var(--sfsecondary) !important;
   border: 0 solid rgba(0, 0, 0, 0) !important;
 }
@@ -134,7 +140,7 @@
   margin-left: 0 !important;
 }
 
-#urlbar[focused="true"] > #urlbar-background {
+#urlbar[focused='true'] > #urlbar-background {
   box-shadow: none !important;
 }
 
