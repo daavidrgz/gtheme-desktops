@@ -1,7 +1,7 @@
 <[output-file]>=~/.config/alacritty/alacritty.toml
 # <[theme-name]> 
 
-[colors.normal]
+[colors.bright]
 black = "0x<[black-hg]>"
 blue = "0x<[blue-hg]>"
 cyan = "0x<[cyan-hg]>"
