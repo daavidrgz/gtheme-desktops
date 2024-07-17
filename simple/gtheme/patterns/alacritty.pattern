@@ -1,54 +1,53 @@
-<[output-file]>=~/.config/alacritty/alacritty.yml
+<[output-file]>=~/.config/alacritty/alacritty.toml
 # <[theme-name]> 
 
-window:
-  padding:
-    x: 28
-    y: 28
-  dyanmic_padding: true
+[colors.normal]
+black = "0x<[black-hg]>"
+blue = "0x<[blue-hg]>"
+cyan = "0x<[cyan-hg]>"
+green = "0x<[green-hg]>"
+magenta = "0x<[magenta-hg]>"
+red = "0x<[red-hg]>"
+white = "0x<[white-hg]>"
+yellow = "0x<[yellow-hg]>"
 
-font:
-  normal:
-    family: <[default-font|DejaVuSansMono Nerd Font]>
-  bold:
-    family: <[default-font|DejaVuSansMono Nerd Font]>
-  italic:
-    family: <[default-font|DejaVuSansMono Nerd Font]>
-  size: <[default-font-size|12]>
-  offset:
-    x: 0
-    y: 1
-  draw_bold_text_with_bright_colors: true
+[colors.cursor]
+cursor = "0x<[cursor]>"
+text = "0x<[foreground]>"
 
-cursor:
-  style:
-    shape: Beam
+[colors.normal]
+black = "0x<[black]>"
+blue = "0x<[blue]>"
+cyan = "0x<[cyan]>"
+green = "0x<[green]>"
+magenta = "0x<[magenta]>"
+red = "0x<[red]>"
+white = "0x<[white]>"
+yellow = "0x<[yellow]>"
 
-colors:
-  cursor:
-    text: '0x<[foreground]>'
-    cursor: '0x<[cursor]>'
-  #selection:
-  #  text: '0x<[selection-foreground]>'
-  #  background: '0x<[selection-background]>'
-  primary:
-    background: '0x<[background]>'
-    foreground: '0x<[foreground]>'
-  normal:
-    black: '0x<[black]>'
-    red: '0x<[red]>'
-    green: '0x<[green]>'
-    yellow: '0x<[yellow]>'
-    blue: '0x<[blue]>'
-    magenta: '0x<[magenta]>'
-    cyan: '0x<[cyan]>'
-    white: '0x<[white]>'
-  bright:
-    black: '0x<[black-hg]>'
-    red: '0x<[red-hg]>'
-    green: '0x<[green-hg]>'
-    yellow: '0x<[yellow-hg]>'
-    blue: '0x<[blue-hg]>'
-    magenta: '0x<[magenta-hg]>'
-    cyan: '0x<[cyan-hg]>'
-    white: '0x<[white-hg]>'
+[colors.primary]
+background = "0x<[background]>"
+foreground = "0x<[foreground]>"
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+size = <[default-font-size|12]>
+
+[font.bold]
+family = "<[default-font|DejaVuSansMono Nerd Font]>"
+
+[font.italic]
+family = "<[default-font|DejaVuSansMono Nerd Font]>"
+
+[font.normal]
+family = "<[default-font|DejaVuSansMono Nerd Font]>"
+
+[font.offset]
+x = 0
+y = 1
+
+[window.padding]
+x = 28
+y = 28
