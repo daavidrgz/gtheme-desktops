@@ -166,9 +166,6 @@ XF86Audio{Raise,Lower}Volume
 XF86AudioMute
     ~/.config/sxhkd/scripts/manageVolume.sh --toggle
 
-XF86AudioMute
-	pamixer --toggle-mute 
-
 XF86Audio{Play,Stop,Next,Prev} 
     playerctl {play-pause,stop,next,previous}
 

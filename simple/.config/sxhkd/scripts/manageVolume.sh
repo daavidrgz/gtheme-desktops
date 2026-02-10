@@ -1,39 +1,43 @@
 #!/bin/bash
 
-getDefaultSinkName() {
-  pacmd stat | awk -F": " '/^Default sink name: /{print $2}'
-}
+# Compatible with both PipeWire and PulseAudio (uses pactl only)
 
 getDefaultSinkVolume() {
-	pacmd list-sinks | tr -d '\n' | grep -Pozi "$(getDefaultSinkName).*volume.*%" | grep -Poz "(?<=/)[ ]*(\d+)(?=%)" | awk '{print $1}'
+	pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '\d+(?=%)' | head -1
 }
 
-getDefaultSinkMute() {
-	pacmd list-sinks | tr -d '\n' | grep -Pozi "$(getDefaultSinkName).*(muted:[ ]*(yes|no))" | grep -Pozi "(?<=muted:)(?:.*)(yes|no)" | tr -d '\0 '
+isMuted() {
+	pactl get-sink-mute @DEFAULT_SINK@ | grep -q 'yes'
 }
 
-if [ "$1" == "--toggle"  ]; then
+isBluetoothSink() {
+	pactl get-default-sink | grep -qi 'bluez'
+}
+
+if [ "$1" == "--toggle" ]; then
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
-	if [ "$(getDefaultSinkMute)" == "yes" ]; then
+	if isMuted; then
 		dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume "Audio Muted"
 	else
-		dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume "Audio Unmuted"
+		CURRENT_VOL=$(getDefaultSinkVolume)
+		dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:"$CURRENT_VOL" "Volume: $CURRENT_VOL%"
 	fi
 	exit 0
 fi
 
 VOLUME_STEP=2
-if getDefaultSinkName | grep -i "bluez_sink" &>/dev/null; then
+if isBluetoothSink; then
 	VOLUME_STEP=1
 fi
 
-if [ "$1" == "--decrease" ]; then
-	VOLUME_STEP=-$VOLUME_STEP
+if [ "$1" == "--increase" ]; then
+	PREV_VOL=$(getDefaultSinkVolume)
+	if [ "$PREV_VOL" -lt 100 ]; then
+		pactl set-sink-volume @DEFAULT_SINK@ "+${VOLUME_STEP}%"
+	fi
+elif [ "$1" == "--decrease" ]; then
+	pactl set-sink-volume @DEFAULT_SINK@ "-${VOLUME_STEP}%"
 fi
 
-PREV_VOL=$(getDefaultSinkVolume)
-if [[ "$1" == "--decrease" || $PREV_VOL -le $((100 - $VOLUME_STEP)) ]]; then
-  pactl set-sink-volume @DEFAULT_SINK@ "$(($PREV_VOL + $VOLUME_STEP))%"
-fi
 CURRENT_VOL=$(getDefaultSinkVolume)
-dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:$CURRENT_VOL "Volume: $CURRENT_VOL%"
+dunstify -a System -t 1000 -h string:x-dunst-stack-tag:volume -h int:value:"$CURRENT_VOL" "Volume: $CURRENT_VOL%"
