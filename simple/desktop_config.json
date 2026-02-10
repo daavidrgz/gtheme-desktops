@@ -24,7 +24,7 @@
     "firefox": false,
     "firefox-homepage": false,
     "kitty": false,
-    "polybar": false,
+    "polybar": true,
     "rofi": false,
     "spotify": false,
     "sxhkd": false
