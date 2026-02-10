@@ -19,7 +19,7 @@ super + shift + Return
     prime-run <[terminal|alacritty]>
 
 # Launcher
-super + d
+super + space
     ~/.config/rofi/launcher/launcher.sh
  
 # Reload sxhkd
