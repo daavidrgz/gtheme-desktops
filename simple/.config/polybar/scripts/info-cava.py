@@ -13,8 +13,12 @@ if len(sys.argv) > 1 and sys.argv[1] == '--subproc':
         for color in sys.argv[2].split(',')
         if color
     )
+    import re
     while True:
-        cava_input = input().strip().split()
+        line = re.sub(r'\x1b[^a-zA-Z]*[a-zA-Z]|\x1b\][^\x07]*\x07', '', input().strip())
+        cava_input = line.split()
+        if not cava_input or not all(i.isdigit() for i in cava_input):
+            continue
         cava_input = [int(i) for i in cava_input]
         output = ''
         for bar in cava_input:
@@ -38,9 +42,9 @@ parser.add_argument('-c', '--channels', choices=['stereo', 'left', 'right', 'ave
 
 opts = parser.parse_args()
 conf_channels = ''
-if opts.channels != 'stereo':
+if opts.channels and opts.channels != 'stereo':
     conf_channels = (
-        'channels=mono\n'
+        '\nchannels=mono\n'
        f'mono_option={opts.channels}'
     )
 
@@ -50,7 +54,7 @@ cava_conf = tempfile.mkstemp('','polybar-cava-conf.')[1]
 with open(cava_conf, 'w') as cava_conf_file:
     cava_conf_file.write(
         '[general]\n'
-        'sensitivity=10\n'
+        'sensitivity=50\n'
        f'framerate={opts.framerate}\n'
        f'bars={opts.bars}\n'
         '[output]\n'
