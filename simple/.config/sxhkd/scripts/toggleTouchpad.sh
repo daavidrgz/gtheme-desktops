@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(xinput list | grep -i "touchpad" | awk '{print $6}' | sed 's/.*=//')
+ID=$(xinput list | grep -i "touchpad" | grep -oP 'id=\K\d+')
 
 STATE=$(xinput list-props $ID | grep -i "device enabled" | awk '{print $4}')
 
