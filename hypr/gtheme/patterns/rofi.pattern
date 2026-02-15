@@ -1,15 +1,50 @@
 <[output-file]>=~/.config/rofi/colors.rasi
-// <[theme-name]>
+/* <[theme-name]> - Rofi colors (gtheme generated) */
 
 * {
-  font:       "<[default-font|FiraCode Nerd Font]> Medium 11";
-  bg:         #<[background]>;
-  fg:         #<[foreground]>;
-  se:         #<[selection-background]>;
-  red:        #<[red]>;
-  green:      #<[green]>;
-  yellow:     #<[yellow]>;
-  blue:       #<[blue]>;
-  magenta:    #<[magenta]>;
-  cyan:       #<[cyan]>;
+    primary: #<[blue]>;
+    primary-fixed: #<[blue-hg]>;
+    primary-fixed-dim: #<[blue]>;
+    on-primary: #<[background]>;
+    on-primary-fixed: #<[background]>;
+    on-primary-fixed-variant: #<[blue]>;
+    primary-container: #<[blue]>;
+    on-primary-container: #<[blue-hg]>;
+    secondary: #<[cyan]>;
+    secondary-fixed: #<[cyan-hg]>;
+    secondary-fixed-dim: #<[cyan]>;
+    on-secondary: #<[background]>;
+    on-secondary-fixed: #<[background]>;
+    on-secondary-fixed-variant: #<[black-hg]>;
+    secondary-container: #<[black-hg]>;
+    on-secondary-container: #<[cyan-hg]>;
+    tertiary: #<[magenta]>;
+    tertiary-fixed: #<[magenta-hg]>;
+    tertiary-fixed-dim: #<[magenta]>;
+    on-tertiary: #<[background]>;
+    on-tertiary-fixed: #<[background]>;
+    on-tertiary-fixed-variant: #<[black-hg]>;
+    tertiary-container: #<[black-hg]>;
+    on-tertiary-container: #<[magenta-hg]>;
+    error: #<[red]>;
+    on-error: #<[background]>;
+    error-container: #<[red]>;
+    on-error-container: #<[red-hg]>;
+    surface: #<[background]>;
+    on-surface: #<[foreground]>;
+    on-surface-variant: #<[white]>;
+    outline: #<[white]>;
+    outline-variant: #<[black-hg]>;
+    shadow: #000000;
+    scrim: #000000;
+    inverse-surface: #<[foreground]>;
+    inverse-on-surface: #<[background]>;
+    inverse-primary: #<[blue]>;
+    surface-dim: #<[background]>;
+    surface-bright: #<[black-hg]>;
+    surface-container-lowest: #<[background]>;
+    surface-container-low: #<[background]>;
+    surface-container: #<[black]>;
+    surface-container-high: #<[black-hg]>;
+    surface-container-highest: #<[black-hg]>;
 }

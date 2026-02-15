@@ -3,6 +3,7 @@
 WALLPAPER_URL="$1"
 WALLPAPER_THEME=/tmp/wallpaper-theme
 IMAGE_THEMING_PATH=$HOME/.config/gtheme/wallpapers
+SYMLINK_PATH="$HOME/.config/hypr/current_wallpaper"
 
 [ -z "$WALLPAPER_URL" ] && exit 1
 
@@ -15,4 +16,11 @@ if [ "$IS_THEMED" == "true" ]; then
 fi
 
 cp "$WALLPAPER_URL" ~/.wallpaper
-feh --bg-fill "$WALLPAPER_URL"
+ln -sf "$WALLPAPER_URL" "$SYMLINK_PATH" 2>/dev/null || true
+
+# Use swww if available (Wayland), fall back to feh (X11)
+if command -v swww &>/dev/null; then
+	swww img "$WALLPAPER_URL" --transition-type any --transition-fps 60
+else
+	feh --bg-fill "$WALLPAPER_URL"
+fi

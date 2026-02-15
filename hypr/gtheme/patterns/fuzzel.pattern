@@ -1,0 +1,31 @@
+<[output-file]>=~/.config/fuzzel/fuzzel.ini
+# <[theme-name]> - Fuzzel config (gtheme generated)
+
+font=<[default-font|GeistMono Nerd Font]>:size=17
+terminal=foot -e
+prompt="> "
+layer=overlay
+lines=15
+width=60
+dpi-aware=no
+inner-pad=10
+horizontal-pad=40
+vertical-pad=15
+match-counter=yes
+
+[colors]
+background=<[background]>dd
+text=<[foreground]>dd
+prompt=<[blue]>ff
+placeholder=<[black-hg]>ff
+input=<[foreground]>ff
+match=<[red]>ff
+selection=<[blue]>87
+selection-text=<[foreground]>ff
+selection-match=<[red]>ff
+counter=<[black-hg]>ff
+border=<[blue]>77
+
+[border]
+radius=10
+width=2

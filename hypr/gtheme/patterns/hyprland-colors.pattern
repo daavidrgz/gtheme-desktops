@@ -1,0 +1,68 @@
+<[output-file]>=~/.config/hypr/colors/colors.conf
+# <[theme-name]> - Hyprland color variables (gtheme generated)
+
+# Primary accent
+$primary = rgba(<[blue]>ff)
+$primary_container = rgba(<[blue]>ff)
+$on_primary = rgba(<[background]>ff)
+$on_primary_container = rgba(<[blue-hg]>ff)
+$primary_fixed = rgba(<[blue-hg]>ff)
+$primary_fixed_dim = rgba(<[blue]>ff)
+$on_primary_fixed = rgba(<[background]>ff)
+$on_primary_fixed_variant = rgba(<[blue]>ff)
+
+# Secondary accent
+$secondary = rgba(<[cyan]>ff)
+$secondary_container = rgba(<[black-hg]>ff)
+$on_secondary = rgba(<[background]>ff)
+$on_secondary_container = rgba(<[cyan-hg]>ff)
+$secondary_fixed = rgba(<[cyan-hg]>ff)
+$secondary_fixed_dim = rgba(<[cyan]>ff)
+$on_secondary_fixed = rgba(<[background]>ff)
+$on_secondary_fixed_variant = rgba(<[black-hg]>ff)
+
+# Tertiary accent
+$tertiary = rgba(<[magenta]>ff)
+$tertiary_container = rgba(<[black-hg]>ff)
+$on_tertiary = rgba(<[background]>ff)
+$on_tertiary_container = rgba(<[magenta-hg]>ff)
+$tertiary_fixed = rgba(<[magenta-hg]>ff)
+$tertiary_fixed_dim = rgba(<[magenta]>ff)
+$on_tertiary_fixed = rgba(<[background]>ff)
+$on_tertiary_fixed_variant = rgba(<[black-hg]>ff)
+
+# Error
+$error = rgba(<[red]>ff)
+$error_container = rgba(<[red]>ff)
+$on_error = rgba(<[background]>ff)
+$on_error_container = rgba(<[red-hg]>ff)
+
+# Surface / Background
+$background = rgba(<[background]>ff)
+$on_background = rgba(<[foreground]>ff)
+$surface = rgba(<[background]>ff)
+$surface_dim = rgba(<[background]>ff)
+$surface_bright = rgba(<[black-hg]>ff)
+$surface_container_lowest = rgba(<[background]>ff)
+$surface_container_low = rgba(<[background]>ff)
+$surface_container = rgba(<[black]>ff)
+$surface_container_high = rgba(<[black-hg]>ff)
+$surface_container_highest = rgba(<[black-hg]>ff)
+$surface_tint = rgba(<[blue]>ff)
+$surface_variant = rgba(<[black-hg]>ff)
+$on_surface = rgba(<[foreground]>ff)
+$on_surface_variant = rgba(<[white]>ff)
+
+# Outline
+$outline = rgba(<[white]>ff)
+$outline_variant = rgba(<[black-hg]>ff)
+
+# Inverse
+$inverse_surface = rgba(<[foreground]>ff)
+$inverse_on_surface = rgba(<[background]>ff)
+$inverse_primary = rgba(<[blue]>ff)
+
+# Utility
+$scrim = rgba(000000ff)
+$shadow = rgba(000000ff)
+$source_color = rgba(<[blue]>ff)

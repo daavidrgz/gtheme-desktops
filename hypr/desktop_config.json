@@ -2,31 +2,37 @@
   "default_theme": "Snazzy",
   "actived": {
     "alacritty": true,
-    "bspwm": true,
+    "cava": true,
     "discord": true,
     "dunst": true,
     "firefox": true,
     "firefox-homepage": true,
+    "fuzzel": true,
+    "hyprland-colors": true,
     "intellij-idea": true,
     "kitty": true,
-    "polybar": true,
+    "quickshell-colors": true,
     "rofi": true,
     "spotify": true,
-    "sxhkd": true,
+    "swayosd": true,
     "vscode": true,
-    "wallpaper": true
+    "wallpaper": true,
+    "waybar-colors": true
   },
   "inverted": {
     "alacritty": false,
-    "bspwm": false,
+    "cava": false,
     "discord": false,
     "dunst": false,
     "firefox": false,
     "firefox-homepage": false,
+    "fuzzel": false,
+    "hyprland-colors": false,
     "kitty": false,
-    "polybar": true,
+    "quickshell-colors": false,
     "rofi": false,
     "spotify": false,
-    "sxhkd": false
+    "swayosd": false,
+    "waybar-colors": false
   }
 }

@@ -1,67 +1,46 @@
-<[output-file]>=~/.config/kitty/kitty.conf
-# <[theme-name]>
+<[output-file]>=~/.config/kitty/colors.conf
+# <[theme-name]> - Kitty colors (gtheme generated)
 
-# ██╗  ██╗██╗████████╗████████╗██╗   ██╗
-# ██║ ██╔╝██║╚══██╔══╝╚══██╔══╝╚██╗ ██╔╝
-# █████╔╝ ██║   ██║      ██║    ╚████╔╝ 
-# ██╔═██╗ ██║   ██║      ██║     ╚██╔╝  
-# ██║  ██╗██║   ██║      ██║      ██║   
-# ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝   
-
-
-# •• Font
-font_family       <[default-font|DejaVuSansMono Nerd Font Mono]>
-bold_font         auto
-italic_font       auto
-bold_italic_font  auto
-font_size         <[default-font-size|12]>
-
-# •• Look & Sound
-enable_audio_bell no
-cursor_shape beam
-window_padding_width 20.0
-
-# •• Performance
-repaint_delay 7
-update_check_interval 0
-allow_remote_control true
-
-# •• Theme
-foreground               #<[foreground]>
-background               #<[background]>
-selection_foreground     #<[selection-foreground]>
-selection_background     #<[selection-background]>
-
-url_color                #<[magenta]>
+font_family <[default-font|GeistMono Nerd Font]>
+font_size <[default-font-size|11]>
 
 cursor                   #<[cursor]>
 cursor_text_color        #<[foreground]>
 
-active_tab_foreground    #<[foreground]>
-active_tab_background    #<[black]>
-inactive_tab_foreground  #<[black-hg]>
-inactive_tab_background  #<[background]>
+foreground               #<[foreground]>
+background               #<[background]>
+selection_foreground     #<[selection-foreground]>
+selection_background     #<[selection-background]>
+url_color                #<[blue]>
 
+# black
 color0   #<[black]>
 color8   #<[black-hg]>
 
+# red
 color1   #<[red]>
 color9   #<[red-hg]>
 
+# green
 color2   #<[green]>
 color10  #<[green-hg]>
 
+# yellow
 color3   #<[yellow]>
 color11  #<[yellow-hg]>
 
+# blue
 color4   #<[blue]>
 color12  #<[blue-hg]>
 
+# magenta
 color5   #<[magenta]>
 color13  #<[magenta-hg]>
 
+# cyan
 color6   #<[cyan]>
 color14  #<[cyan-hg]>
 
+# white
 color7   #<[white]>
 color15  #<[white-hg]>
