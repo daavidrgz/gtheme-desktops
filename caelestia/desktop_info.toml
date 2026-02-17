@@ -1,0 +1,31 @@
+author = 'David Rodriguez (@daavidrgz)'
+description = 'Hyprland desktop with Caelestia shell (Material You)'
+credits = 'https://github.com/caelestia-dots/shell'
+dependencies = [
+	'hyprland',
+	'caelestia-shell',
+	'caelestia-cli',
+	'kitty',
+	'brightnessctl',
+	'playerctl',
+	'hypridle',
+	'hyprpicker',
+	'wl-clipboard',
+	'cliphist',
+	'polkit-gnome',
+	'app2unit',
+	'fish',
+	'ddcutil',
+	'material-symbols-git',
+	'ttf-caskaydia-cove-nerd',
+	'swappy',
+	'libqalculate',
+	'fuzzel (Optional)',
+	'cava (Optional)',
+	'thunar (Optional)',
+	'brave (Optional)',
+	'alacritty (Optional)',
+	'firefox (Optional)',
+	'better-discord (Optional)',
+	'spicetify (Optional)',
+]

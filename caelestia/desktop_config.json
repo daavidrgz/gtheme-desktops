@@ -1,0 +1,30 @@
+{
+  "default_theme": "Snazzy",
+  "actived": {
+    "alacritty": true,
+    "caelestia-scheme": true,
+    "cava": true,
+    "discord": true,
+    "firefox": true,
+    "firefox-homepage": true,
+    "fuzzel": true,
+    "hyprland-scheme": true,
+    "intellij-idea": true,
+    "kitty": true,
+    "spotify": true,
+    "vscode": true,
+    "wallpaper": true
+  },
+  "inverted": {
+    "alacritty": false,
+    "caelestia-scheme": false,
+    "cava": false,
+    "discord": false,
+    "firefox": false,
+    "firefox-homepage": false,
+    "fuzzel": false,
+    "hyprland-scheme": false,
+    "kitty": false,
+    "spotify": false
+  }
+}

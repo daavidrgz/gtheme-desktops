@@ -1,7 +1,4 @@
 #!/bin/bash
 
-DEST=$1
-kitty @ set-colors --all $DEST &> /dev/null
-tput sgr0
-tput op
+pkill -USR1 kitty
 exit 0
