@@ -2,6 +2,7 @@
   "default_theme": "Snazzy",
   "actived": {
     "alacritty": true,
+    "bat": true,
     "caelestia-scheme": true,
     "cava": true,
     "discord": true,
@@ -17,6 +18,7 @@
   },
   "inverted": {
     "alacritty": false,
+    "bat": false,
     "caelestia-scheme": false,
     "cava": false,
     "discord": false,
