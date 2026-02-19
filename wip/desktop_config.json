@@ -16,7 +16,8 @@
     "vscode": true,
     "wallpaper": true,
     "wallpaper-theme": true,
-    "xob": true
+    "xob": true,
+    "bat": true
   },
   "inverted": {
     "alacritty": false,

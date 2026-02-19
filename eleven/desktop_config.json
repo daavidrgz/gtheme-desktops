@@ -9,7 +9,8 @@
     "spotify": true,
     "intellij-idea": true,
     "vscode": true,
-    "firefox": true
+    "firefox": true,
+    "bat": true
   },
   "inverted": {
     "firefox": false,

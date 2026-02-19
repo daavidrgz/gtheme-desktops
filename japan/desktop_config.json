@@ -14,7 +14,8 @@
     "wallpaper-theme": true,
     "vscode": true,
     "discord": true,
-    "polybar": true
+    "polybar": true,
+    "bat": true
   },
   "inverted": {
     "alacritty": false,

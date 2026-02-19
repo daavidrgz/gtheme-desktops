@@ -17,7 +17,8 @@
     "swayosd": true,
     "vscode": true,
     "wallpaper": true,
-    "waybar-colors": true
+    "waybar-colors": true,
+    "bat": true
   },
   "inverted": {
     "alacritty": false,

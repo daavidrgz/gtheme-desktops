@@ -11,7 +11,8 @@
     "vscode": true,
     "intellij-idea": true,
     "wallpaper": true,
-    "spotify": true
+    "spotify": true,
+    "bat": true
   },
   "inverted": {
     "rofi": false,

@@ -16,7 +16,8 @@
     "sxhkd": true,
     "vscode": true,
     "wallpaper": true,
-    "wallpaper-theme": true
+    "wallpaper-theme": true,
+    "bat": true
   },
   "inverted": {
     "alacritty": false,

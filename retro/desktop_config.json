@@ -10,7 +10,8 @@
     "intellij-idea": true,
     "rofi": true,
     "spotify": true,
-    "firefox": true
+    "firefox": true,
+    "bat": true
   },
   "inverted": {
     "kitty": false,
