@@ -18,7 +18,8 @@
     "vscode": true,
     "wallpaper": true,
     "waybar-colors": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "alacritty": false,
@@ -34,6 +35,7 @@
     "rofi": false,
     "spotify": false,
     "swayosd": false,
-    "waybar-colors": false
+    "waybar-colors": false,
+    "sddm": true
   }
 }

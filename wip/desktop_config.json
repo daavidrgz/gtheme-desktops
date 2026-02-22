@@ -17,7 +17,8 @@
     "wallpaper": true,
     "wallpaper-theme": true,
     "xob": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "alacritty": false,
@@ -32,6 +33,7 @@
     "sxhkd": false,
     "tint2": false,
     "wallpaper-theme": false,
-    "xob": false
+    "xob": false,
+    "sddm": true
   }
 }

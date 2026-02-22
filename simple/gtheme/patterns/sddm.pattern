@@ -1,0 +1,7 @@
+<[output-file]>=~/.config/sddm/theme.conf.user
+[General]
+MainColor="#<[foreground]>"
+AccentColor="#<[blue]>"
+BackgroundColor="#<[black]>"
+OverrideLoginButtonTextColor="#<[foreground]>"
+Font="<[default-font|GeistMono Nerd Font]>"

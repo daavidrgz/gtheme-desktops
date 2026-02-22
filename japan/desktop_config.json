@@ -15,7 +15,8 @@
     "vscode": true,
     "discord": true,
     "polybar": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "alacritty": false,
@@ -29,6 +30,7 @@
     "kitty": false,
     "firefox-homepage": false,
     "polybar": false,
-    "dunst": false
+    "dunst": false,
+    "sddm": true
   }
 }

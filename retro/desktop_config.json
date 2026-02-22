@@ -11,7 +11,8 @@
     "rofi": true,
     "spotify": true,
     "firefox": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "kitty": false,
@@ -20,6 +21,7 @@
     "alacritty": false,
     "discord": false,
     "spotify": false,
-    "firefox-homepage": false
+    "firefox-homepage": false,
+    "sddm": true
   }
 }

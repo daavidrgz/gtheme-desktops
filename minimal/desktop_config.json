@@ -17,7 +17,8 @@
     "vscode": true,
     "wallpaper": true,
     "wallpaper-theme": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "alacritty": false,
@@ -32,6 +33,7 @@
     "rofi": false,
     "spotify": false,
     "sxhkd": false,
-    "wallpaper-theme": false
+    "wallpaper-theme": false,
+    "sddm": true
   }
 }

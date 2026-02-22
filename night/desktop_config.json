@@ -12,7 +12,8 @@
     "intellij-idea": true,
     "wallpaper": true,
     "spotify": true,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "rofi": false,
@@ -22,6 +23,7 @@
     "firefox-homepage": false,
     "discord": false,
     "kitty": false,
-    "awesome": false
+    "awesome": false,
+    "sddm": true
   }
 }

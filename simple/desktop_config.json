@@ -15,7 +15,8 @@
     "sxhkd": true,
     "vscode": true,
     "wallpaper": false,
-    "bat": true
+    "bat": true,
+    "sddm": true
   },
   "inverted": {
     "alacritty": false,
@@ -28,6 +29,7 @@
     "polybar": true,
     "rofi": false,
     "spotify": false,
-    "sxhkd": false
+    "sxhkd": false,
+    "sddm": true
   }
 }

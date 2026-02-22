@@ -14,6 +14,7 @@
     "kitty": true,
     "spotify": true,
     "vscode": true,
+    "sddm": true,
     "wallpaper": true
   },
   "inverted": {
@@ -27,6 +28,7 @@
     "fuzzel": false,
     "hyprland-scheme": false,
     "kitty": false,
+    "sddm": true,
     "spotify": false
   }
 }
