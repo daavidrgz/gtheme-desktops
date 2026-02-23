@@ -5,7 +5,7 @@
   "margin-right": 10,
   "margin-top": 0,
   "margin-bottom": -10,
-  "modules-left": ["custom/menu", "clock", "custom/media-prev", "custom/media", "custom/media-next"],
+  "modules-left": ["custom/menu", "clock", "custom/media", "custom/media-prev", "custom/media-play", "custom/media-next"],
 
   "modules-center": ["hyprland/workspaces"],
 
@@ -104,12 +104,17 @@
   },
   "custom/media": {
     "format": "{}",
-    "exec": "playerctl metadata --format '{{status == \"Playing\" ? \"\" : \"\"}}   {{title}}' --follow 2>/dev/null || echo '  No media'",
+    "exec": "playerctl metadata --format '{{status}}|||{{title}}' --follow 2>/dev/null | sed -u 's/^Playing|||\\(.*\\)/\\1  󰐊/;s/^Paused|||\\(.*\\)/\\1  󰏤/;s/^Stopped|||\\(.*\\)/\\1  󰏤/' || echo '󰏤  No media'",
     "max-length": 40,
     "tooltip": false,
-    "on-click": "playerctl play-pause",
     "on-scroll-up": "playerctl next",
     "on-scroll-down": "playerctl previous"
+  },
+  "custom/media-play": {
+    "format": "{}",
+    "exec": "playerctl status --follow 2>/dev/null | sed -u 's/^Playing$/󰏤/;s/^Paused$/󰐊/;s/^Stopped$/󰐊/' || echo '󰐊'",
+    "on-click": "playerctl play-pause",
+    "tooltip": false
   },
   "custom/media-next": {
     "format": "󰒭",
