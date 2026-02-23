@@ -14,6 +14,7 @@
     "custom/notification",
     "network",
     "pulseaudio",
+    "battery",
     "custom/power",
   ],
 
@@ -44,13 +45,24 @@
   },
 
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
-    "format-muted": " ",
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁",
     "format-icons": {
       "default": ["󰕿", "󰖀", "󰕾"],
     },
     "tooltip": false,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+  },
+  "battery": {
+    "interval": 30,
+    "states": {
+      "warning": 30,
+      "critical": 15,
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip": false,
   },
   "custom/power": {
     "format": "󰐥",

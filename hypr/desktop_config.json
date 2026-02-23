@@ -1,7 +1,8 @@
 {
-  "default_theme": "Snazzy",
+  "default_theme": "Tokyo-Night",
   "actived": {
     "alacritty": true,
+    "bat": true,
     "cava": true,
     "discord": true,
     "dunst": true,
@@ -13,16 +14,16 @@
     "kitty": true,
     "quickshell-colors": true,
     "rofi": true,
+    "sddm": true,
     "spotify": true,
     "swayosd": true,
     "vscode": true,
     "wallpaper": true,
-    "waybar-colors": true,
-    "bat": true,
-    "sddm": true
+    "waybar-colors": true
   },
   "inverted": {
     "alacritty": false,
+    "bat": false,
     "cava": false,
     "discord": false,
     "dunst": false,
@@ -33,9 +34,9 @@
     "kitty": false,
     "quickshell-colors": false,
     "rofi": false,
+    "sddm": true,
     "spotify": false,
     "swayosd": false,
-    "waybar-colors": false,
-    "sddm": true
+    "waybar-colors": false
   }
 }

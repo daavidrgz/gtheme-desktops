@@ -10,6 +10,7 @@
     "clock",
     "hyprland/workspaces",
     "pulseaudio",
+    "battery",
     "custom/notification",
     "custom/power"
   ],
@@ -41,12 +42,23 @@
 
   "pulseaudio": {
     "format": "{icon}",
-    "format-muted": " ",
+    "format-muted": "󰖁",
     "format-icons": {
       "default": ["", "", " "]
     },
     "tooltip": false,
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  },
+  "battery": {
+    "interval": 30,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip": false
   },
   "custom/power": {
     "format": " ",

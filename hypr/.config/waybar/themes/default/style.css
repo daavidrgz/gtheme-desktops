@@ -48,7 +48,7 @@
   margin: 0px 3px;
   color: transparent;
   background: @surface_container_highest;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border: none;
   outline: none;
 }
@@ -67,6 +67,7 @@
 #workspaces button:hover {
   background-color: @tertiary;
   color: @surface;
+  font-weight: normal;
   min-width: 35px;
 }
 
@@ -82,6 +83,7 @@
 #custom-power,
 #custom-notification,
 #pulseaudio,
+#battery,
 #network {
   background-color: @surface;
   padding: 0.3rem 1.3rem;

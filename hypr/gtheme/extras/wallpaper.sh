@@ -18,9 +18,4 @@ fi
 cp "$WALLPAPER_URL" ~/.wallpaper
 ln -sf "$WALLPAPER_URL" "$SYMLINK_PATH" 2>/dev/null || true
 
-# Use swww if available (Wayland), fall back to feh (X11)
-if command -v swww &>/dev/null; then
-	swww img "$WALLPAPER_URL" --transition-type any --transition-fps 60
-else
-	feh --bg-fill "$WALLPAPER_URL"
-fi
+swww img ~/.wallpaper --transition-type any --transition-fps 60

@@ -25,17 +25,21 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
-    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682), box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: all 0.15s ease-out;
     animation: gradient_f 10s ease-in infinite;
 
 }
 
-button:hover,button:focus {
+button:hover {
     background-color: alpha(@primary,0.8);
-    background-size: 40%;
+    background-size: 35%;
     border-color: alpha(@primary,0.8);
     animation: gradient_f 10s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+    transition: background-size 0.1s ease-out, background-color 0.05s ease-out, border-color 0.05s ease-out;
+}
+
+button:focus {
+    outline-style: none;
 }
 
 /* Adjust the size of the icon or content inside the button */
