@@ -100,7 +100,7 @@
   },
   "custom/media": {
     "format": "{}",
-    "exec": "playerctl metadata --format '{{status}}|||{{title}}' --follow 2>/dev/null | sed -u 's/^Playing|||\\(.*\\)/\\1  󰐊/;s/^Paused|||\\(.*\\)/\\1  󰏤/;s/^Stopped|||\\(.*\\)/\\1  󰏤/' || echo '󰏤  No media'",
+    "exec": "~/.config/waybar/scripts/media-player.sh title",
     "max-length": 40,
     "tooltip": false,
     "on-scroll-up": "playerctl next",
@@ -108,7 +108,7 @@
   },
   "custom/media-play": {
     "format": "{}",
-    "exec": "playerctl status --follow 2>/dev/null | sed -u 's/^Playing$/󰏤/;s/^Paused$/󰐊/;s/^Stopped$/󰐊/' || echo '󰐊'",
+    "exec": "~/.config/waybar/scripts/media-player.sh status",
     "on-click": "playerctl play-pause",
     "tooltip": false
   },
