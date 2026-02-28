@@ -2,10 +2,10 @@ author = 'David Rodriguez (@daavidrgz)'
 description = 'A simple and minimalistic desktop with rounded corners and subtle transparency.'
 credits = 'https://github.com/joni22u/dotfiles'
 dependencies = [
-	'pulsectl (pip)',
+	'python-pulsectl',
 	'bspwm',
 	'sxhkd',
-	'picom (ibhagwan fork)',
+	'picom',
 	'rofi',
 	'dunst',
 	'pulseaudio',
@@ -15,11 +15,13 @@ dependencies = [
 	'xob',
 	'tint2',
 	'flameshot',
-	'alacritty (Optional)',
-	'kitty (Optional)',
-	'firefox (Optional)',
-	'better-discord (Optional)',
-	'spicetify (Optional)',
-	'neofetch (Optional)',
-	'bottom (Optional)',
+]
+optional_dependencies = [
+	'alacritty',
+	'kitty',
+	'firefox',
+	'better-discord',
+	'spicetify',
+	'neofetch',
+	'bottom',
 ]

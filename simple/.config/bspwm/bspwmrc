@@ -30,7 +30,7 @@ bspc rule -a Zathura state=tiled
 setxkbmap -layout us -variant altgr-intl
 
 # •• Compositor
-picom --experimental-backends &
+picom &
 
 # •• Key press rate
 xset r rate 200 40

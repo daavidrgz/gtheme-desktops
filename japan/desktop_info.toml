@@ -2,7 +2,7 @@ author = 'David Rodríguez (@daavidrgz)'
 description = ''
 credits = 'https://github.com/wujiocean/dotfiles'
 dependencies = [
-	'paperview (https://github.com/glouw/paperview)',
+	'paperview-git',
 	'bspwm',
 	'sxhkd',
 	'rofi',
@@ -14,12 +14,14 @@ dependencies = [
 	'playerctl',
 	'mpd',
 	'flameshot',
-	'newsboat (Optional)',
-	'mpd-notification (Optional)',
-	'alacritty (Optional)',
-	'firefox (Optional)',
-	'better-discord (Optional)',
-	'spicetify (Optional)',
-	'neofetch (Optional)',
-	'zathura (Optional)',
+]
+optional_dependencies = [
+	'newsboat',
+	'mpd-notification',
+	'alacritty',
+	'firefox',
+	'better-discord',
+	'spicetify',
+	'neofetch',
+	'zathura',
 ]

@@ -20,12 +20,14 @@ dependencies = [
 	'ttf-caskaydia-cove-nerd',
 	'swappy',
 	'libqalculate',
-	'fuzzel (Optional)',
-	'cava (Optional)',
-	'thunar (Optional)',
-	'brave (Optional)',
-	'alacritty (Optional)',
-	'firefox (Optional)',
-	'better-discord (Optional)',
-	'spicetify (Optional)',
+]
+optional_dependencies = [
+	'fuzzel',
+	'cava',
+	'thunar',
+	'brave',
+	'alacritty',
+	'firefox',
+	'better-discord',
+	'spicetify',
 ]

@@ -4,7 +4,7 @@ credits = 'http://github.com:daavidrgz'
 dependencies = [
 	'bspwm',
 	'sxhkd',
-	'picom (ibhagwan fork)',
+	'picom',
 	'rofi',
 	'polybar',
 	'dunst',
@@ -13,12 +13,14 @@ dependencies = [
 	'brightnessctl',
 	'playerctl',
 	'cava',
-	'flameshot (Optional)',
-	'alacritty (Optional)',
-	'kitty (Optional)',
-	'firefox (Optional)',
-	'better-discord (Optional)',
-	'spicetify (Optional)',
-	'bottom (Optional)',
-	'neofetch (Optional)',
+]
+optional_dependencies = [
+	'flameshot',
+	'alacritty',
+	'kitty',
+	'firefox',
+	'better-discord',
+	'spicetify',
+	'bottom',
+	'neofetch',
 ]
