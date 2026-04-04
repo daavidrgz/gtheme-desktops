@@ -15,13 +15,13 @@ A modern **Hyprland** (Wayland) desktop based on [HyprKenso](https://github.com/
 ### Arch Linux
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S hyprland waybar rofi-wayland swaync wlogout swww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome
+	sudo pacman -S hyprland waybar rofi-wayland swaync swww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome
 	```
 
 	(You can use any other AUR helper)
 
 	```console
-	yay -S cliphist swayosd-git quickshell-git
+	yay -S cliphist swayosd-git quickshell-git wlogout
 	```
 
 * **Optional** dependencies:
