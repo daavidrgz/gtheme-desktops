@@ -7,7 +7,7 @@ dependencies = [
 	'rofi-wayland',
 	'swaync',
 	'wlogout',
-	'swww',
+	'awww',
 	'kitty',
 	'brightnessctl',
 	'playerctl',

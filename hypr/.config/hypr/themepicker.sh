@@ -39,8 +39,8 @@ RANDOM_WALL="$(find "$THEME_DIR" -maxdepth 1 -type f \
 
 [ -z "$RANDOM_WALL" ] && { echo "No wallpapers found in $THEME_DIR"; exit 1; }
 
-# --- Step 5: Apply wallpaper using swww ---
-swww img "$RANDOM_WALL" --transition-type any --transition-fps 60
+# --- Step 5: Apply wallpaper using awww ---
+awww img "$RANDOM_WALL" --transition-type any --transition-fps 60
 swaync-client -rs 2>/dev/null || true
 
 # --- Step 6: Update symlink ---

@@ -18,4 +18,4 @@ fi
 cp "$WALLPAPER_URL" ~/.wallpaper
 ln -sf "$WALLPAPER_URL" "$SYMLINK_PATH" 2>/dev/null || true
 
-swww img ~/.wallpaper --transition-type any --transition-fps 60
+awww img ~/.wallpaper --transition-type any --transition-fps 60

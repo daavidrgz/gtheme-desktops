@@ -15,7 +15,7 @@ A modern **Hyprland** (Wayland) desktop based on [HyprKenso](https://github.com/
 ### Arch Linux
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S hyprland waybar rofi-wayland swaync swww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome
+	sudo pacman -S hyprland waybar rofi-wayland swaync awww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome
 	```
 
 	(You can use any other AUR helper)
@@ -48,7 +48,7 @@ A modern **Hyprland** (Wayland) desktop based on [HyprKenso](https://github.com/
 | Notifications            | swaync                 |
 | Launcher                 | rofi                   |
 | Bar                      | waybar                 |
-| Wallpaper                | swww                   |
+| Wallpaper                | awww                   |
 | Lock Screen              | hyprlock               |
 | Idle Daemon              | hypridle               |
 | Logout Menu              | wlogout                |
@@ -137,7 +137,7 @@ All colors are mapped from gtheme's 16-color ANSI palette to Material You (M3) c
 * [rofi-wayland](https://github.com/lbonn/rofi)
 * [swaync](https://github.com/ErikReider/SwayNotificationCenter)
 * [wlogout](https://github.com/ArtsyMacaw/wlogout)
-* [swww](https://github.com/LGFae/swww)
+* [awww](https://codeberg.org/LGFae/awww)
 * [kitty](https://github.com/kovidgoyal/kitty)
 * [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 * [playerctl](https://github.com/altdesktop/playerctl)

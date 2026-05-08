@@ -40,10 +40,10 @@ else
     SELECTED_PATH="$CURRENT_THEME_DIR/$SELECTED_WALL"
 fi
 
-# --- Apply wallpaper only using swww ---
+# --- Apply wallpaper only using awww ---
 notify-send "Applying Wallpaper"
 
-swww img "$SELECTED_PATH" --transition-type any --transition-fps 60
+awww img "$SELECTED_PATH" --transition-type any --transition-fps 60
 ln -sf "$SELECTED_PATH" "$SYMLINK_PATH"
 
 echo "✅ Applied wallpaper: $SELECTED_PATH"

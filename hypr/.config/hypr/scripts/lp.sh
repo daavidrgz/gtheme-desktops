@@ -9,9 +9,9 @@ for img in "$IMAGE_DIR"/*.{jpg,jpeg,png}; do
     [ -e "$img" ] || continue
 
 
-    # Run swwww on the image
+    # Run awww on the image
     ~/.config/hypr/wppicker.sh "$img"
 
 done
 
-echo "All images processed with swwww!"
+echo "All images processed with awww!"
