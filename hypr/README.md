@@ -15,13 +15,20 @@ A modern **Hyprland** (Wayland) desktop based on [HyprKenso](https://github.com/
 ### Arch Linux
 * **Mandatory** dependencies:
 	```console
-	sudo pacman -S hyprland waybar rofi-wayland swaync awww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome
+	sudo pacman -S hyprland waybar rofi-wayland swaync awww kitty brightnessctl playerctl hypridle hyprlock hyprpicker wl-clipboard polkit-gnome grim slurp
 	```
 
 	(You can use any other AUR helper)
 
 	```console
 	yay -S cliphist swayosd-git quickshell-git wlogout
+	```
+
+	Build [sattyd](https://github.com/n0kkster/sattyd) (daemonized fork of satty, used for screenshot annotation) from source:
+	```console
+	git clone https://github.com/n0kkster/sattyd.git && cd sattyd
+	cargo build --release
+	sudo install -m 755 target/release/satty /usr/local/bin/sattyd
 	```
 
 * **Optional** dependencies:

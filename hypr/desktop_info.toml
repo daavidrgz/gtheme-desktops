@@ -19,6 +19,9 @@ dependencies = [
 	'cliphist',
 	'polkit-gnome',
 	'quickshell',
+	'grim',
+	'slurp',
+	'satty',
 ]
 optional_dependencies = [
 	'fuzzel',
