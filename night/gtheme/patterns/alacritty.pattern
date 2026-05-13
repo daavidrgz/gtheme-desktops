@@ -11,7 +11,6 @@ y = 28
 
 [font]
 size = <[default-font-size|12]>
-draw_bold_text_with_bright_colors = true
 
 [font.normal]
 family = "<[default-font|JetBrainsMono Nerd Font]>"
