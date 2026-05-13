@@ -1,53 +1,60 @@
-<[output-file]>=~/.config/alacritty/alacritty.yml
+<[output-file]>=~/.config/alacritty/alacritty.toml
 # <[theme-name]>
 
-window:
-  padding:
-    x: 30
-    y: 30
-  dyanmic_padding: true
-  
-font:
-  normal:
-    family: <[default-font|CaskaydiaCove Nerd Font Mono]>
-  bold:
-    family: <[default-font|CaskaydiaCove Nerd Font Mono]> 
-  italic:
-    family: <[default-font|CaskaydiaCove Nerd Font Mono]>
-  size: <[default-font-size|12]>
-  offset:
-    x: 0
-    y: 1
-  draw_bold_text_with_bright_colors: true
+[window]
+dynamic_padding = true
 
-cursor:
-  style:
-    shape: Beam
+[window.padding]
+x = 30
+y = 30
 
-colors:
-  cursor:
-    text: "#<[foreground]>"
-    cursor: "#<[cursor]>"
-  primary:
-    background: "#<[background]>"
-    foreground: "#<[foreground]>"
-  normal:
-    black: "#<[black]>"
-    red: "#<[red]>"
-    green: "#<[green]>"
-    yellow: "#<[yellow]>"
-    blue: "#<[blue]>"
-    magenta: "#<[magenta]>"
-    cyan: "#<[cyan]>"
-    white: "#<[white]>"
-  bright:
-    black: "#<[black-hg]>"
-    red: "#<[red-hg]>"
-    green: "#<[green-hg]>"
-    yellow: "#<[yellow-hg]>"
-    blue: "#<[blue-hg]>"
-    magenta: "#<[magenta-hg]>"
-    cyan: "#<[cyan-hg]>"
-    white: "#<[white-hg]>"
-env:
-    WINIT_X11_SCALE_FACTOR: "1"
+[font]
+size = <[default-font-size|12]>
+draw_bold_text_with_bright_colors = true
+
+[font.normal]
+family = "<[default-font|CaskaydiaCove Nerd Font Mono]>"
+
+[font.bold]
+family = "<[default-font|CaskaydiaCove Nerd Font Mono]>"
+
+[font.italic]
+family = "<[default-font|CaskaydiaCove Nerd Font Mono]>"
+
+[font.offset]
+x = 0
+y = 1
+
+[cursor.style]
+shape = "Beam"
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1"
+
+[colors.cursor]
+text = "#<[foreground]>"
+cursor = "#<[cursor]>"
+
+[colors.primary]
+background = "#<[background]>"
+foreground = "#<[foreground]>"
+
+[colors.normal]
+black = "#<[black]>"
+red = "#<[red]>"
+green = "#<[green]>"
+yellow = "#<[yellow]>"
+blue = "#<[blue]>"
+magenta = "#<[magenta]>"
+cyan = "#<[cyan]>"
+white = "#<[white]>"
+
+[colors.bright]
+black = "#<[black-hg]>"
+red = "#<[red-hg]>"
+green = "#<[green-hg]>"
+yellow = "#<[yellow-hg]>"
+blue = "#<[blue-hg]>"
+magenta = "#<[magenta-hg]>"
+cyan = "#<[cyan-hg]>"
+white = "#<[white-hg]>"

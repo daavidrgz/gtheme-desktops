@@ -1,0 +1,59 @@
+[colors.bright]
+black = "#4b565c"
+blue = "#7fbbb3"
+cyan = "#83c092"
+green = "#a7c080"
+magenta = "#d699b6"
+red = "#e67e80"
+white = "#d3c6aa"
+yellow = "#dbbc7f"
+
+[colors.cursor]
+cursor = "#d3c6aa"
+text = "#d3c6aa"
+
+[colors.normal]
+black = "#4b565c"
+blue = "#7fbbb3"
+cyan = "#83c092"
+green = "#a7c080"
+magenta = "#d699b6"
+red = "#e67e80"
+white = "#d3c6aa"
+yellow = "#dbbc7f"
+
+[colors.primary]
+background = "#2b3339"
+foreground = "#d3c6aa"
+
+[colors.selection]
+background = "#d3c6aa"
+text = "#2b3339"
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+draw_bold_text_with_bright_colors = true
+size = 8
+
+[font.bold]
+family = "Iosevka Nerd Font Mono"
+
+[font.italic]
+family = "Iosevka Nerd Font Mono"
+
+[font.normal]
+family = "Iosevka Nerd Font Mono"
+
+[font.offset]
+x = 0
+y = 1
+
+[window]
+dyanmic_padding = true
+opacity = 0.5
+
+[window.padding]
+x = 10
+y = 10

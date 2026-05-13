@@ -1,0 +1,50 @@
+
+[colors.bright]
+black = "#404040"
+blue = "#8197bf"
+cyan = "#8fbfdc"
+green = "#99ad6a"
+magenta = "#c6b6ee"
+red = "#cf6a4c"
+white = "#e8e8d3"
+yellow = "#fad07a"
+
+[colors.normal]
+black = "#151515"
+blue = "#667899"
+cyan = "#668799"
+green = "#799d6a"
+magenta = "#8787af"
+red = "#b85335"
+white = "#888888"
+yellow = "#ffb964"
+
+[colors.primary]
+background = "#151515"
+foreground = "#e8e8d3"
+
+[font]
+size = 8
+
+[font.bold]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Regular Italic"
+
+[font.italic]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Regular"
+
+[window.padding]
+x = 30
+y = 30
+
+[general]
+live_config_reload = true

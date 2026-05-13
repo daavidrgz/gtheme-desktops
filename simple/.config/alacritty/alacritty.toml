@@ -1,0 +1,54 @@
+[colors.bright]
+black = "0x686868"
+blue = "0x57C7FF"
+cyan = "0x9AEDFE"
+green = "0x5AF78E"
+magenta = "0xFF6AC1"
+red = "0xFF5C57"
+white = "0xF1F1F0"
+yellow = "0xF3F99D"
+
+[colors.cursor]
+cursor = "0x97979B"
+text = "0xF1F1F0"
+
+[colors.normal]
+black = "0x112031"
+blue = "0x57C7FF"
+cyan = "0x9AEDFE"
+green = "0x5AF78E"
+magenta = "0xFF6AC1"
+red = "0xFF5C57"
+white = "0xF1F1F0"
+yellow = "0xF3F99D"
+
+[colors.primary]
+background = "0x112031"
+foreground = "0xF1F1F0"
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+draw_bold_text_with_bright_colors = true
+size = 8
+
+[font.bold]
+family = "DejaVuSansMono Nerd Font"
+
+[font.italic]
+family = "DejaVuSansMono Nerd Font"
+
+[font.normal]
+family = "DejaVuSansMono Nerd Font"
+
+[font.offset]
+x = 0
+y = 1
+
+[window]
+dyanmic_padding = true
+
+[window.padding]
+x = 18
+y = 18

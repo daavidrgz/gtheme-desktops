@@ -1,0 +1,78 @@
+
+[class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[cursor]
+style = "Underline"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 10
+
+[font.bold]
+family = "Iosevka Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka Nerd Font Mono"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "Iosevka Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = true
+
+[mouse.double_click]
+threshold = 300
+
+[mouse.triple_click]
+threshold = 300
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = """,│`|:"' ()[]{}<>\t"""
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[visual_bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 0.5
+
+[window]
+opacity = 1.0
+
+[window.padding]
+x = 25
+y = 25
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[general]
+live_config_reload = true
+import = ["/home/david/.config/alacritty/night/colors.yml"]
+
+[terminal]
