@@ -2,7 +2,6 @@
 # <[theme-name]>
 
 [window]
-dynamic_padding = true
 
 [window.padding]
 x = 28
