@@ -34,7 +34,7 @@
     "kitty": false,
     "quickshell-colors": false,
     "rofi": false,
-    "sddm": true,
+    "sddm": false,
     "spotify": false,
     "swayosd": false,
     "waybar-colors": false
