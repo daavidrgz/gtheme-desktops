@@ -15,6 +15,17 @@
   font-weight: 500;
 }
 
+/* --- Tooltips (opaque, no Hyprland blur bleed-through) --- */
+tooltip {
+  background-color: @surface;
+  border: 1px solid @outline_variant;
+  border-radius: 12px;
+}
+tooltip label {
+  color: @on_surface;
+  padding: 6px 8px;
+}
+
 /* --- Left Modules (Individual, Fully Rounded Blocks - With Horizontal Spacing & Simple Hover) --- */
 #workspaces {
   padding: 0.3rem 1.3rem;
@@ -80,6 +91,7 @@
   min-width: 0;
   border: none;
 }
+#custom-aibar,
 #custom-power,
 #custom-notification,
 #pulseaudio,
@@ -92,6 +104,10 @@
   min-width: 0;
   color: @tertiary;
   border: none;
+}
+
+#custom-aibar {
+  transition: all 0.2s ease-in-out;
 }
 
 #custom-power {

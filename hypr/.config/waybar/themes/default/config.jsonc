@@ -11,6 +11,7 @@
 
   "modules-right": [
     "tray",
+    "custom/aibar",
     "custom/notification",
     "network",
     "pulseaudio",
@@ -68,6 +69,16 @@
     "format": "󰐥",
     "on-click": "wlogout",
     "tooltip": false,
+  },
+  "custom/aibar": {
+    "exec": "~/.config/waybar/scripts/ai-usagebar-themed.sh --icon '󰚩 ' --format '{session_pct}% · {session_reset}' --color-low '#9ece6a' --color-mid '#e0af68' --color-high '#ff9e64' --color-critical '#f7768e'",
+    "return-type": "json",
+    "interval": 300,
+    "signal": 13,
+    "tooltip": true,
+    "on-click": "kitty --class waybar-aibar-tui -e ai-usagebar-tui",
+    "on-scroll-up": "ai-usagebar --cycle-next",
+    "on-scroll-down": "ai-usagebar --cycle-prev",
   },
   "tray": {
     "icon-size": 18,

@@ -4,6 +4,7 @@ credits = 'https://github.com/aadritobasu/HyprKenso'
 dependencies = [
 	'hyprland',
 	'waybar',
+	'ai-usagebar',
 	'rofi-wayland',
 	'swaync',
 	'wlogout',
