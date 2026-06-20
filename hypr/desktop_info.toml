@@ -23,6 +23,7 @@ dependencies = [
 	'grim',
 	'slurp',
 	'satty',
+	'udiskie',
 ]
 optional_dependencies = [
 	'fuzzel',
