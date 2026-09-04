@@ -1,5 +1,5 @@
-<[output-file]>=~/.config/hypr/monitors.conf
-# Monitors & default workspace — gtheme-generated from the `monitor` user setting.
-# Change the monitor with: gtheme config set monitor <name>
-monitor=,preferred,auto,1.5
-workspace = 1, monitor:<[monitor|eDP-2]>, default:true
+<[output-file]>=~/.config/hypr/monitors.lua
+-- Monitors & default workspace — gtheme-generated from the `monitor` user setting.
+-- Change the monitor with: gtheme config set monitor <name>
+hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.5 })
+hl.workspace_rule({ workspace = "1", monitor = "<[monitor|eDP-2]>", default = true })

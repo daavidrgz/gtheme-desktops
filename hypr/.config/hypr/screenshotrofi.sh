@@ -22,19 +22,19 @@ sleep 0.2
 # Execute corresponding command
 case "$choice" in
     "     Region Screenshot")
-        hyprctl dispatch global "quickshell:regionScreenshot"
+        ~/.config/hypr/scripts/hyprdispatch 'hl.dsp.global("quickshell:regionScreenshot")' global "quickshell:regionScreenshot"
         ;;
     "     Image Search (Google Lens)")
-        hyprctl dispatch global "quickshell:regionSearch"
+        ~/.config/hypr/scripts/hyprdispatch 'hl.dsp.global("quickshell:regionSearch")' global "quickshell:regionSearch"
         ;;
     "     OCR Text Extraction")
-        hyprctl dispatch global "quickshell:regionOcr"
+        ~/.config/hypr/scripts/hyprdispatch 'hl.dsp.global("quickshell:regionOcr")' global "quickshell:regionOcr"
         ;;
     "     Region Recording")
-        hyprctl dispatch global "quickshell:regionRecord"
+        ~/.config/hypr/scripts/hyprdispatch 'hl.dsp.global("quickshell:regionRecord")' global "quickshell:regionRecord"
         ;;
     "     Region Recording with Audio")
-        hyprctl dispatch global "quickshell:regionRecordWithSound"
+        ~/.config/hypr/scripts/hyprdispatch 'hl.dsp.global("quickshell:regionRecordWithSound")' global "quickshell:regionRecordWithSound"
         ;;
     "     Color Picker")
         hyprpicker -a

@@ -1,0 +1,17 @@
+#!/bin/sh
+# hyprdispatch — run a Hyprland dispatcher regardless of the loaded config format.
+#
+# Hyprland >= 0.55 with a Lua config expects `hyprctl dispatch` to be handed a Lua
+# expression (`hl.dsp.exit()`); a hyprlang session expects the legacy word form
+# (`exit`). hyprctl exits 0 either way, so the rejection message is what we match on.
+# Keeping both forms here means the `hyprland.lua` -> `hyprland.conf` rollback does not
+# silently break the scripts that call these dispatchers.
+#
+# usage: hyprdispatch '<lua expression>' <legacy dispatcher> [legacy args...]
+
+lua_expr=$1
+shift
+
+case "$(hyprctl dispatch "$lua_expr" 2>&1)" in
+    *"Invalid dispatcher"*) exec hyprctl dispatch "$@" ;;
+esac

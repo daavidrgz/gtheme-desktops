@@ -9,6 +9,29 @@ A modern **Hyprland** (Wayland) desktop based on [HyprKenso](https://github.com/
 #
 
 <details open>
+<summary><strong>&nbsp;C O N F I G &nbsp; F O R M A T &nbsp;</strong></summary>
+<br>
+
+Hyprland's config here is **Lua** (`hyprland.lua`), not hyprlang. hyprlang `.conf` was deprecated
+in Hyprland 0.55 and is scheduled to be dropped around 0.57 — see
+[the announcement](https://hypr.land/news/26_lua/) and the
+[Lua config docs](https://wiki.hypr.land/Configuring/Core/).
+
+* The old `hyprland.conf` (and `hyprland/*.conf`) are kept alongside the `.lua` files **only as a
+  rollback**. Hyprland looks for `hyprland.lua` at **startup only**, and it wins when present, so
+  `mv hyprland.lua hyprland.lua.off` plus a session restart reverts to hyprlang.
+* Because the format is only chosen at startup, `hyprctl reload` will **not** pick up a switch
+  between the two — edits to `.lua` need a session restart if the session booted from `.conf`.
+* `hyprlock.conf` and `hypridle.conf` belong to separate projects and are **still hyprlang**.
+  Leave them alone.
+* The authoritative API for the installed Hyprland is `/usr/share/hypr/stubs/hl.meta.lua`
+  (point your Lua LSP at `/usr/share/hypr/stubs/` for autocompletion) plus the example config at
+  `/usr/share/hypr/hyprland.lua`. The online wiki tracks git, which can be ahead of your release.
+</details>
+
+#
+
+<details open>
 <summary><strong>&nbsp;I N S T A L L A T I O N &nbsp;</strong></summary>
 <br>
 
@@ -116,7 +139,8 @@ This desktop generates color files for multiple programs through gtheme patterns
 
 | Pattern               | Output                                          | Description                              |
 |-----------------------|-------------------------------------------------|------------------------------------------|
-| `hyprland-colors`     | `~/.config/hypr/colors/colors.conf`             | Hyprland border/decoration colors        |
+| `hyprland-colors`     | `~/.config/hypr/colors/colors.{conf,lua}`       | Hyprland border/decoration colors. The pattern writes the hyprlang `.conf` (still read by `hyprlock.conf`); the post-script derives `colors.lua` for Hyprland's Lua config |
+| `hyprland-monitor`    | `~/.config/hypr/monitors.lua`                   | Monitor + default-workspace rules, from the `monitor` user setting |
 | `waybar-colors`       | `~/.config/waybar/colors/colors.css`            | Waybar, swaync, and wlogout CSS colors   |
 | `rofi`                | `~/.config/rofi/colors.rasi`                    | Rofi launcher colors                     |
 | `kitty`               | `~/.config/kitty/colors.conf`                   | Kitty terminal 16-color palette          |
