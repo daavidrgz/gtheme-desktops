@@ -1,5 +1,4 @@
 <[output-file]>=~/.config/hypr/monitors.lua
--- Monitors & default workspace — gtheme-generated from the `monitor` user setting.
--- Change the monitor with: gtheme config set monitor <name>
+-- Fallback for any output. Per-output layouts (e.g. laptop vs. docked) belong to an
+-- output-profile daemon such as kanshi, not to the compositor config.
 hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1.5 })
-hl.workspace_rule({ workspace = "1", monitor = "<[monitor|eDP-2]>", default = true })
