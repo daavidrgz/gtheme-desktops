@@ -9,7 +9,7 @@
     }
   },
   "screenSnip": {
-    "savePath": "~/Pictures/Screenshots",
+    "savePath": "~/pictures/screenshots",
     "copyAlsoSaves": true
   },
   "screenRecord": {

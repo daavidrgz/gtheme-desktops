@@ -111,6 +111,10 @@ Scope {
 
     // Thin wrappers for IPC and shortcut compatibility
     function screenshot() { openWithAction(RegionSelection.SnipAction.Copy); }
+    function screenshotMonitor() {
+        root.targetMonitorCapture = Hyprland.focusedMonitor?.name ?? "";
+        openWithAction(RegionSelection.SnipAction.Copy);
+    }
     function search() { openWithAction(RegionSelection.SnipAction.Search); }
     function ocr() { openWithAction(RegionSelection.SnipAction.CharRecognition); }
     function record() { openWithAction(RegionSelection.SnipAction.Record); }
@@ -120,6 +124,7 @@ Scope {
     IpcHandler {
         target: "region"
         function screenshot() { root.screenshot(); }
+        function screenshotMonitor() { root.screenshotMonitor(); }
         function search() { root.search(); }
         function ocr() { root.ocr(); }
         function record() { root.record(); }
@@ -131,6 +136,11 @@ Scope {
         name: "regionScreenshot"
         description: "Takes a screenshot of the selected region"
         onPressed: root.screenshot()
+    }
+    GlobalShortcut {
+        name: "monitorScreenshot"
+        description: "Takes a screenshot of the focused monitor"
+        onPressed: root.screenshotMonitor()
     }
     GlobalShortcut {
         name: "regionSearch"

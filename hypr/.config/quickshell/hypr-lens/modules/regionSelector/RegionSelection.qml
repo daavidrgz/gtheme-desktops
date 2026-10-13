@@ -156,6 +156,10 @@ PanelWindow {
             root.dismiss();
             return;
         }
+        if (root.targetMonitorCapture === root.hyprlandMonitor.name) {
+            root.captureFullMonitorLocal();
+            return;
+        }
         root.visible = true;
     }
 

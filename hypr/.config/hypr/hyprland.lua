@@ -347,6 +347,7 @@ hl.bind(mainMod .. " + SHIFT + V", hl.dsp.global("quickshell:stashWorkspace"))
 hl.bind(mainMod .. " + SHIFT + U", hl.dsp.global("quickshell:unstashQuick"))
 
 -- Screenshots/tools
+hl.bind(mainMod .. " + SHIFT + S",       hl.dsp.global("quickshell:regionScreenshot"))
 hl.bind(mainMod .. " + SHIFT + A",       hl.dsp.global("quickshell:regionSearch"))
 hl.bind(mainMod .. " + SHIFT + X",       hl.dsp.global("quickshell:regionOcr"))
 hl.bind(mainMod .. " + SHIFT + R",       hl.dsp.global("quickshell:regionRecord"))
@@ -393,9 +394,9 @@ hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"))
 hl.bind("XF86MonBrightnessUp",   hl.dsp.exec_cmd("swayosd-client --brightness +10"), { repeating = true, locked = true })
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("swayosd-client --brightness -10"), { repeating = true, locked = true })
 
--- Screenshots (fallback)
-hl.bind("Print",          hl.dsp.exec_cmd([[geom=$(slurp) && sleep 0.15 && grim -t ppm -g "$geom" - | sattyd --filename -]]))
-hl.bind("SUPER + Print",  hl.dsp.exec_cmd("grim -t ppm - | sattyd --filename -"))
+-- Screenshots
+hl.bind("Print",          hl.dsp.global("quickshell:regionScreenshot"))
+hl.bind("SUPER + Print",  hl.dsp.global("quickshell:monitorScreenshot"))
 
 
 --------------------------------

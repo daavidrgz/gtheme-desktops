@@ -59,7 +59,7 @@ Singleton {
         const cleanup = buildCleanup(screenshotPath);
 
         if (!alsoSave) {
-            return ["bash", "-c", `${cropToStdout} | wl-copy && \
+            return ["bash", "-c", `${cropToStdout} | wl-copy --type image/png && \
             ${buildNotify("Copied to clipboard", "")} && \
             ${cleanup}`];
         }
@@ -68,7 +68,7 @@ Singleton {
         return [
             "bash", "-c",
             `${buildSaveSetup(expandedSaveDir)} && \
-            ${cropToStdout} | tee >(wl-copy) > "$savePath" && \
+            ${cropToStdout} | tee >(wl-copy --type image/png) > "$savePath" && \
             if [ -f "$savePath" ]; then \
                 ${buildNotify("Copied & saved", "$savePath")}; \
             else \
@@ -111,7 +111,7 @@ Singleton {
         const cropToStdout = `${cropBase} -`;
         const cleanup = buildCleanup(screenshotPath);
         // Copy to clipboard AND open search page - user pastes with Ctrl+V
-        return ["bash", "-c", `${cropToStdout} | wl-copy && xdg-open "${searchPageUrl}" && ${cleanup}`];
+        return ["bash", "-c", `${cropToStdout} | wl-copy --type image/png && xdg-open "${searchPageUrl}" && ${cleanup}`];
     }
 
     // OCR with tesseract
