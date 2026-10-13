@@ -19,7 +19,9 @@ local colors = require("colors.colors")
 require("monitors")
 
 -- Workspaces stay behind on an output that an output-profile daemon disables,
--- where they can't be focused anymore. Move them to an output that is still on.
+-- where they can't be focused anymore. Move them to an output that is still on,
+-- and show the lowest adopted one if that output was only showing an empty workspace
+-- (at boot every output gets a workspace before the daemon disables the extra ones).
 local function adopt_orphan_workspaces()
     local enabled, target = {}, nil
     for _, m in ipairs(hl.get_monitors()) do
@@ -27,10 +29,16 @@ local function adopt_orphan_workspaces()
         if not target or m.focused then target = m end
     end
     if not target then return end
+    local lowest
     for _, w in ipairs(hl.get_workspaces()) do
         if not w.special and w.monitor and not enabled[w.monitor.name] then
             hl.dispatch(hl.dsp.workspace.move({ workspace = tostring(w.id), monitor = target.name }))
+            if not lowest or w.id < lowest then lowest = w.id end
         end
+    end
+    local active = target.active_workspace
+    if lowest and active and active.is_empty and lowest < active.id then
+        hl.dispatch(hl.dsp.focus({ workspace = lowest }))
     end
 end
 hl.on("monitor.layout_changed", adopt_orphan_workspaces)
