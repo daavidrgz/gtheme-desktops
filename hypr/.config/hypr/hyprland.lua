@@ -245,11 +245,13 @@ hl.bind(mainMod .. " + A",       hl.dsp.exec_cmd("swaync-client -t -sw"))
 hl.bind(mainMod .. " + grave",   hl.dsp.exec_cmd("~/.config/rofi/scripts/key.sh"))
 hl.bind(mainMod .. " + L",       hl.dsp.exec_cmd("loginctl lock-session"))
 
--- Archy — hold F12 to talk (add SUPER to attach a screenshot)
+-- Archy — tap F12 to start/stop, or hold Fn+F12 to talk (add SUPER to attach a screenshot)
 hl.bind("F12",          hl.dsp.exec_cmd("archy start"))
 hl.bind("F12",          hl.dsp.exec_cmd("archy stop"),              { release = true })
 hl.bind("SUPER + F12",  hl.dsp.exec_cmd("archy start --screenshot"))
 hl.bind("SUPER + F12",  hl.dsp.exec_cmd("archy stop"),              { release = true })
+hl.bind("XF86Launch1",          hl.dsp.exec_cmd("archy toggle"))
+hl.bind("SUPER + XF86Launch1",  hl.dsp.exec_cmd("archy toggle --screenshot"))
 
 --------------------------
 --   HYPRLAND
