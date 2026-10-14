@@ -12,8 +12,7 @@ blue = #<[blue]>
 cyan = #<[cyan]>
 
 [bar/main]
-monitor = <[monitor]>
-monitor-fallback = <[monitor-fallback]>
+monitor = ${env:MONITOR:}
 
 width = 99%
 height = 40

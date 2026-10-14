@@ -247,8 +247,7 @@ click-left = ~/.config/rofi/powermenu/powermenu.sh
 ;; Bar Settings
 
 [bar/main]
-monitor = <[monitor]>
-monitor-fallback = <[monitor-fallback]>
+monitor = ${env:MONITOR:}
 
 monitor-strict = false
 override-redirect = false

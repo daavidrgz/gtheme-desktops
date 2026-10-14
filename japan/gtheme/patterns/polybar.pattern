@@ -44,8 +44,7 @@ line-size = 6
 border-top-size = 2
 border-color = ${color.magenta}
 
-monitor = <[monitor]>
-monitor-fallback = <[monitor-fallback]>
+monitor = ${env:MONITOR:}
 
 wm-restack = bspwm
 module-margin-left = 1
